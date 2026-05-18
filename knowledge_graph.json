@@ -39,8 +39,8 @@
     "id": "thm_LagrangeRemainder",
     "label": "Theorem 8.2.1 .",
     "category": "Limits & Continuity",
-    "definition": "Lagrange's Form of the Remainder Suppose   is a function such that  }(t)\\(\\)\\)\\) is continuous on an interval containing   and   Then  }(a)}{j!}(x-a)\\[ ^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1} \\]  \\(\\]\\)\\) where   is some number between   and  .",
-    "long_description": "Lagrange's Form of the Remainder Suppose   is a function such that  }(t)\\(\\)\\)\\) is continuous on an interval containing   and   Then  }(a)}{j!}(x-a)\\[ ^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1} \\]  \\(\\]\\)\\) where   is some number between   and  ",
+    "definition": "The Lagrange form of the remainder for a Taylor polynomial provides a specific value \\(c\\( between \\(a\\( and \\(x\\( that makes the remainder formula exact.",
+    "long_description": "Let \\(f\\( be a function such that its \\((n+1)\\(-th derivative exists on an open interval containing \\(a\\( and \\(x\\(. Then there exists a number \\(c\\( between \\(a\\( and \\(x\\( such that the remainder \\(R_n(x)\\( is given by:\n\n\\[ R_n(x) = \\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1} \\]\n\nThis is known as the Lagrange form of the remainder, and it is useful for estimating the error in Taylor polynomial approximations.",
     "to": [
       "thm_ContSumProd"
     ],
