@@ -21,7 +21,7 @@
     "label": "Theorem 9.2.1 .",
     "category": "Sequences & Series",
     "definition": "A function is continuous at a point if the limit of the function as it approaches that point equals the function's value at that point.",
-    "long_description": "A function \\( f \\) is continuous at a point \\( a \\) in its domain if:\n\n\\[ \\lim_{x \\to a} f(x) = f(a) \\]\n\nThis means that for any \\( \\epsilon > 0 \\), there exists a \\( \\delta > 0 \\) such that for all \\( x \\) in the domain, the condition \\( \\left| x - a \\right| < \\delta \\) implies that \\( \\left| f(x) - f(a) \\right| < \\epsilon \\).",
+    "long_description": "A function \\(f\\) is continuous at a point \\(a\\) in its domain if:\n\n\\[\\lim_{x \\to a} f(x) = f(a)\\]\n\nThis means that for any \\(\\epsilon > 0\\), there exists a \\(\\delta > 0\\) such that for all \\(x\\) in the domain, the condition \\(|x - a| < \\delta\\) implies that \\(|f(x) - f(a)| < \\epsilon\\).",
     "to": [
       "thm_LagrangeRemainder"
     ],
