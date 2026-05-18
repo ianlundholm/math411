@@ -395,9 +395,9 @@ export function showInfoPanel(
 
   safeSetText("info-depth", `Depth ${node.depth}`);
   safeSetText("info-upstream",
-    `${upstreamCount} prerequisite${upstreamCount !== 1 ? "s" : ""} in full chain`;
+    `${upstreamCount} prerequisite${upstreamCount !== 1 ? "s" : ""} in full chain`);
   safeSetText("info-downstream",
-    `${downstreamCount} concept${downstreamCount !== 1 ? "s" : ""} depend${downstreamCount === 1 ? "s" : ""} on this`;
+    `${downstreamCount} concept${downstreamCount !== 1 ? "s" : ""} depend${downstreamCount === 1 ? "s" : ""} on this`);
   setInfoMetrics({
     pagerank: node._pagerank,
     degreeCentrality: node._degree_centrality,
