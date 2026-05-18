@@ -3,8 +3,8 @@
     "id": "thm_ArchmedeanProperty",
     "label": "Theorem 10.4.14 .",
     "category": "Real Number System",
-    "definition": "Archimedean Property of \\\\(\\mathbb{R}\\\\) Given any positive real numbers \\\\(a\\\\) and \\\\(b,\\\\) there exists a positive integer \\\\(n,\\\\) such that \\\\(na>b.\\\\).",
-    "long_description": "Archimedean Property of \\\\(\\mathbb{R}\\\\) Given any positive real numbers \\\\(a\\\\) and \\\\(b,\\\\) there exists a positive integer \\\\(n,\\\\) such that \\\\(na>b.\\\\)",
+    "definition": "Archimedean Property of \\(\\\\(\\mathbb{R}\\\\) Given any positive real numbers \\(\\\\(a\\\\) and \\(\\\\(b,\\\\) there exists a positive integer \\(\\\\(n,\\\\) such that \\(\\\\(na>b.\\\\).",
+    "long_description": "Archimedean Property of \\(\\\\(\\mathbb{R}\\\\) Given any positive real numbers \\(\\\\(a\\\\) and \\(\\\\(b,\\\\) there exists a positive integer \\(\\\\(n,\\\\) such that \\(\\\\(na>b.\\\\)",
     "to": [
       "thm_LimDefOfContinuity"
     ],
@@ -20,8 +20,8 @@
     "id": "thm_LimDefOfContinuity",
     "label": "Theorem 9.2.1 .",
     "category": "Sequences & Series",
-    "definition": "The function \\\\(f\\\\) is continuous at \\\\(a\\\\) if and only if \\\\(f\\\\) satisfies the following property: \\[  \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{}  \\].",
-    "long_description": "The function \\\\(f\\\\) is continuous at \\\\(a\\\\) if and only if \\\\(f\\\\) satisfies the following property: \\[  \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{}  \\]",
+    "definition": "The function \\(\\\\(f\\\\) is continuous at \\(\\\\(a\\\\) if and only if \\(\\\\(f\\\\) satisfies the following property: \\(\\[  \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{}  \\]\\).",
+    "long_description": "The function \\(\\\\(f\\\\) is continuous at \\(\\\\(a\\\\) if and only if \\(\\\\(f\\\\) satisfies the following property: \\(\\[  \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{}  \\]\\)",
     "to": [
       "thm_LagrangeRemainder"
     ],
@@ -39,8 +39,8 @@
     "id": "thm_LagrangeRemainder",
     "label": "Theorem 8.2.1 .",
     "category": "Limits & Continuity",
-    "definition": "Lagrange's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1}  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\).",
-    "long_description": "Lagrange's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1}  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\)",
+    "definition": "Lagrange's Form of the Remainder Suppose \\(\\\\(f\\\\) is a function such that \\(\\\\(f^{(n+1\\)}(t)\\)\\) is continuous on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x.\\\\) Then \\(\\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1}  \\]\\) where \\(\\\\(c\\\\) is some number between \\(\\\\(a\\\\) and \\(\\\\(x.\\\\).",
+    "long_description": "Lagrange's Form of the Remainder Suppose \\(\\\\(f\\\\) is a function such that \\(\\\\(f^{(n+1\\)}(t)\\)\\) is continuous on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x.\\\\) Then \\(\\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1}  \\]\\) where \\(\\\\(c\\\\) is some number between \\(\\\\(a\\\\) and \\(\\\\(x.\\\\)",
     "to": [
       "thm_ContSumProd"
     ],
@@ -58,8 +58,8 @@
     "id": "thm_ContSumProd",
     "label": "Theorem 9.2.7 .",
     "category": "Limits & Continuity",
-    "definition": "Suppose \\\\(f\\\\) and \\\\(g\\\\) are both continuous at \\\\(a.\\\\) Then \\\\(f+g\\\\) and \\\\(f\\cdot g\\\\) are continuous at \\\\(a.\\\\).",
-    "long_description": "Suppose \\\\(f\\\\) and \\\\(g\\\\) are both continuous at \\\\(a.\\\\) Then \\\\(f+g\\\\) and \\\\(f\\cdot g\\\\) are continuous at \\\\(a.\\\\)",
+    "definition": "Suppose \\(\\\\(f\\\\) and \\(\\\\(g\\\\) are both continuous at \\(\\\\(a.\\\\) Then \\(\\\\(f+g\\\\) and \\(\\\\(f\\cdot g\\\\) are continuous at \\(\\\\(a.\\\\).",
+    "long_description": "Suppose \\(\\\\(f\\\\) and \\(\\\\(g\\\\) are both continuous at \\(\\\\(a.\\\\) Then \\(\\\\(f+g\\\\) and \\(\\\\(f\\cdot g\\\\) are continuous at \\(\\\\(a.\\\\)",
     "to": [
       "thm_Cantor_1870"
     ],
@@ -77,8 +77,8 @@
     "id": "thm_Cantor_1870",
     "label": "Theorem 12.0.2 .",
     "category": "Sequences & Series",
-    "definition": "Cantor, (1870) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
-    "long_description": "Cantor, (1870) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "definition": "Cantor, (1870) If the trigonometric series \\(\\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\]\\) for all \\(\\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "long_description": "Cantor, (1870) If the trigonometric series \\(\\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\]\\) for all \\(\\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
     "to": [
       "def_DivToInf"
     ],
@@ -96,8 +96,8 @@
     "id": "def_DivToInf",
     "label": "Definition 7.3.3 .",
     "category": "Sequences & Series",
-    "definition": "A sequence, \\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\),\\) diverges to positive infinity if for every real number \\\\(r,\\\\) there is a real number \\\\(N\\\\) such that \\\\(n>N\\imp a_n>r.\\\\) A sequence, \\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\),\\) diverges to negative infinity if for every real number \\\\(r,\\\\) there is a real number \\\\(N\\\\) such that \\\\(n>N\\imp a_n\\lt r.\\\\) A sequence is said to diverge to infinity if it diverges to either positive or negative infinity.",
-    "long_description": "A sequence, \\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\),\\) diverges to positive infinity if for every real number \\\\(r,\\\\) there is a real number \\\\(N\\\\) such that \\\\(n>N\\imp a_n>r.\\\\) A sequence, \\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\),\\) diverges to negative infinity if for every real number \\\\(r,\\\\) there is a real number \\\\(N\\\\) such that \\\\(n>N\\imp a_n\\lt r.\\\\) A sequence is said to diverge to infinity if it diverges to either positive or negative infinity.",
+    "definition": "A sequence, \\(\\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\)\\),\\) diverges to positive infinity if for every real number \\(\\\\(r,\\\\) there is a real number \\(\\\\(N\\\\) such that \\(\\\\(n>N\\imp a_n>r.\\\\) A sequence, \\(\\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\)\\),\\) diverges to negative infinity if for every real number \\(\\\\(r,\\\\) there is a real number \\(\\\\(N\\\\) such that \\(\\\\(n>N\\imp a_n\\lt r.\\\\) A sequence is said to diverge to infinity if it diverges to either positive or negative infinity.",
+    "long_description": "A sequence, \\(\\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\)\\),\\) diverges to positive infinity if for every real number \\(\\\\(r,\\\\) there is a real number \\(\\\\(N\\\\) such that \\(\\\\(n>N\\imp a_n>r.\\\\) A sequence, \\(\\\\(\\left(a_n\\right\\)_{n=1}^\\(\\infty\\)\\),\\) diverges to negative infinity if for every real number \\(\\\\(r,\\\\) there is a real number \\(\\\\(N\\\\) such that \\(\\\\(n>N\\imp a_n\\lt r.\\\\) A sequence is said to diverge to infinity if it diverges to either positive or negative infinity.",
     "to": [
       "AbsoluteConvergence"
     ],
@@ -115,8 +115,8 @@
     "id": "AbsoluteConvergence",
     "label": "Definition 11.2.26 .",
     "category": "Sequences & Series",
-    "definition": "Absolute Convergence Given a series \\\\(\\sum a_n,\\\\) the series \\\\(\\sum|a_n|\\\\) is called the {absolute series} of \\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) and if \\\\(\\sum|a_n|\\\\) converges then we say that \\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) converges absolutely.",
-    "long_description": "Absolute Convergence Given a series \\\\(\\sum a_n,\\\\) the series \\\\(\\sum|a_n|\\\\) is called the {absolute series} of \\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) and if \\\\(\\sum|a_n|\\\\) converges then we say that \\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) converges absolutely.",
+    "definition": "Absolute Convergence Given a series \\(\\\\(\\sum a_n,\\\\) the series \\(\\\\(\\sum|a_n|\\\\) is called the {absolute series} of \\(\\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) and if \\(\\\\(\\sum|a_n|\\\\) converges then we say that \\(\\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) converges absolutely.",
+    "long_description": "Absolute Convergence Given a series \\(\\\\(\\sum a_n,\\\\) the series \\(\\\\(\\sum|a_n|\\\\) is called the {absolute series} of \\(\\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) and if \\(\\\\(\\sum|a_n|\\\\) converges then we say that \\(\\\\(\\sum\\boldsymbol{a}_{\\boldsymbol{n}}\\\\) converges absolutely.",
     "to": [
       "thm_LUB"
     ],
@@ -135,7 +135,7 @@
     "label": "Theorem 10.4.3 . The Least Upper Bound Property ( LUBP ).",
     "category": "Real Number System",
     "definition": "The Least Upper Bound Property ( LUBP ).",
-    "long_description": "The Least Upper Bound Property ( LUBP ). Let \\\\(S\\\\) be a non-empty subset of \\\\(\\mathbb{R}\\\\) which is bounded above. Then \\\\(S\\\\) has a supremum.",
+    "long_description": "The Least Upper Bound Property ( LUBP ). Let \\(\\\\(S\\\\) be a non-empty subset of \\(\\\\(\\mathbb{R}\\\\) which is bounded above. Then \\(\\\\(S\\\\) has a supremum.",
     "to": [
       "thm_CauchyRemainder",
       "thm_ArchmedeanProperty"
@@ -154,8 +154,8 @@
     "id": "thm_CauchyRemainder",
     "label": "Theorem 8.3.1 .",
     "category": "Sequences & Series",
-    "definition": "Cauchy's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a)  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\).",
-    "long_description": "Cauchy's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a)  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\)",
+    "definition": "Cauchy's Form of the Remainder Suppose \\(\\\\(f\\\\) is a function such that \\(\\\\(f^{(n+1\\)}(t)\\)\\) is continuous on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x.\\\\) Then \\(\\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a)  \\]\\) where \\(\\\\(c\\\\) is some number between \\(\\\\(a\\\\) and \\(\\\\(x.\\\\).",
+    "long_description": "Cauchy's Form of the Remainder Suppose \\(\\\\(f\\\\) is a function such that \\(\\\\(f^{(n+1\\)}(t)\\)\\) is continuous on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x.\\\\) Then \\(\\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a)  \\]\\) where \\(\\\\(c\\\\) is some number between \\(\\\\(a\\\\) and \\(\\\\(x.\\\\)",
     "to": [
       "thm_EVT"
     ],
@@ -173,8 +173,8 @@
     "id": "thm_EVT",
     "label": "Theorem 10.4.8 .",
     "category": "Limits & Continuity",
-    "definition": "Extreme Value Theorem ( EVT ) Suppose \\\\(f\\\\) is continuous on \\\\([\\,a,b].\\\\) Then there exists \\\\(c,d\\in[\\,a,b]\\\\) such that \\(f(d)\\leq f(x)\\leq f(c),\\) for all \\\\(x\\in[\\,a,b].\\\\).",
-    "long_description": "Extreme Value Theorem ( EVT ) Suppose \\\\(f\\\\) is continuous on \\\\([\\,a,b].\\\\) Then there exists \\\\(c,d\\in[\\,a,b]\\\\) such that \\(f(d)\\leq f(x)\\leq f(c),\\) for all \\\\(x\\in[\\,a,b].\\\\)",
+    "definition": "Extreme Value Theorem ( EVT ) Suppose \\(\\\\(f\\\\) is continuous on \\(\\\\([\\,a,b].\\\\) Then there exists \\(\\\\(c,d\\in[\\,a,b]\\\\) such that \\(\\(f(d)\\leq f(x)\\leq f(c),\\)\\) for all \\(\\\\(x\\in[\\,a,b].\\\\).",
+    "long_description": "Extreme Value Theorem ( EVT ) Suppose \\(\\\\(f\\\\) is continuous on \\(\\\\([\\,a,b].\\\\) Then there exists \\(\\\\(c,d\\in[\\,a,b]\\\\) such that \\(\\(f(d)\\leq f(x)\\leq f(c),\\)\\) for all \\(\\\\(x\\in[\\,a,b].\\\\)",
     "to": [
       "def_limit"
     ],
@@ -193,8 +193,8 @@
     "id": "def_limit",
     "label": "Definition 9.3.1 .",
     "category": "Limits & Continuity",
-    "definition": "We say \\\\(\\limit{x}{a}{f(x\\)} =L\\) provided that for each \\\\(\\eps>0,\\\\) there exists \\\\(\\delta>0\\\\) such that if \\\\(0\\lt \\abs{x-a}\\lt \\delta\\\\) then \\\\(\\abs{f(x\\)-L}\\(\\lt \\eps\\).\\).",
-    "long_description": "We say \\\\(\\limit{x}{a}{f(x\\)} =L\\) provided that for each \\\\(\\eps>0,\\\\) there exists \\\\(\\delta>0\\\\) such that if \\\\(0\\lt \\abs{x-a}\\lt \\delta\\\\) then \\\\(\\abs{f(x\\)-L}\\(\\lt \\eps\\).\\)",
+    "definition": "We say \\(\\\\(\\limit{x}{a}{f(x\\)}\\) \\(=L\\)\\) provided that for each \\(\\\\(\\eps>0,\\\\) there exists \\(\\\\(\\delta>0\\\\) such that if \\(\\\\(0\\lt \\abs{x-a}\\lt \\delta\\\\) then \\(\\\\(\\abs{f(x\\)-L}\\(\\lt \\eps\\)\\).\\).",
+    "long_description": "We say \\(\\\\(\\limit{x}{a}{f(x\\)}\\) \\(=L\\)\\) provided that for each \\(\\\\(\\eps>0,\\\\) there exists \\(\\\\(\\delta>0\\\\) such that if \\(\\\\(0\\lt \\abs{x-a}\\lt \\delta\\\\) then \\(\\\\(\\abs{f(x\\)-L}\\(\\lt \\eps\\)\\).\\)",
     "to": [
       "thm_CalcLimits"
     ],
@@ -212,8 +212,8 @@
     "id": "thm_CalcLimits",
     "label": "Theorem 9.3.6 .",
     "category": "Limits & Continuity",
-    "definition": "Suppose \\\\(\\limit{x}{a}{f(x\\)}=L\\) and \\\\(\\limit{x}{a}{g(x\\)}=M,\\) then \\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)+g(x)\\(\\right)}=L+M\\) \\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)\\cdot g(x)\\right)}=L\\cdot M\\) \\\\(\\limit{x}{a}{\\left(\\frac{f(x\\)}{g(x)}\\right)}=L/M\\) provided \\\\(M\\neq 0\\\\) and \\(g(x)\\neq }0,\\) for \\\\(x\\\\) sufficiently close to a \\(but not equal to \\(a\\\\) )\\).",
-    "long_description": "Suppose \\\\(\\limit{x}{a}{f(x\\)}=L\\) and \\\\(\\limit{x}{a}{g(x\\)}=M,\\) then \\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)+g(x)\\(\\right)}=L+M\\) \\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)\\cdot g(x)\\right)}=L\\cdot M\\) \\\\(\\limit{x}{a}{\\left(\\frac{f(x\\)}{g(x)}\\right)}=L/M\\) provided \\\\(M\\neq 0\\\\) and \\(g(x)\\neq }0,\\) for \\\\(x\\\\) sufficiently close to a \\(but not equal to \\(a\\\\) )\\).",
+    "definition": "Suppose \\(\\\\(\\limit{x}{a}{f(x\\)}=L\\)\\) and \\(\\\\(\\limit{x}{a}{g(x\\)}=M\\),\\) then \\(\\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)+g(x)\\(\\right)}=L+M\\)\\) \\(\\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)\\cdot\\) \\(g(x)\\right)}=L\\cdot\\) \\(M\\)\\) \\(\\\\(\\limit{x}{a}{\\left(\\frac{f(x\\)}{g(x)}\\right)}=L/M\\)\\) provided \\(\\\\(M\\neq q 0\\\\) and \\(\\(g(x)\\neq q }0,\\)\\) for \\(\\\\(x\\\\) sufficiently close to a \\(\\(but not equal to \\(a\\\\) \\()\\)\\).",
+    "long_description": "Suppose \\(\\\\(\\limit{x}{a}{f(x\\)}=L\\)\\) and \\(\\\\(\\limit{x}{a}{g(x\\)}=M\\),\\) then \\(\\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)+g(x)\\(\\right)}=L+M\\)\\) \\(\\\\(\\displaystyle \\limit{x}{a}{\\left(f(x\\)\\cdot\\) \\(g(x)\\right)}=L\\cdot\\) \\(M\\)\\) \\(\\\\(\\limit{x}{a}{\\left(\\frac{f(x\\)}{g(x)}\\right)}=L/M\\)\\) provided \\(\\\\(M\\neq q 0\\\\) and \\(\\(g(x)\\neq q }0,\\)\\) for \\(\\\\(x\\\\) sufficiently close to a \\(\\(but not equal to \\(a\\\\) \\()\\)\\).",
     "to": [
       "def_NumberField"
     ],
@@ -232,7 +232,7 @@
     "label": "Definition 13.2.1 . Linear Ordering.",
     "category": "General Analysis",
     "definition": "Linear Ordering.",
-    "long_description": "Linear Ordering. A number field is said to be linearly ordered if there is a relation, denoted \u201c \\\\(\\lt \\\\) \u201d, on the elements of the field which satisfies all of the following for all \\\\(x, y,\\\\) and \\\\(z\\\\) in the field. For all numbers \\\\(x\\\\) and \\\\(y\\\\) in the field, exactly one of the following holds: \\\\(\\displaystyle x\\lt y\\\\) \\\\(\\displaystyle x=y\\\\) \\\\(\\displaystyle y\\lt x\\\\) If \\\\(x\\lt y,\\\\) then \\\\(x+z\\lt y+z\\\\) for all \\\\(z\\\\) in the field. If \\\\(x\\lt y,\\\\) and \\\\(0\\lt z,\\\\) then \\\\(x\\cdot z \\lt y\\cdot z.\\\\) If \\\\(x\\lt y\\\\) and \\\\(y\\lt z\\\\) then \\\\(x\\lt z.\\\\)",
+    "long_description": "Linear Ordering. A number field is said to be linearly ordered if there is a relation, denoted \u201c \\(\\\\(\\lt \\\\) \u201d, on the elements of the field which satisfies all of the following for all \\(\\\\(x, y,\\\\) and \\(\\\\(z\\\\) in the field. For all numbers \\(\\\\(x\\\\) and \\(\\\\(y\\\\) in the field, exactly one of the following holds: \\(\\\\(\\displaystyle x\\lt y\\\\) \\(\\\\(\\displaystyle x=y\\\\) \\(\\\\(\\displaystyle y\\lt x\\\\) If \\(\\\\(x\\lt y,\\\\) then \\(\\\\(x+z\\lt y+z\\\\) for all \\(\\\\(z\\\\) in the field. If \\(\\\\(x\\lt y,\\\\) and \\(\\\\(0\\lt z,\\\\) then \\(\\\\(x\\cdot z \\lt y\\cdot z.\\\\) If \\(\\\\(x\\lt y\\\\) and \\(\\\\(y\\lt z\\\\) then \\(\\\\(x\\lt z.\\\\)",
     "to": [
       "thm_Cantor-1871"
     ],
@@ -250,8 +250,8 @@
     "id": "thm_Cantor-1871",
     "label": "Theorem 12.0.10 .",
     "category": "Real Number System",
-    "definition": "Cantor, (1871) Let \\\\(S\\\\) be a subset of the real numbers with the property that one of its derived sets is empty.",
-    "long_description": "Cantor, (1871) Let \\\\(S\\\\) be a subset of the real numbers with the property that one of its derived sets is empty. Then if the trigonometric series \\\\(\\sum_{n=0}^\\infty\\left(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\)\\) is zero for all \\\\(x\\in\\mathbb{R}-S,\\\\) then all of the coefficients of the series vanish.",
+    "definition": "Cantor, (1871) Let \\(\\\\(S\\\\) be a subset of the real numbers with the property that one of its derived sets is empty.",
+    "long_description": "Cantor, (1871) Let \\(\\\\(S\\\\) be a subset of the real numbers with the property that one of its derived sets is empty. Then if the trigonometric series \\(\\\\(\\sum_{n=0}^\\infty\\left(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\)\\)\\) is zero for all \\(\\\\(x\\in\\mathbb{R}-S,\\\\) then all of the coefficients of the series vanish.",
     "to": [
       "thm_RadiusOfConvergence"
     ],
@@ -269,8 +269,8 @@
     "id": "thm_RadiusOfConvergence",
     "label": "Theorem 11.3.1 .",
     "category": "General Analysis",
-    "definition": "Suppose \\\\(\\sum_{n=0}^\\infty a_nc^n\\\\) converges for some nonzero real number \\\\(c.\\\\) Then \\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) converges absolutely for all \\\\(x\\\\) such that \\\\(|x|\\lt |c|.\\\\).",
-    "long_description": "Suppose \\\\(\\sum_{n=0}^\\infty a_nc^n\\\\) converges for some nonzero real number \\\\(c.\\\\) Then \\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) converges absolutely for all \\\\(x\\\\) such that \\\\(|x|\\lt |c|.\\\\)",
+    "definition": "Suppose \\(\\\\(\\sum_{n=0}^\\infty a_nc^n\\\\) converges for some nonzero real number \\(\\\\(c.\\\\) Then \\(\\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) converges absolutely for all \\(\\\\(x\\\\) such that \\(\\\\(|x|\\lt |c|.\\\\).",
+    "long_description": "Suppose \\(\\\\(\\sum_{n=0}^\\infty a_nc^n\\\\) converges for some nonzero real number \\(\\\\(c.\\\\) Then \\(\\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) converges absolutely for all \\(\\\\(x\\\\) such that \\(\\\\(|x|\\lt |c|.\\\\)",
     "to": [
       "def_UniformConvergence"
     ],
@@ -288,8 +288,8 @@
     "id": "def_UniformConvergence",
     "label": "Definition 11.1.3 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(S\\\\) be a subset of the real number system and let \\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\) be a sequence of functions defined on \\\\(S.\\\\) Let \\\\(f\\\\) be a function defined on \\\\(S\\\\) as well\\).",
-    "long_description": "Let \\\\(S\\\\) be a subset of the real number system and let \\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\) be a sequence of functions defined on \\\\(S.\\\\) Let \\\\(f\\\\) be a function defined on \\\\(S\\\\) as well\\). We say that \\\\(\\left(f_n\\right\\)\\) converges to \\\\(f\\\\) uniformly on \\\\(S\\\\) provided \\\\(\\forall\\ \\eps>0,\\,\\exists\\ N\\\\) such that \\\\(n>N\\Rightarrow|f_n(x\\)-f(x)|\\(\\lt \\eps\\text{\\), } \\(\\forall\\ x\\in S\\).\\) In this case we write \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\(S.\\\\)",
+    "definition": "Let \\(\\\\(S\\\\) be a subset of the real number system and let \\(\\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\)\\) be a sequence of functions defined on \\(\\\\(S.\\\\) Let \\(\\\\(f\\\\) be a function defined on \\(\\\\(S\\\\) as \\(well\\)\\).",
+    "long_description": "Let \\(\\\\(S\\\\) be a subset of the real number system and let \\(\\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\)\\) be a sequence of functions defined on \\(\\\\(S.\\\\) Let \\(\\\\(f\\\\) be a function defined on \\(\\\\(S\\\\) as \\(well\\)\\). We say that \\(\\\\(\\left(f_n\\right\\)\\)\\) converges to \\(\\\\(f\\\\) uniformly on \\(\\\\(S\\\\) provided \\(\\\\(\\forall\\ \\eps>0,\\,\\exists\\ N\\\\) such that \\(\\\\(n>N\\Rightarrow|f_n(x\\)-f(x)|\\(\\lt \\eps\\text{\\)\\), } \\(\\(\\forall\\ x\\in S\\)\\).\\) In this case we write \\(\\\\(f_n \\text{ uniformly }  f\\\\) on \\(\\\\(S.\\\\)",
     "to": [
       "def_RealsViaCauchy"
     ],
@@ -326,8 +326,8 @@
     "id": "thm_BinomialSeriesConverges",
     "label": "Theorem 8.2.4 .",
     "category": "Sequences & Series",
-    "definition": "The binomial series \\[  1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots  \\] converges to \\\\(\\sqrt{1+x}\\\\) for \\\\(x\\in[0,1].\\\\).",
-    "long_description": "The binomial series \\[  1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots  \\] converges to \\\\(\\sqrt{1+x}\\\\) for \\\\(x\\in[0,1].\\\\)",
+    "definition": "The binomial series \\(\\[  1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots  \\]\\) converges to \\(\\\\(\\sqrt{1+x}\\\\) for \\(\\\\(x\\in[0,1].\\\\).",
+    "long_description": "The binomial series \\(\\[  1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots  \\]\\) converges to \\(\\\\(\\sqrt{1+x}\\\\) for \\(\\\\(x\\in[0,1].\\\\)",
     "to": [
       "thm_UnifConv-_Continuity"
     ],
@@ -345,8 +345,8 @@
     "id": "thm_UnifConv-_Continuity",
     "label": "Theorem 11.1.5 .",
     "category": "Sequences & Series",
-    "definition": "Consider a sequence of functions \\\\(\\left(f_n\\right\\)\\) which are all continuous on an interval \\\\(I.\\\\) Suppose \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\(I.\\\\) Then \\\\(f\\\\) must be continuous on \\\\(I.\\\\).",
-    "long_description": "Consider a sequence of functions \\\\(\\left(f_n\\right\\)\\) which are all continuous on an interval \\\\(I.\\\\) Suppose \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\(I.\\\\) Then \\\\(f\\\\) must be continuous on \\\\(I.\\\\)",
+    "definition": "Consider a sequence of functions \\(\\\\(\\left(f_n\\right\\)\\)\\) which are all continuous on an interval \\(\\\\(I.\\\\) Suppose \\(\\\\(f_n \\text{ uniformly }  f\\\\) on \\(\\\\(I.\\\\) Then \\(\\\\(f\\\\) must be continuous on \\(\\\\(I.\\\\).",
+    "long_description": "Consider a sequence of functions \\(\\\\(\\left(f_n\\right\\)\\)\\) which are all continuous on an interval \\(\\\\(I.\\\\) Suppose \\(\\\\(f_n \\text{ uniformly }  f\\\\) on \\(\\\\(I.\\\\) Then \\(\\\\(f\\\\) must be continuous on \\(\\\\(I.\\\\)",
     "to": [
       "thm_dedekind-cuts-closure"
     ],
@@ -364,8 +364,8 @@
     "id": "thm_dedekind-cuts-closure",
     "label": "Theorem 13.2.18 .",
     "category": "General Analysis",
-    "definition": "Closure with Respect to Addition If \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) are cuts then \\\\(\\alpha+\\beta\\\\) is a cut.",
-    "long_description": "Closure with Respect to Addition If \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) are cuts then \\\\(\\alpha+\\beta\\\\) is a cut.",
+    "definition": "Closure with Respect to Addition If \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) are cuts then \\(\\\\(\\alpha+\\beta\\\\) is a cut.",
+    "long_description": "Closure with Respect to Addition If \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) are cuts then \\(\\\\(\\alpha+\\beta\\\\) is a cut.",
     "to": [
       "def_continuity"
     ],
@@ -383,8 +383,8 @@
     "id": "def_continuity",
     "label": "Definition 9.1.7 .",
     "category": "Limits & Continuity",
-    "definition": "We say that a function \\\\(\\boldsymbol{f}\\\\) is continuous at \\\\(\\boldsymbol{a}\\\\) provided that for any \\\\(\\eps>0,\\\\) there exists a \\\\(\\delta>0\\\\) such that if \\\\(\\abs{x-a}\\lt \\delta\\\\) then \\(|f(x)-f(a)|\\lt \\eps.\\).",
-    "long_description": "We say that a function \\\\(\\boldsymbol{f}\\\\) is continuous at \\\\(\\boldsymbol{a}\\\\) provided that for any \\\\(\\eps>0,\\\\) there exists a \\\\(\\delta>0\\\\) such that if \\\\(\\abs{x-a}\\lt \\delta\\\\) then \\(|f(x)-f(a)|\\lt \\eps.\\)",
+    "definition": "We say that a function \\(\\\\(\\boldsymbol{f}\\\\) is continuous at \\(\\\\(\\boldsymbol{a}\\\\) provided that for any \\(\\\\(\\eps>0,\\\\) there exists a \\(\\\\(\\delta>0\\\\) such that if \\(\\\\(\\abs{x-a}\\lt \\delta\\\\) then \\(\\(|f(x)-f(a)|\\lt \\eps.\\)\\).",
+    "long_description": "We say that a function \\(\\\\(\\boldsymbol{f}\\\\) is continuous at \\(\\\\(\\boldsymbol{a}\\\\) provided that for any \\(\\\\(\\eps>0,\\\\) there exists a \\(\\\\(\\delta>0\\\\) such that if \\(\\\\(\\abs{x-a}\\lt \\delta\\\\) then \\(\\(|f(x)-f(a)|\\lt \\eps.\\)\\)",
     "to": [
       "AbelsTheorem"
     ],
@@ -402,8 +402,8 @@
     "id": "AbelsTheorem",
     "label": "Theorem 11.4.2 .",
     "category": "Sequences & Series",
-    "definition": "Abel's Theorem Suppose the power series \\\\(\\sum a_nx^n\\\\) has radius of convergence \\\\(r\\\\) and the series \\\\(\\sum a_nr^n\\\\) converges.",
-    "long_description": "Abel's Theorem Suppose the power series \\\\(\\sum a_nx^n\\\\) has radius of convergence \\\\(r\\\\) and the series \\\\(\\sum a_nr^n\\\\) converges. Then \\\\(\\sum a_nx^n\\\\) converges uniformly on \\\\([0, r].\\\\)",
+    "definition": "Abel's Theorem Suppose the power series \\(\\\\(\\sum a_nx^n\\\\) has radius of convergence \\(\\\\(r\\\\) and the series \\(\\\\(\\sum a_nr^n\\\\) converges.",
+    "long_description": "Abel's Theorem Suppose the power series \\(\\\\(\\sum a_nx^n\\\\) has radius of convergence \\(\\\\(r\\\\) and the series \\(\\\\(\\sum a_nr^n\\\\) converges. Then \\(\\\\(\\sum a_nx^n\\\\) converges uniformly on \\(\\\\([0, r].\\\\)",
     "to": [
       "thm_divergence_of_a_sequence"
     ],
@@ -421,8 +421,8 @@
     "id": "thm_divergence_of_a_sequence",
     "label": "Definition 7.3.1 .",
     "category": "Real Number System",
-    "definition": "A sequence of real numbers \\\\(\\left(s_n\\right\\)_{n=1}^\\(\\infty\\) diverges if it does not converge to any \\\\(a\\in\\mathbb{R}.\\\\)\\).",
-    "long_description": "A sequence of real numbers \\\\(\\left(s_n\\right\\)_{n=1}^\\(\\infty\\) diverges if it does not converge to any \\\\(a\\in\\mathbb{R}.\\\\)\\)",
+    "definition": "A sequence of real numbers \\(\\\\(\\left(s_n\\right\\)_{n=1}^\\(\\infty\\)\\) diverges if it does not converge to any \\(\\\\(a\\in\\mathbb{R}.\\\\)\\).",
+    "long_description": "A sequence of real numbers \\(\\\\(\\left(s_n\\right\\)_{n=1}^\\(\\infty\\)\\) diverges if it does not converge to any \\(\\\\(a\\in\\mathbb{R}.\\\\)\\)",
     "to": [
       "thm_Cantor-uniqueness-of-trig-series"
     ],
@@ -440,8 +440,8 @@
     "id": "thm_Cantor-uniqueness-of-trig-series",
     "label": "Theorem 12.0.1 .",
     "category": "Sequences & Series",
-    "definition": "Cantor If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] \u201cwith the exception of certain values of \\\\(x,\\\\) \u201d then all of its coefficients vanish.",
-    "long_description": "Cantor If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] \u201cwith the exception of certain values of \\\\(x,\\\\) \u201d then all of its coefficients vanish.",
+    "definition": "Cantor If the trigonometric series \\(\\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\]\\) \u201cwith the exception of certain values of \\(\\\\(x,\\\\) \u201d then all of its coefficients vanish.",
+    "long_description": "Cantor If the trigonometric series \\(\\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\]\\) \u201cwith the exception of certain values of \\(\\\\(x,\\\\) \u201d then all of its coefficients vanish.",
     "to": [
       "thm_FermatsLittleTheorem"
     ],
@@ -459,8 +459,8 @@
     "id": "thm_FermatsLittleTheorem",
     "label": "Theorem 2.3.0.10 .",
     "category": "General Analysis",
-    "definition": "Fermat's Little Theorem Let \\\\(p\\\\) be any prime number.",
-    "long_description": "Fermat's Little Theorem Let \\\\(p\\\\) be any prime number. Then \\\\(p\\,|(n^p-n\\)\\) for all positive integers \\\\(n.\\\\)",
+    "definition": "Fermat's Little Theorem Let \\(\\\\(p\\\\) be any prime number.",
+    "long_description": "Fermat's Little Theorem Let \\(\\\\(p\\\\) be any prime number. Then \\(\\\\(p\\,|(n^p-n\\)\\)\\) for all positive integers \\(\\\\(n.\\\\)",
     "to": [
       "thm_MVT"
     ],
@@ -478,8 +478,8 @@
     "id": "thm_MVT",
     "label": "Theorem 9.4.7 .",
     "category": "Limits & Continuity",
-    "definition": "The Mean Value Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\)\\) and \\\\(f\\\\) is continuous on \\\\([a,b].\\\\) Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{}  \\].",
-    "long_description": "The Mean Value Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\)\\) and \\\\(f\\\\) is continuous on \\\\([a,b].\\\\) Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{}  \\]",
+    "definition": "The Mean Value Theorem Suppose \\(\\\\(f^\\'\\\\) exists for every \\(\\\\(x\\in(a,b\\)\\)\\) and \\(\\\\(f\\\\) is continuous on \\(\\\\([a,b].\\\\) Then there is a real number \\(\\\\(c\\in(a,b\\)\\)\\) such that \\(\\[  f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{}  \\]\\).",
+    "long_description": "The Mean Value Theorem Suppose \\(\\\\(f^\\'\\\\) exists for every \\(\\\\(x\\in(a,b\\)\\)\\) and \\(\\\\(f\\\\) is continuous on \\(\\\\([a,b].\\\\) Then there is a real number \\(\\\\(c\\in(a,b\\)\\)\\) such that \\(\\[  f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{}  \\]\\)",
     "to": [
       "def_accumulation-point"
     ],
@@ -498,8 +498,8 @@
     "id": "def_accumulation-point",
     "label": "Definition 12.0.5 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(S\\subseteq \\mathbb{R}\\\\) and let \\\\(a\\\\) be a real number.",
-    "long_description": "Let \\\\(S\\subseteq \\mathbb{R}\\\\) and let \\\\(a\\\\) be a real number. We say that \\\\(a\\\\) is a limit point (or an accumulation point ) of \\\\(S\\\\) if there is a sequence \\\\((a_n\\)\\) with \\\\(a_n\\in S-\\left\\{a\\right\\}\\\\) which converges to \\\\(a.\\\\)",
+    "definition": "Let \\(\\\\(S\\subseteq \\mathbb{R}\\\\) and let \\(\\\\(a\\\\) be a real number.",
+    "long_description": "Let \\(\\\\(S\\subseteq \\mathbb{R}\\\\) and let \\(\\\\(a\\\\) be a real number. We say that \\(\\\\(a\\\\) is a limit point (or an accumulation point ) of \\(\\\\(S\\\\) if there is a sequence \\(\\\\((a_n\\)\\)\\) with \\(\\\\(a_n\\in S-\\left\\{a\\right\\}\\\\) which converges to \\(\\\\(a.\\\\)",
     "to": [
       "thm_SeriesConv-_DerivConv"
     ],
@@ -517,8 +517,8 @@
     "id": "thm_SeriesConv-_DerivConv",
     "label": "Theorem 11.3.12 .",
     "category": "Sequences & Series",
-    "definition": "Suppose \\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has a radius of convergence \\\\(r\\\\) and let \\\\(|x|\\lt r.\\\\) Then \\\\(\\sum_{n=1}^\\infty a_nnx^{n-1}\\\\) converges.",
-    "long_description": "Suppose \\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has a radius of convergence \\\\(r\\\\) and let \\\\(|x|\\lt r.\\\\) Then \\\\(\\sum_{n=1}^\\infty a_nnx^{n-1}\\\\) converges.",
+    "definition": "Suppose \\(\\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has a radius of convergence \\(\\\\(r\\\\) and let \\(\\\\(|x|\\lt r.\\\\) Then \\(\\\\(\\sum_{n=1}^\\infty a_nnx^{n-1}\\\\) converges.",
+    "long_description": "Suppose \\(\\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has a radius of convergence \\(\\\\(r\\\\) and let \\(\\\\(|x|\\lt r.\\\\) Then \\(\\\\(\\sum_{n=1}^\\infty a_nnx^{n-1}\\\\) converges.",
     "to": [
       "thm_R-is-R"
     ],
@@ -536,8 +536,8 @@
     "id": "thm_R-is-R",
     "label": "Theorem 13.2.28 .",
     "category": "General Analysis",
-    "definition": "Any complete, linearly ordered field is isomorphic to \\\\(\\mathbb{R}.\\\\).",
-    "long_description": "Any complete, linearly ordered field is isomorphic to \\\\(\\mathbb{R}.\\\\)",
+    "definition": "Any complete, linearly ordered field is isomorphic to \\(\\\\(\\mathbb{R}.\\\\).",
+    "long_description": "Any complete, linearly ordered field is isomorphic to \\(\\\\(\\mathbb{R}.\\\\)",
     "to": [
       "def_dedekind-cuts-multiplication"
     ],
@@ -555,8 +555,8 @@
     "id": "def_dedekind-cuts-multiplication",
     "label": "Definition 13.2.17 .",
     "category": "General Analysis",
-    "definition": "Multiplication on cuts Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts.",
-    "long_description": "Multiplication on cuts Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts. We will denote the set \\\\(\\left\\{xy|x\\in\\alpha, y\\in\\beta\\right\\}\\\\) by \\\\(\\alpha\\beta \\text{ or } \\alpha\\cdot\\beta.\\\\)",
+    "definition": "Multiplication on cuts Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts.",
+    "long_description": "Multiplication on cuts Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts. We will denote the set \\(\\\\(\\left\\{xy|x\\in\\alpha, y\\in\\beta\\right\\}\\\\) by \\(\\\\(\\alpha\\beta \\text{ or } \\alpha\\cdot\\beta.\\\\)",
     "to": [
       "def_absolute-value"
     ],
@@ -574,8 +574,8 @@
     "id": "def_absolute-value",
     "label": "Definition 13.2.20 .",
     "category": "General Analysis",
-    "definition": "Let \\\\(A\\in\\mathbb{R}\\\\) as above.",
-    "long_description": "Let \\\\(A\\in\\mathbb{R}\\\\) as above. Then \\[  \\abs{A}= \\begin{cases}\\chi \\amp \\text{ if \\\\(A=\\chi{}\\\\)} \\\\ 0 \\amp \\text{ if \\\\(A=0\\\\) } \\\\ \\chi \\amp \\text{ if \\\\(A=-\\chi{}.\\\\)} {} \\end{cases}  \\]",
+    "definition": "Let \\(\\\\(A\\in\\mathbb{R}\\\\) as above.",
+    "long_description": "Let \\(\\\\(A\\in\\mathbb{R}\\\\) as above. Then \\(\\[  \\abs{A}= \\begin{cases}\\chi \\amp \\text{ if \\\\(A=\\chi{}\\\\)} \\\\ 0 \\amp \\text{ if \\\\(A=0\\\\) } \\\\ \\chi \\amp \\text{ if \\\\(A=-\\chi{}.\\\\)} {} \\end{cases}  \\]\\)",
     "to": [
       "th_UniformIntegralConvergence"
     ],
@@ -593,8 +593,8 @@
     "id": "th_UniformIntegralConvergence",
     "label": "Theorem 11.2.1 .",
     "category": "General Analysis",
-    "definition": "Suppose \\\\(f_n\\\\) and \\\\(f\\\\) are integrable and \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\([a,b].\\\\) Then \\(\\begin{equation*} \\lim_{n\\rightarrow\\infty}\\int_{x=a}^b f_n(x)\\dx{ x}=\\int_{x=a}^bf(x)\\dx{ x}\\).",
-    "long_description": "Suppose \\\\(f_n\\\\) and \\\\(f\\\\) are integrable and \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\([a,b].\\\\) Then \\[  \\lim_{n\\rightarrow\\infty}\\int_{x=a}^b f_n(x)\\dx{ x}=\\int_{x=a}^bf(x)\\dx{ x}. {}  \\]",
+    "definition": "Suppose \\(\\\\(f_n\\\\) and \\(\\\\(f\\\\) are integrable and \\(\\\\(f_n \\text{ uniformly }  f\\\\) on \\(\\\\([a,b].\\\\) Then \\(\\(\\begin{equation*} \\lim_{n\\rightarrow\\infty}\\int_{x=a}^b f_n(x)\\dx{ x}=\\int_{x=a}^bf(x)\\dx{ x}\\)\\).",
+    "long_description": "Suppose \\(\\\\(f_n\\\\) and \\(\\\\(f\\\\) are integrable and \\(\\\\(f_n \\text{ uniformly }  f\\\\) on \\(\\\\([a,b].\\\\) Then \\(\\[  \\lim_{n\\rightarrow\\infty}\\int_{x=a}^b f_n(x)\\dx{ x}=\\int_{x=a}^bf(x)\\dx{ x}. {}  \\]\\)",
     "to": [
       "thm_IrrationalBetweenIrrationals"
     ],
@@ -631,8 +631,8 @@
     "id": "thm_ComparisonTest",
     "label": "Theorem 11.2.24 .",
     "category": "General Analysis",
-    "definition": "Comparison Test Suppose \\\\(|a_n|\\leq b_n\\\\) for all \\\\(n.\\\\) If \\\\(\\sum b_n\\\\) converges then \\\\(\\sum a_n\\\\) also converges.",
-    "long_description": "Comparison Test Suppose \\\\(|a_n|\\leq b_n\\\\) for all \\\\(n.\\\\) If \\\\(\\sum b_n\\\\) converges then \\\\(\\sum a_n\\\\) also converges.",
+    "definition": "Comparison Test Suppose \\(\\\\(|a_n|\\leq b_n\\\\) for all \\(\\\\(n.\\\\) If \\(\\\\(\\sum b_n\\\\) converges then \\(\\\\(\\sum a_n\\\\) also converges.",
+    "long_description": "Comparison Test Suppose \\(\\\\(|a_n|\\leq b_n\\\\) for all \\(\\\\(n.\\\\) If \\(\\\\(\\sum b_n\\\\) converges then \\(\\\\(\\sum a_n\\\\) also converges.",
     "to": [
       "def_CutSubtraction"
     ],
@@ -650,8 +650,8 @@
     "id": "def_CutSubtraction",
     "label": "Definition 13.2.23 .",
     "category": "Limits & Continuity",
-    "definition": "If \\\\(\\alpha,\\\\) \\\\(\\beta\\\\) and \\\\(\\delta\\\\) are cuts then the expression \\[  \\alpha-\\beta=\\delta  \\] is defined to mean \\[  \\alpha=\\delta+\\beta.  \\].",
-    "long_description": "If \\\\(\\alpha,\\\\) \\\\(\\beta\\\\) and \\\\(\\delta\\\\) are cuts then the expression \\[  \\alpha-\\beta=\\delta  \\] is defined to mean \\[  \\alpha=\\delta+\\beta.  \\]",
+    "definition": "If \\(\\\\(\\alpha,\\\\) \\(\\\\(\\beta\\\\) and \\(\\\\(\\delta\\\\) are cuts then the expression \\(\\[  \\alpha-\\beta=\\delta  \\]\\) is defined to mean \\(\\[  \\alpha=\\delta+\\beta.  \\]\\).",
+    "long_description": "If \\(\\\\(\\alpha,\\\\) \\(\\\\(\\beta\\\\) and \\(\\\\(\\delta\\\\) are cuts then the expression \\(\\[  \\alpha-\\beta=\\delta  \\]\\) is defined to mean \\(\\[  \\alpha=\\delta+\\beta.  \\]\\)",
     "to": [
       "thm_WeierstrassM"
     ],
@@ -669,8 +669,8 @@
     "id": "thm_WeierstrassM",
     "label": "Theorem 11.3.5 .",
     "category": "Real Number System",
-    "definition": "The Weierstrass- \\\\(M\\\\) Test Let \\\\(\\left(f_n\\right\\)_{n=1}^\\(\\infty\\) be a sequence of functions defined on \\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\) is a sequence of nonnegative real numbers such that \\[  \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots.  \\] If \\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\\\(\\sum_{n=1}^\\infty f_n(x\\)\\) converges uniformly on \\\\(S\\\\) to some function \\(which we will denote by \\(f(x\\)\\) )\\).",
-    "long_description": "The Weierstrass- \\\\(M\\\\) Test Let \\\\(\\left(f_n\\right\\)_{n=1}^\\(\\infty\\) be a sequence of functions defined on \\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\) is a sequence of nonnegative real numbers such that \\[  \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots.  \\] If \\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\\\(\\sum_{n=1}^\\infty f_n(x\\)\\) converges uniformly on \\\\(S\\\\) to some function \\(which we will denote by \\(f(x\\)\\) )\\).",
+    "definition": "The Weierstrass- \\(\\\\(M\\\\) Test Let \\(\\\\(\\left(f_n\\right\\)_{n=1}^\\(\\infty\\)\\) be a sequence of functions defined on \\(\\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\(\\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\)\\) is a sequence of nonnegative real numbers such that \\(\\[  \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots.  \\]\\) If \\(\\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\(\\\\(\\sum_{n=1}^\\infty f_n(x\\)\\)\\) converges uniformly on \\(\\\\(S\\\\) to some function \\(\\(which we will denote by \\(f(x\\)\\)\\) \\()\\)\\).",
+    "long_description": "The Weierstrass- \\(\\\\(M\\\\) Test Let \\(\\\\(\\left(f_n\\right\\)_{n=1}^\\(\\infty\\)\\) be a sequence of functions defined on \\(\\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\(\\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\)\\) is a sequence of nonnegative real numbers such that \\(\\[  \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots.  \\]\\) If \\(\\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\(\\\\(\\sum_{n=1}^\\infty f_n(x\\)\\)\\) converges uniformly on \\(\\\\(S\\\\) to some function \\(\\(which we will denote by \\(f(x\\)\\)\\) \\()\\)\\).",
     "to": [
       "thm_LimitOfProduct"
     ],
@@ -688,8 +688,8 @@
     "id": "thm_LimitOfProduct",
     "label": "Theorem 7.2.6 .",
     "category": "General Analysis",
-    "definition": "If \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n b_n\\right\\)=a b.\\).",
-    "long_description": "If \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n b_n\\right\\)=a b.\\)",
+    "definition": "If \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n b_n\\right\\)=a\\) b.\\).",
+    "long_description": "If \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n b_n\\right\\)=a\\) b.\\)",
     "to": [
       "thm_PowerSeriesConvergeUniformly"
     ],
@@ -707,8 +707,8 @@
     "id": "thm_PowerSeriesConvergeUniformly",
     "label": "Theorem 11.3.9 .",
     "category": "Sequences & Series",
-    "definition": "Suppose \\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has radius of convergence \\\\(r\\\\) \\(where \\(r\\\\) could be \\\\(\\infty\\\\) as well).",
-    "long_description": "Suppose \\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has radius of convergence \\\\(r\\\\) \\(where \\(r\\\\) could be \\\\(\\infty\\\\) as well). Let \\\\(b\\\\) be any nonnegative real number with \\\\(b\\lt r.\\\\) Then \\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) converges uniformly on \\\\([-b,b].\\\\)",
+    "definition": "Suppose \\(\\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has radius of convergence \\(\\\\(r\\\\) \\(\\(where \\(r\\\\) could be \\(\\\\(\\infty\\\\) as well).",
+    "long_description": "Suppose \\(\\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) has radius of convergence \\(\\\\(r\\\\) \\(\\(where \\(r\\\\) could be \\(\\\\(\\infty\\\\) as well). Let \\(\\\\(b\\\\) be any nonnegative real number with \\(\\\\(b\\lt r.\\\\) Then \\(\\\\(\\sum_{n=0}^\\infty a_nx^n\\\\) converges uniformly on \\(\\\\([-b,b].\\\\)",
     "to": [
       "def_e"
     ],
@@ -726,8 +726,8 @@
     "id": "def_e",
     "label": "Definition 4.2.7 .",
     "category": "Sequences & Series",
-    "definition": "Let \\(E(1)\\) be denoted by the number \\\\(e.\\\\) Using the series \\(e=E(1)=\\sum_{n=0}^\\infty\\frac{1}{n!},\\) we can approximate \\\\(e\\\\) to any degree of accuracy.",
-    "long_description": "Let \\(E(1)\\) be denoted by the number \\\\(e.\\\\) Using the series \\(e=E(1)=\\sum_{n=0}^\\infty\\frac{1}{n!},\\) we can approximate \\\\(e\\\\) to any degree of accuracy. In particular \\\\(e\\approx 2.71828.\\\\)",
+    "definition": "Let \\(\\(E(1)\\)\\) be denoted by the number \\(\\\\(e.\\\\) Using the series \\(\\(e=E(1)=\\sum_{n=0}^\\infty\\frac{1}{n!},\\)\\) we can approximate \\(\\\\(e\\\\) to any degree of accuracy.",
+    "long_description": "Let \\(\\(E(1)\\)\\) be denoted by the number \\(\\\\(e.\\\\) Using the series \\(\\(e=E(1)=\\sum_{n=0}^\\infty\\frac{1}{n!},\\)\\) we can approximate \\(\\\\(e\\\\) to any degree of accuracy. In particular \\(\\\\(e\\approx 2.71828.\\\\)",
     "to": [
       "thm_CantorsTheorem"
     ],
@@ -745,8 +745,8 @@
     "id": "thm_CantorsTheorem",
     "label": "Theorem 12.2.3 .",
     "category": "General Analysis",
-    "definition": "Cantor's Theorem Let \\\\(S\\\\) be any set.",
-    "long_description": "Cantor's Theorem Let \\\\(S\\\\) be any set. Then there is no one-to-one correspondence between \\\\(S\\\\) and \\(P(S),\\) the set of all subsets of \\\\(S.\\\\)",
+    "definition": "Cantor's Theorem Let \\(\\\\(S\\\\) be any set.",
+    "long_description": "Cantor's Theorem Let \\(\\\\(S\\\\) be any set. Then there is no one-to-one correspondence between \\(\\\\(S\\\\) and \\(\\(P(S),\\)\\) the set of all subsets of \\(\\\\(S.\\\\)",
     "to": [
       "thm_QisCountable"
     ],
@@ -764,8 +764,8 @@
     "id": "thm_QisCountable",
     "label": "Theorem 12.1.8 .",
     "category": "General Analysis",
-    "definition": "Show that \\\\(\\mathbb{Q}\\\\) is countable.",
-    "long_description": "Theorem 12.1.8 .: Show that \\\\(\\mathbb{Q}\\\\) is countable.",
+    "definition": "Show that \\(\\\\(\\mathbb{Q}\\\\) is countable.",
+    "long_description": "Theorem 12.1.8 .: Show that \\(\\\\(\\mathbb{Q}\\\\) is countable.",
     "to": [
       "thm_SqueezeTheoremFunctions"
     ],
@@ -783,8 +783,8 @@
     "id": "thm_SqueezeTheoremFunctions",
     "label": "Theorem 9.3.8 .",
     "category": "Limits & Continuity",
-    "definition": "Squeeze Theorem for functions Suppose \\(f(x)\\le g(x) \\le h(x),\\) for \\\\(x\\\\) sufficiently close to \\\\(a\\\\) \\(but not equal to \\(a\\\\) ).",
-    "long_description": "Squeeze Theorem for functions Suppose \\(f(x)\\le g(x) \\le h(x),\\) for \\\\(x\\\\) sufficiently close to \\\\(a\\\\) \\(but not equal to \\(a\\\\) ). If \\\\(\\limit{x}{a}{f(x\\)}=L=\\(\\limit{x}{a}{h(x)}\\),\\) then \\\\(\\limit{x}{a}{g(x\\)}=L\\) also.",
+    "definition": "Squeeze Theorem for functions Suppose \\(\\(f(x)\\le g(x) \\le h(x),\\)\\) for \\(\\\\(x\\\\) sufficiently close to \\(\\\\(a\\\\) \\(\\(but not equal to \\(a\\\\) ).",
+    "long_description": "Squeeze Theorem for functions Suppose \\(\\(f(x)\\le g(x) \\le h(x),\\)\\) for \\(\\\\(x\\\\) sufficiently close to \\(\\\\(a\\\\) \\(\\(but not equal to \\(a\\\\) ). If \\(\\\\(\\limit{x}{a}{f(x\\)}=L=\\(\\limit{x}{a}{h(x)}\\)\\),\\) then \\(\\\\(\\limit{x}{a}{g(x\\)}=L\\)\\) also.",
     "to": [
       "BolzanoWeierstrass"
     ],
@@ -802,8 +802,8 @@
     "id": "BolzanoWeierstrass",
     "label": "Theorem 10.3.6 .",
     "category": "Real Number System",
-    "definition": "The Bolzano-Weierstrass Theorem Let \\\\(\\left(x_n\\right\\)\\) be a sequence of real numbers such that \\\\(x_n\\in[\\,a,b],\\\\) \\\\(\\forall\\\\) \\\\(n.\\\\) Then there exists \\\\(c\\in[\\,a,b]\\\\) and a subsequence \\\\(\\left(x_{n_k}\\right\\),\\) such that \\\\(\\lim_{k\\rightarrow\\infty}x_{n_k}=c.\\\\).",
-    "long_description": "The Bolzano-Weierstrass Theorem Let \\\\(\\left(x_n\\right\\)\\) be a sequence of real numbers such that \\\\(x_n\\in[\\,a,b],\\\\) \\\\(\\forall\\\\) \\\\(n.\\\\) Then there exists \\\\(c\\in[\\,a,b]\\\\) and a subsequence \\\\(\\left(x_{n_k}\\right\\),\\) such that \\\\(\\lim_{k\\rightarrow\\infty}x_{n_k}=c.\\\\)",
+    "definition": "The Bolzano-Weierstrass Theorem Let \\(\\\\(\\left(x_n\\right\\)\\)\\) be a sequence of real numbers such that \\(\\\\(x_n\\in[\\,a,b],\\\\) \\(\\\\(\\forall\\\\) \\(\\\\(n.\\\\) Then there exists \\(\\\\(c\\in[\\,a,b]\\\\) and a subsequence \\(\\\\(\\left(x_{n_k}\\right\\)\\),\\) such that \\(\\\\(\\lim_{k\\rightarrow\\infty}x_{n_k}=c.\\\\).",
+    "long_description": "The Bolzano-Weierstrass Theorem Let \\(\\\\(\\left(x_n\\right\\)\\)\\) be a sequence of real numbers such that \\(\\\\(x_n\\in[\\,a,b],\\\\) \\(\\\\(\\forall\\\\) \\(\\\\(n.\\\\) Then there exists \\(\\\\(c\\in[\\,a,b]\\\\) and a subsequence \\(\\\\(\\left(x_{n_k}\\right\\)\\),\\) such that \\(\\\\(\\lim_{k\\rightarrow\\infty}x_{n_k}=c.\\\\)",
     "to": [
       "thm_WeakNIP"
     ],
@@ -821,8 +821,8 @@
     "id": "thm_WeakNIP",
     "label": "Theorem 12.1.1 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(\\left(\\left[a_n, b_n\\right]\\right\\)_{n=1}^\\(\\infty\\) be a sequence of nested intervals such that \\\\(\\limit{n}{\\infty}{\\abs{b_n-a_n}}>0.\\\\) Then there is at least one \\\\(c\\in\\mathbb{R}\\\\) such that \\\\(c\\in\\left[a_n, b_n\\right]\\\\) for all \\\\(n\\in \\mathbb{N}.\\\\)\\).",
-    "long_description": "Let \\\\(\\left(\\left[a_n, b_n\\right]\\right\\)_{n=1}^\\(\\infty\\) be a sequence of nested intervals such that \\\\(\\limit{n}{\\infty}{\\abs{b_n-a_n}}>0.\\\\) Then there is at least one \\\\(c\\in\\mathbb{R}\\\\) such that \\\\(c\\in\\left[a_n, b_n\\right]\\\\) for all \\\\(n\\in \\mathbb{N}.\\\\)\\)",
+    "definition": "Let \\(\\\\(\\left(\\left[a_n, b_n\\right]\\right\\)_{n=1}^\\(\\infty\\)\\) be a sequence of nested intervals such that \\(\\\\(\\limit{n}{\\infty}{\\abs{b_n-a_n}}>0.\\\\) Then there is at least one \\(\\\\(c\\in\\mathbb{R}\\\\) such that \\(\\\\(c\\in\\left[a_n, b_n\\right]\\\\) for all \\(\\\\(n\\in \\mathbb{N}.\\\\)\\).",
+    "long_description": "Let \\(\\\\(\\left(\\left[a_n, b_n\\right]\\right\\)_{n=1}^\\(\\infty\\)\\) be a sequence of nested intervals such that \\(\\\\(\\limit{n}{\\infty}{\\abs{b_n-a_n}}>0.\\\\) Then there is at least one \\(\\\\(c\\in\\mathbb{R}\\\\) such that \\(\\\\(c\\in\\left[a_n, b_n\\right]\\\\) for all \\(\\\\(n\\in \\mathbb{N}.\\\\)\\)",
     "to": [
       "thm_DiffImpCont"
     ],
@@ -840,8 +840,8 @@
     "id": "thm_DiffImpCont",
     "label": "Theorem 9.4.2 .",
     "category": "Limits & Continuity",
-    "definition": "Differentiability Implies Continuity If \\\\(f\\\\) is differentiable at a point \\\\(c\\\\) then \\\\(f\\\\) is continuous at \\\\(c\\\\) as well.",
-    "long_description": "Differentiability Implies Continuity If \\\\(f\\\\) is differentiable at a point \\\\(c\\\\) then \\\\(f\\\\) is continuous at \\\\(c\\\\) as well.",
+    "definition": "Differentiability Implies Continuity If \\(\\\\(f\\\\) is differentiable at a point \\(\\\\(c\\\\) then \\(\\\\(f\\\\) is continuous at \\(\\\\(c\\\\) as well.",
+    "long_description": "Differentiability Implies Continuity If \\(\\\\(f\\\\) is differentiable at a point \\(\\\\(c\\\\) then \\(\\\\(f\\\\) is continuous at \\(\\\\(c\\\\) as well.",
     "to": [
       "thm_UniformDerivativeConvergence",
       "IntermediateValueTheorem",
@@ -861,8 +861,8 @@
     "id": "thm_UniformDerivativeConvergence",
     "label": "Theorem 11.2.6 .",
     "category": "Limits & Continuity",
-    "definition": "Suppose for every \\\\(n\\in \\mathbb{N}\\\\) \\\\(f_n\\\\) is differentiable, \\\\(f_n^\\'\\\\) is continuous, \\\\(f_n \\text{ pointwise }  f,\\\\) and \\\\(f_n^\\' \\text{ uniformly }  g\\\\) on an interval, \\\\(I.\\\\) Then \\\\(f\\\\) is differentiable and \\\\(f^\\' = g\\\\) on \\\\(I.\\\\).",
-    "long_description": "Suppose for every \\\\(n\\in \\mathbb{N}\\\\) \\\\(f_n\\\\) is differentiable, \\\\(f_n^\\'\\\\) is continuous, \\\\(f_n \\text{ pointwise }  f,\\\\) and \\\\(f_n^\\' \\text{ uniformly }  g\\\\) on an interval, \\\\(I.\\\\) Then \\\\(f\\\\) is differentiable and \\\\(f^\\' = g\\\\) on \\\\(I.\\\\)",
+    "definition": "Suppose for every \\(\\\\(n\\in \\mathbb{N}\\\\) \\(\\\\(f_n\\\\) is differentiable, \\(\\\\(f_n^\\'\\\\) is continuous, \\(\\\\(f_n \\text{ pointwise }  f,\\\\) and \\(\\\\(f_n^\\' \\text{ uniformly }  g\\\\) on an interval, \\(\\\\(I.\\\\) Then \\(\\\\(f\\\\) is differentiable and \\(\\\\(f^\\' = g\\\\) on \\(\\\\(I.\\\\).",
+    "long_description": "Suppose for every \\(\\\\(n\\in \\mathbb{N}\\\\) \\(\\\\(f_n\\\\) is differentiable, \\(\\\\(f_n^\\'\\\\) is continuous, \\(\\\\(f_n \\text{ pointwise }  f,\\\\) and \\(\\\\(f_n^\\' \\text{ uniformly }  g\\\\) on an interval, \\(\\\\(I.\\\\) Then \\(\\\\(f\\\\) is differentiable and \\(\\\\(f^\\' = g\\\\) on \\(\\\\(I.\\\\)",
     "to": [
       "thm_FTA"
     ],
@@ -880,8 +880,8 @@
     "id": "thm_FTA",
     "label": "Theorem 2.3.0.6 .",
     "category": "Integration",
-    "definition": "The Fundamental Theorem of Arithmetic Any integer greater than \\\\(1\\\\) is either prime or it is a product of prime numbers.",
-    "long_description": "The Fundamental Theorem of Arithmetic Any integer greater than \\\\(1\\\\) is either prime or it is a product of prime numbers. Furthermore, this prime decomposition is unique up to the order of the factors.",
+    "definition": "The Fundamental Theorem of Arithmetic Any integer greater than \\(\\\\(1\\\\) is either prime or it is a product of prime numbers.",
+    "long_description": "The Fundamental Theorem of Arithmetic Any integer greater than \\(\\\\(1\\\\) is either prime or it is a product of prime numbers. Furthermore, this prime decomposition is unique up to the order of the factors.",
     "to": [
       "thm_FermatsTheorem"
     ],
@@ -900,7 +900,7 @@
     "label": "Theorem 9.4.4 . Fermat's Theorem.",
     "category": "Differentiation",
     "definition": "Fermat's Theorem.",
-    "long_description": "Fermat's Theorem. Suppose \\\\(f\\\\) is differentiable in some interval \\((a,b)\\) containing \\\\(c.\\\\) If \\(f(c)\\ge f(x)\\) for every \\\\(x\\\\) in \\((a,b),\\) then \\\\(f^\\'(c\\)=0.\\)",
+    "long_description": "Fermat's Theorem. Suppose \\(\\\\(f\\\\) is differentiable in some interval \\(\\((a,b)\\)\\) containing \\(\\\\(c.\\\\) If \\(\\(f(c)\\ge f(x)\\)\\) for every \\(\\\\(x\\\\) in \\(\\((a,b),\\)\\) then \\(\\\\(f^\\'(c\\)=0\\).\\)",
     "to": [
       "def_SubtractionOfCutsAsSets"
     ],
@@ -918,8 +918,8 @@
     "id": "def_SubtractionOfCutsAsSets",
     "label": "Definition 13.2.24 .",
     "category": "General Analysis",
-    "definition": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts with \\\\(\\beta\\lt \\alpha.\\\\) Define \\\\(\\alpha-\\beta\\\\) as follows: \\[  \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\mathbb{Q}^+.  \\].",
-    "long_description": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts with \\\\(\\beta\\lt \\alpha.\\\\) Define \\\\(\\alpha-\\beta\\\\) as follows: \\[  \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\mathbb{Q}^+.  \\]",
+    "definition": "Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts with \\(\\\\(\\beta\\lt \\alpha.\\\\) Define \\(\\\\(\\alpha-\\beta\\\\) as follows: \\(\\[  \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\mathbb{Q}^+.  \\]\\).",
+    "long_description": "Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts with \\(\\\\(\\beta\\lt \\alpha.\\\\) Define \\(\\\\(\\alpha-\\beta\\\\) as follows: \\(\\[  \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\mathbb{Q}^+.  \\]\\)",
     "to": [
       "thm_ZeroInCauchySequences"
     ],
@@ -937,8 +937,8 @@
     "id": "thm_ZeroInCauchySequences",
     "label": "Theorem 13.2.9 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(0^*\\\\) be the set of Cauchy sequences in \\\\(\\mathbb{Q}\\\\) which are all equivalent to the sequence \\\\((0, 0, 0, \\ldots\\).\\) Then \\[  0^*+x=x.  \\].",
-    "long_description": "Let \\\\(0^*\\\\) be the set of Cauchy sequences in \\\\(\\mathbb{Q}\\\\) which are all equivalent to the sequence \\\\((0, 0, 0, \\ldots\\).\\) Then \\[  0^*+x=x.  \\]",
+    "definition": "Let \\(\\\\(0^*\\\\) be the set of Cauchy sequences in \\(\\\\(\\mathbb{Q}\\\\) which are all equivalent to the sequence \\(\\\\((0, 0, 0, \\ldots\\)\\).\\) Then \\(\\[  0^*+x=x.  \\]\\).",
+    "long_description": "Let \\(\\\\(0^*\\\\) be the set of Cauchy sequences in \\(\\\\(\\mathbb{Q}\\\\) which are all equivalent to the sequence \\(\\\\((0, 0, 0, \\ldots\\)\\).\\) Then \\(\\[  0^*+x=x.  \\]\\)",
     "to": [
       "def_subsequences"
     ],
@@ -956,8 +956,8 @@
     "id": "def_subsequences",
     "label": "Definition 10.3.2 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(\\left(n_k\\right\\)_{k=1}^\\(\\infty\\) be a strictly increasing sequence of positive integers; that is\\), \\\\(n_1\\lt n_2\\lt n_3\\lt \\cdots\\\\).",
-    "long_description": "Let \\\\(\\left(n_k\\right\\)_{k=1}^\\(\\infty\\) be a strictly increasing sequence of positive integers; that is\\), \\\\(n_1\\lt n_2\\lt n_3\\lt \\cdots\\\\) . If \\\\(\\left(x_n\\right\\)_{n=1}^\\(\\infty\\) is a sequence\\), then \\\\(\\left(x_{n_k}\\right\\)_{k=1}^\\(\\infty=\\left\\(x_{n_1},x_{n_2},x_{n_3},\\ldots \\right\\)\\) is called a {subsequence} of \\\\(\\left(x_n\\right\\)\\).\\)",
+    "definition": "Let \\(\\\\(\\left(n_k\\right\\)_{k=1}^\\(\\infty\\)\\) be a strictly increasing sequence of positive integers; that \\(is\\)\\), \\(\\\\(n_1\\lt n_2\\lt n_3\\lt \\cdots\\\\).",
+    "long_description": "Let \\(\\\\(\\left(n_k\\right\\)_{k=1}^\\(\\infty\\)\\) be a strictly increasing sequence of positive integers; that \\(is\\)\\), \\(\\\\(n_1\\lt n_2\\lt n_3\\lt \\cdots\\\\) . If \\(\\\\(\\left(x_n\\right\\)_{n=1}^\\(\\infty\\)\\) is a \\(sequence\\)\\), then \\(\\\\(\\left(x_{n_k}\\right\\)_{k=1}^\\(\\infty=\\left\\(x_{n_1},x_{n_2},x_{n_3},\\ldots \\right\\)\\)\\) is called a {subsequence} of \\(\\\\(\\left(x_n\\right\\)\\)\\).\\)",
     "to": [
       "def_derivative"
     ],
@@ -976,7 +976,7 @@
     "label": "Definition 9.4.1 . The Derivative.",
     "category": "Limits & Continuity",
     "definition": "The Derivative.",
-    "long_description": "The Derivative. Given a function \\(f(x)\\) defined on an interval \\((a,b)\\) we define \\[  f^\\'(x) = \\limit{h}{0}{\\frac{f(x+h)-f(x)}{h}}.{}  \\]",
+    "long_description": "The Derivative. Given a function \\(\\(f(x)\\)\\) defined on an interval \\(\\((a,b)\\)\\) we define \\(\\[  f^\\'(x) = \\limit{h}{0}{\\frac{f(x+h)-f(x)}{h}}.{}  \\]\\)",
     "to": [
       "thm_ContComp",
       "thm_MVT"
@@ -995,8 +995,8 @@
     "id": "thm_ContComp",
     "label": "Theorem 9.2.12 .",
     "category": "Limits & Continuity",
-    "definition": "Suppose \\\\(f\\\\) is continuous at \\\\(a\\\\) and \\\\(g\\\\) is continuous at \\(f(a).\\) Then \\\\(g\\circ f\\\\) is continuous at \\\\(a.\\\\) \\(Note that \\((g\\circ f\\)(x)=g(f(x)).\\) ).",
-    "long_description": "Suppose \\\\(f\\\\) is continuous at \\\\(a\\\\) and \\\\(g\\\\) is continuous at \\(f(a).\\) Then \\\\(g\\circ f\\\\) is continuous at \\\\(a.\\\\) \\(Note that \\((g\\circ f\\)(x)=g(f(x)).\\) )",
+    "definition": "Suppose \\(\\\\(f\\\\) is continuous at \\(\\\\(a\\\\) and \\(\\\\(g\\\\) is continuous at \\(\\(f(a).\\)\\) Then \\(\\\\(g\\circ f\\\\) is continuous at \\(\\\\(a.\\\\) \\(\\(Note that \\((g\\circ f\\)(x)=g(f(x))\\).\\) ).",
+    "long_description": "Suppose \\(\\\\(f\\\\) is continuous at \\(\\\\(a\\\\) and \\(\\\\(g\\\\) is continuous at \\(\\(f(a).\\)\\) Then \\(\\\\(g\\circ f\\\\) is continuous at \\(\\\\(a.\\\\) \\(\\(Note that \\((g\\circ f\\)(x)=g(f(x))\\).\\) )",
     "to": [
       "def_UpperBound"
     ],
@@ -1014,8 +1014,8 @@
     "id": "def_UpperBound",
     "label": "Definition 10.4.1 .",
     "category": "General Analysis",
-    "definition": "Let \\\\(S\\subseteq\\mathbb{R}\\\\) and let \\\\(b\\\\) be a real number.",
-    "long_description": "Let \\\\(S\\subseteq\\mathbb{R}\\\\) and let \\\\(b\\\\) be a real number. We say that \\\\(b\\\\) is an upper bound of \\\\(S\\\\) provided \\\\(b\\geq x\\\\) for all \\\\(x\\in S.\\\\)",
+    "definition": "Let \\(\\\\(S\\subseteq\\mathbb{R}\\\\) and let \\(\\\\(b\\\\) be a real number.",
+    "long_description": "Let \\(\\\\(S\\subseteq\\mathbb{R}\\\\) and let \\(\\\\(b\\\\) be a real number. We say that \\(\\\\(b\\\\) is an upper bound of \\(\\\\(S\\\\) provided \\(\\\\(b\\geq x\\\\) for all \\(\\\\(x\\in S.\\\\)",
     "to": [
       "def_dedekind-cuts-addition"
     ],
@@ -1033,8 +1033,8 @@
     "id": "def_dedekind-cuts-addition",
     "label": "Definition 13.2.16 .",
     "category": "General Analysis",
-    "definition": "Addition on cuts Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts.",
-    "long_description": "Addition on cuts Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts. We will denote the set \\\\(\\left\\{x+y|x\\in\\alpha, y\\in\\beta\\right\\}\\\\) by \\\\(\\alpha+\\beta.\\\\)",
+    "definition": "Addition on cuts Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts.",
+    "long_description": "Addition on cuts Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts. We will denote the set \\(\\\\(\\left\\{x+y|x\\in\\alpha, y\\in\\beta\\right\\}\\\\) by \\(\\\\(\\alpha+\\beta.\\\\)",
     "to": [
       "thm_RearrageAbsConv"
     ],
@@ -1052,8 +1052,8 @@
     "id": "thm_RearrageAbsConv",
     "label": "Theorem 11.2.30 .",
     "category": "General Analysis",
-    "definition": "Suppose \\\\(\\sum a_n\\\\) converges absolutely and let \\\\(s=\\sum_{n=0}^\\infty a_n.\\\\) Then any rearrangement of \\\\(\\sum a_n\\\\) must converge to \\\\(s.\\\\).",
-    "long_description": "Suppose \\\\(\\sum a_n\\\\) converges absolutely and let \\\\(s=\\sum_{n=0}^\\infty a_n.\\\\) Then any rearrangement of \\\\(\\sum a_n\\\\) must converge to \\\\(s.\\\\)",
+    "definition": "Suppose \\(\\\\(\\sum a_n\\\\) converges absolutely and let \\(\\\\(s=\\sum_{n=0}^\\infty a_n.\\\\) Then any rearrangement of \\(\\\\(\\sum a_n\\\\) must converge to \\(\\\\(s.\\\\).",
+    "long_description": "Suppose \\(\\\\(\\sum a_n\\\\) converges absolutely and let \\(\\\\(s=\\sum_{n=0}^\\infty a_n.\\\\) Then any rearrangement of \\(\\\\(\\sum a_n\\\\) must converge to \\(\\\\(s.\\\\)",
     "to": [
       "thm_Cantor-1871-b"
     ],
@@ -1071,8 +1071,8 @@
     "id": "thm_Cantor-1871-b",
     "label": "Theorem 12.0.3 .",
     "category": "Sequences & Series",
-    "definition": "Cantor, (1871) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all but finitely many \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
-    "long_description": "Cantor, (1871) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all but finitely many \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "definition": "Cantor, (1871) If the trigonometric series \\(\\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\]\\) for all but finitely many \\(\\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "long_description": "Cantor, (1871) If the trigonometric series \\(\\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\]\\) for all but finitely many \\(\\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
     "to": [
       "thm_CauchyCriterion"
     ],
@@ -1091,7 +1091,7 @@
     "label": "Theorem 11.2.20 . Cauchy Criterion.",
     "category": "Sequences & Series",
     "definition": "Cauchy Criterion.",
-    "long_description": "Cauchy Criterion. The series \\\\(\\sum_{k=0}^\\infty a_k\\\\) converges if and only if \\\\(\\forall \\eps>0,\\\\) \\\\(\\exists N\\\\) such that if \\\\(m>n>N\\\\) then \\\\(|\\sum_{k=n+1}^ma_k|\\lt \\eps.\\\\)",
+    "long_description": "Cauchy Criterion. The series \\(\\\\(\\sum_{k=0}^\\infty a_k\\\\) converges if and only if \\(\\\\(\\forall \\eps>0,\\\\) \\(\\\\(\\exists N\\\\) such that if \\(\\\\(m>n>N\\\\) then \\(\\\\(|\\sum_{k=n+1}^ma_k|\\lt \\eps.\\\\)",
     "to": [
       "thm_Cauchy-_Converge"
     ],
@@ -1109,8 +1109,8 @@
     "id": "thm_Cauchy-_Converge",
     "label": "Theorem 11.2.15 .",
     "category": "Real Number System",
-    "definition": "Cauchy sequences converge Suppose \\\\(\\left(s_n\\right\\)\\) is a Cauchy sequence of real numbers.",
-    "long_description": "Cauchy sequences converge Suppose \\\\(\\left(s_n\\right\\)\\) is a Cauchy sequence of real numbers. There exists a real number \\\\(s\\\\) such that \\\\(\\lim_{n\\rightarrow\\infty}s_n=s.\\\\)",
+    "definition": "Cauchy sequences converge Suppose \\(\\\\(\\left(s_n\\right\\)\\)\\) is a Cauchy sequence of real numbers.",
+    "long_description": "Cauchy sequences converge Suppose \\(\\\\(\\left(s_n\\right\\)\\)\\) is a Cauchy sequence of real numbers. There exists a real number \\(\\\\(s\\\\) such that \\(\\\\(\\lim_{n\\rightarrow\\infty}s_n=s.\\\\)",
     "to": [
       "def_dedekind-addition"
     ],
@@ -1128,8 +1128,8 @@
     "id": "def_dedekind-addition",
     "label": "Definition 13.2.22 .",
     "category": "General Analysis",
-    "definition": "Addition Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} .  \\].",
-    "long_description": "Addition Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} .  \\]",
+    "definition": "Addition Let \\(\\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\(\\[  \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} .  \\]\\).",
+    "long_description": "Addition Let \\(\\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\(\\[  \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} .  \\]\\)",
     "to": [
       "thm_SqueezeTheorem"
     ],
@@ -1147,8 +1147,8 @@
     "id": "thm_SqueezeTheorem",
     "label": "Theorem 7.2.15 .",
     "category": "Real Number System",
-    "definition": "Squeeze Theorem for Sequences Let \\\\(\\left(r_n\\right\\),\\(\\left\\(s_n\\right\\)\\),\\) and \\\\(\\left(t_n\\right\\)\\) be sequences of real numbers with \\\\(r_n\\leq s_n\\leq t_n,\\forall\\\\) positive integers \\\\(n.\\\\) Suppose \\\\(\\lim_{n\\rightarrow\\infty}r_n=s=\\lim_{n\\rightarrow\\infty}t_n.\\\\) Then \\\\(\\left(s_n\\right\\)\\) must converge and \\\\(\\lim_{n\\rightarrow\\infty}s_n=s.\\\\).",
-    "long_description": "Squeeze Theorem for Sequences Let \\\\(\\left(r_n\\right\\),\\(\\left\\(s_n\\right\\)\\),\\) and \\\\(\\left(t_n\\right\\)\\) be sequences of real numbers with \\\\(r_n\\leq s_n\\leq t_n,\\forall\\\\) positive integers \\\\(n.\\\\) Suppose \\\\(\\lim_{n\\rightarrow\\infty}r_n=s=\\lim_{n\\rightarrow\\infty}t_n.\\\\) Then \\\\(\\left(s_n\\right\\)\\) must converge and \\\\(\\lim_{n\\rightarrow\\infty}s_n=s.\\\\)",
+    "definition": "Squeeze Theorem for Sequences Let \\(\\\\(\\left(r_n\\right\\)\\),\\(\\(\\left\\(s_n\\right\\)\\)\\),\\) and \\(\\\\(\\left(t_n\\right\\)\\)\\) be sequences of real numbers with \\(\\\\(r_n\\leq s_n\\leq t_n,\\forall\\\\) positive integers \\(\\\\(n.\\\\) Suppose \\(\\\\(\\lim_{n\\rightarrow\\infty}r_n=s=\\lim_{n\\rightarrow\\infty}t_n.\\\\) Then \\(\\\\(\\left(s_n\\right\\)\\)\\) must converge and \\(\\\\(\\lim_{n\\rightarrow\\infty}s_n=s.\\\\).",
+    "long_description": "Squeeze Theorem for Sequences Let \\(\\\\(\\left(r_n\\right\\)\\),\\(\\(\\left\\(s_n\\right\\)\\)\\),\\) and \\(\\\\(\\left(t_n\\right\\)\\)\\) be sequences of real numbers with \\(\\\\(r_n\\leq s_n\\leq t_n,\\forall\\\\) positive integers \\(\\\\(n.\\\\) Suppose \\(\\\\(\\lim_{n\\rightarrow\\infty}r_n=s=\\lim_{n\\rightarrow\\infty}t_n.\\\\) Then \\(\\\\(\\left(s_n\\right\\)\\)\\) must converge and \\(\\\\(\\lim_{n\\rightarrow\\infty}s_n=s.\\\\)",
     "to": [
       "thm_OrderingCuts"
     ],
@@ -1166,8 +1166,8 @@
     "id": "thm_OrderingCuts",
     "label": "Theorem 13.2.14 .",
     "category": "General Analysis",
-    "definition": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts.",
-    "long_description": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts. Then \\\\(\\alpha\\lt \\beta\\\\) if and only if \\\\(\\alpha\\subset\\beta.\\\\)",
+    "definition": "Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts.",
+    "long_description": "Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts. Then \\(\\\\(\\alpha\\lt \\beta\\\\) if and only if \\(\\\\(\\alpha\\subset\\beta.\\\\)",
     "to": [
       "TaylorsTheorem"
     ],
@@ -1185,8 +1185,8 @@
     "id": "TaylorsTheorem",
     "label": "Theorem 5.1.9 .",
     "category": "Limits & Continuity",
-    "definition": "If \\\\(f^\\',\\,f^{\\'\\'},\\,\\ldots,\\,f^{(n+1\\)}\\) are all continuous on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\(\\begin{align*} f(x)=f(a)+\\frac{f^{\\'}(a)}{1!}(x-a)+\\frac{f^{\\' \\'}(a)}{2!}(x-a)^2\\amp +\\cdots+\\frac{f^{(n)}(a)}{n!}(x-a)^n\\\\ \\amp + \\frac{1}{n!}\\int_{t=a}^xf^{(n+1)}(t)(x-t)^n\\dx{t}\\). \\(\\end{align*}\\).",
-    "long_description": "If \\\\(f^\\',\\,f^{\\'\\'},\\,\\ldots,\\,f^{(n+1\\)}\\) are all continuous on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\(\\begin{align*} f(x)=f(a)+\\frac{f^{\\'}(a)}{1!}(x-a)+\\frac{f^{\\' \\'}(a)}{2!}(x-a)^2\\amp +\\cdots+\\frac{f^{(n)}(a)}{n!}(x-a)^n\\\\ \\amp + \\frac{1}{n!}\\int_{t=a}^xf^{(n+1)}(t)(x-t)^n\\dx{t}\\). \\(\\end{align*}\\)",
+    "definition": "If \\(\\\\(f^\\',\\,f^{\\'\\'},\\,\\ldots,\\,f^{(n+1\\)}\\)\\) are all continuous on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x,\\\\) then \\(\\(\\begin{align*} f(x)=f(a)+\\frac{f^{\\'}(a)}{1!}(x-a)+\\frac{f^{\\' \\'}(a)}{2!}(x-a)^2\\amp +\\cdots+\\frac{f^{(n)}(a)}{n!}(x-a)^n\\\\ \\amp + \\frac{1}{n!}\\int_{t=a}^xf^{(n+1)}(t)(x-t)^n\\dx{t}\\)\\). \\(\\(\\end{align*}\\)\\).",
+    "long_description": "If \\(\\\\(f^\\',\\,f^{\\'\\'},\\,\\ldots,\\,f^{(n+1\\)}\\)\\) are all continuous on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x,\\\\) then \\(\\(\\begin{align*} f(x)=f(a)+\\frac{f^{\\'}(a)}{1!}(x-a)+\\frac{f^{\\' \\'}(a)}{2!}(x-a)^2\\amp +\\cdots+\\frac{f^{(n)}(a)}{n!}(x-a)^n\\\\ \\amp + \\frac{1}{n!}\\int_{t=a}^xf^{(n+1)}(t)(x-t)^n\\dx{t}\\)\\). \\(\\(\\end{align*}\\)\\)",
     "to": [
       "thm_ConvCauchyEquivNIP"
     ],
@@ -1224,7 +1224,7 @@
     "label": "Theorem 10.3.1 .",
     "category": "Limits & Continuity",
     "definition": "A continuous function defined on a closed, bounded interval must be bounded.",
-    "long_description": "A continuous function defined on a closed, bounded interval must be bounded. That is, let \\\\(f\\\\) be a continuous function defined on \\\\([\\,a,b].\\\\) Then there exists a positive real number \\\\(B\\\\) such that \\(|f(x)|\\leq B\\) for all \\\\(x\\in[\\,a,b].\\\\)",
+    "long_description": "A continuous function defined on a closed, bounded interval must be bounded. That is, let \\(\\\\(f\\\\) be a continuous function defined on \\(\\\\([\\,a,b].\\\\) Then there exists a positive real number \\(\\\\(B\\\\) such that \\(\\(|f(x)|\\leq B\\)\\) for all \\(\\\\(x\\in[\\,a,b].\\\\)",
     "to": [
       "def_dedekind-cuts-ordering"
     ],
@@ -1242,8 +1242,8 @@
     "id": "def_dedekind-cuts-ordering",
     "label": "Definition 13.2.13 .",
     "category": "General Analysis",
-    "definition": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts.",
-    "long_description": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts. Then we say that \\\\(\\alpha\\\\) is less than \\\\(\\beta,\\\\) and write \\[  \\alpha\\lt \\beta  \\] if there is a rational number in \\\\(\\beta\\\\) which is not in \\\\(\\alpha.\\\\)",
+    "definition": "Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts.",
+    "long_description": "Let \\(\\\\(\\alpha\\\\) and \\(\\\\(\\beta\\\\) be cuts. Then we say that \\(\\\\(\\alpha\\\\) is less than \\(\\\\(\\beta,\\\\) and write \\(\\[  \\alpha\\lt \\beta  \\]\\) if there is a rational number in \\(\\\\(\\beta\\\\) which is not in \\(\\\\(\\alpha.\\\\)",
     "to": [
       "def_dedekind-cuts"
     ],
@@ -1280,8 +1280,8 @@
     "id": "def_EquivCauchySeq",
     "label": "Definition 13.2.4 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(x=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\) and \\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\) be Cauchy sequences in \\\\(\\mathbb{Q}.\\\\) \\\\(x\\\\) and \\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\\\(\\eps>0,\\\\) \\\\(\\eps\\in\\mathbb{Q},\\\\) there is a rational number \\\\(N\\\\) such that for all \\\\(n>N,\\\\) \\\\(n\\in \\mathbb{N},\\\\) \\[  \\abs{s_n-\\sigma_n}\\lt \\eps.  \\] We will denote equivalence by writing\\), \\\\(x\\equiv y.\\\\).",
-    "long_description": "Let \\\\(x=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\) and \\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\) be Cauchy sequences in \\\\(\\mathbb{Q}.\\\\) \\\\(x\\\\) and \\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\\\(\\eps>0,\\\\) \\\\(\\eps\\in\\mathbb{Q},\\\\) there is a rational number \\\\(N\\\\) such that for all \\\\(n>N,\\\\) \\\\(n\\in \\mathbb{N},\\\\) \\[  \\abs{s_n-\\sigma_n}\\lt \\eps.  \\] We will denote equivalence by writing\\), \\\\(x\\equiv y.\\\\)",
+    "definition": "Let \\(\\\\(x=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\)\\) and \\(\\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\)\\) be Cauchy sequences in \\(\\\\(\\mathbb{Q}.\\\\) \\(\\\\(x\\\\) and \\(\\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\(\\\\(\\eps>0,\\\\) \\(\\\\(\\eps\\in\\mathbb{Q},\\\\) there is a rational number \\(\\\\(N\\\\) such that for all \\(\\\\(n>N,\\\\) \\(\\\\(n\\in \\mathbb{N},\\\\) \\(\\[  \\abs{s_n-\\sigma_n}\\lt \\eps.  \\]\\) We will denote equivalence by \\(writing\\)\\), \\(\\\\(x\\equiv y.\\\\).",
+    "long_description": "Let \\(\\\\(x=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\)\\) and \\(\\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\)\\) be Cauchy sequences in \\(\\\\(\\mathbb{Q}.\\\\) \\(\\\\(x\\\\) and \\(\\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\(\\\\(\\eps>0,\\\\) \\(\\\\(\\eps\\in\\mathbb{Q},\\\\) there is a rational number \\(\\\\(N\\\\) such that for all \\(\\\\(n>N,\\\\) \\(\\\\(n\\in \\mathbb{N},\\\\) \\(\\[  \\abs{s_n-\\sigma_n}\\lt \\eps.  \\]\\) We will denote equivalence by \\(writing\\)\\), \\(\\\\(x\\equiv y.\\\\)",
     "to": [
       "thm_Rolle_s_Theorem"
     ],
@@ -1299,8 +1299,8 @@
     "id": "thm_Rolle_s_Theorem",
     "label": "Theorem 9.4.8 .",
     "category": "Limits & Continuity",
-    "definition": "Rolle's Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\),\\) \\\\(f\\\\) is continuous on \\\\([a,b],\\\\) and \\[  f(a)=f(b) .  \\] Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=0 .  \\].",
-    "long_description": "Rolle's Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\),\\) \\\\(f\\\\) is continuous on \\\\([a,b],\\\\) and \\[  f(a)=f(b) .  \\] Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=0 .  \\]",
+    "definition": "Rolle's Theorem Suppose \\(\\\\(f^\\'\\\\) exists for every \\(\\\\(x\\in(a,b\\)\\),\\) \\(\\\\(f\\\\) is continuous on \\(\\\\([a,b],\\\\) and \\(\\[  f(a)=f(b) .  \\]\\) Then there is a real number \\(\\\\(c\\in(a,b\\)\\)\\) such that \\(\\[  f^\\'(c)=0 .  \\]\\).",
+    "long_description": "Rolle's Theorem Suppose \\(\\\\(f^\\'\\\\) exists for every \\(\\\\(x\\in(a,b\\)\\),\\) \\(\\\\(f\\\\) is continuous on \\(\\\\([a,b],\\\\) and \\(\\[  f(a)=f(b) .  \\]\\) Then there is a real number \\(\\\\(c\\in(a,b\\)\\)\\) such that \\(\\[  f^\\'(c)=0 .  \\]\\)",
     "to": [
       "def_PowerSeries"
     ],
@@ -1318,8 +1318,8 @@
     "id": "def_PowerSeries",
     "label": "Definition 4.2.1 .",
     "category": "Sequences & Series",
-    "definition": "A power series centered at \\\\(\\boldsymbol{a}\\\\) is a series of the form \\[  \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots.  \\] Often we will focus on the behavior of power series \\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\\\(0,\\\\) as the series centered around other values of \\\\(a\\\\) are obtained by shifting a series centered at \\\\(0.\\\\).",
-    "long_description": "A power series centered at \\\\(\\boldsymbol{a}\\\\) is a series of the form \\[  \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots.  \\] Often we will focus on the behavior of power series \\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\\\(0,\\\\) as the series centered around other values of \\\\(a\\\\) are obtained by shifting a series centered at \\\\(0.\\\\)",
+    "definition": "A power series centered at \\(\\\\(\\boldsymbol{a}\\\\) is a series of the form \\(\\[  \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots.  \\]\\) Often we will focus on the behavior of power series \\(\\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\(\\\\(0,\\\\) as the series centered around other values of \\(\\\\(a\\\\) are obtained by shifting a series centered at \\(\\\\(0.\\\\).",
+    "long_description": "A power series centered at \\(\\\\(\\boldsymbol{a}\\\\) is a series of the form \\(\\[  \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots.  \\]\\) Often we will focus on the behavior of power series \\(\\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\(\\\\(0,\\\\) as the series centered around other values of \\(\\\\(a\\\\) are obtained by shifting a series centered at \\(\\\\(0.\\\\)",
     "to": [
       "thm_rearrangements"
     ],
@@ -1337,8 +1337,8 @@
     "id": "thm_rearrangements",
     "label": "Theorem 5.2.2 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(a\\\\) be any real number.",
-    "long_description": "Let \\\\(a\\\\) be any real number. There exists a rearrangement of the series \\\\(1-\\frac{1}{2}+\\frac{1}{3}-\\cdots\\\\) which converges to \\\\(a.\\\\)",
+    "definition": "Let \\(\\\\(a\\\\) be any real number.",
+    "long_description": "Let \\(\\\\(a\\\\) be any real number. There exists a rearrangement of the series \\(\\\\(1-\\frac{1}{2}+\\frac{1}{3}-\\cdots\\\\) which converges to \\(\\\\(a.\\\\)",
     "to": [
       "thm_ConvergeToC"
     ],
@@ -1356,8 +1356,8 @@
     "id": "thm_ConvergeToC",
     "label": "Theorem 10.1.4 .",
     "category": "Sequences & Series",
-    "definition": "Suppose that we have two sequences \\\\(\\left(x_n\\right\\)\\) and \\\\(\\left(y_n\\right\\)\\) satisfying all of the assumptions of the Nested Interval Property.",
-    "long_description": "Suppose that we have two sequences \\\\(\\left(x_n\\right\\)\\) and \\\\(\\left(y_n\\right\\)\\) satisfying all of the assumptions of the Nested Interval Property. If \\\\(c\\\\) is the unique number such that \\\\(x_n\\leq c\\leq y_n\\\\) for all \\\\(n,\\\\) then \\\\(\\lim_{n\\rightarrow\\infty}x_n=c\\\\) and \\\\(\\lim_{n\\rightarrow\\infty}y_n=c.\\\\)",
+    "definition": "Suppose that we have two sequences \\(\\\\(\\left(x_n\\right\\)\\)\\) and \\(\\\\(\\left(y_n\\right\\)\\)\\) satisfying all of the assumptions of the Nested Interval Property.",
+    "long_description": "Suppose that we have two sequences \\(\\\\(\\left(x_n\\right\\)\\)\\) and \\(\\\\(\\left(y_n\\right\\)\\)\\) satisfying all of the assumptions of the Nested Interval Property. If \\(\\\\(c\\\\) is the unique number such that \\(\\\\(x_n\\leq c\\leq y_n\\\\) for all \\(\\\\(n,\\\\) then \\(\\\\(\\lim_{n\\rightarrow\\infty}x_n=c\\\\) and \\(\\\\(\\lim_{n\\rightarrow\\infty}y_n=c.\\\\)",
     "to": [
       "def_CountableSets"
     ],
@@ -1375,8 +1375,8 @@
     "id": "def_CountableSets",
     "label": "Definition 12.1.4 .",
     "category": "General Analysis",
-    "definition": "Any set which can be put into one-to-one correspondence with \\\\(\\mathbb{N}=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set.",
-    "long_description": "Any set which can be put into one-to-one correspondence with \\\\(\\mathbb{N}=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set. Any set which is either finite or countably infinite is said to be countable .",
+    "definition": "Any set which can be put into one-to-one correspondence with \\(\\\\(\\mathbb{N}=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set.",
+    "long_description": "Any set which can be put into one-to-one correspondence with \\(\\\\(\\mathbb{N}=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set. Any set which is either finite or countably infinite is said to be countable .",
     "to": [
       "def_dedekind-multiplication"
     ],
@@ -1394,8 +1394,8 @@
     "id": "def_dedekind-multiplication",
     "label": "Definition 13.2.21 .",
     "category": "General Analysis",
-    "definition": "Multiplication Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases}  \\].",
-    "long_description": "Multiplication Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases}  \\]",
+    "definition": "Multiplication Let \\(\\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\(\\[  \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases}  \\]\\).",
+    "long_description": "Multiplication Let \\(\\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\(\\[  \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases}  \\]\\)",
     "to": [
       "def_ConvergeToZero"
     ],
@@ -1413,8 +1413,8 @@
     "id": "def_ConvergeToZero",
     "label": "Definition 7.1.1 .",
     "category": "Real Number System",
-    "definition": "Let \\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\) be a sequence of real numbers\\).",
-    "long_description": "Let \\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\) be a sequence of real numbers\\). We say that \\\\(\\left(\\boldsymbol{s}_{\\boldsymbol{n}}\\right\\)\\) converges to 0 and write \\\\(\\lim_{n\\rightarrow\\infty}s_n=0\\\\) provided for any \\\\(\\eps>0,\\\\) there is a real number \\\\(N\\\\) such that if \\\\(n>N,\\\\) then \\\\(|s_n|\\lt \\eps.\\\\)",
+    "definition": "Let \\(\\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\)\\) be a sequence of real \\(numbers\\)\\).",
+    "long_description": "Let \\(\\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\)\\) be a sequence of real \\(numbers\\)\\). We say that \\(\\\\(\\left(\\boldsymbol{s}_{\\boldsymbol{n}}\\right\\)\\)\\) converges to 0 and write \\(\\\\(\\lim_{n\\rightarrow\\infty}s_n=0\\\\) provided for any \\(\\\\(\\eps>0,\\\\) there is a real number \\(\\\\(N\\\\) such that if \\(\\\\(n>N,\\\\) then \\(\\\\(|s_n|\\lt \\eps.\\\\)",
     "to": [
       "thm_SqrtsExist"
     ],
@@ -1432,8 +1432,8 @@
     "id": "thm_SqrtsExist",
     "label": "Theorem 10.1.6 .",
     "category": "General Analysis",
-    "definition": "Suppose \\\\(a\\in\\mathbb{R},\\,a\\geq 0.\\\\) There exists a real number \\\\(c\\geq 0\\\\) such that \\\\(c^2=a.\\\\).",
-    "long_description": "Suppose \\\\(a\\in\\mathbb{R},\\,a\\geq 0.\\\\) There exists a real number \\\\(c\\geq 0\\\\) such that \\\\(c^2=a.\\\\)",
+    "definition": "Suppose \\(\\\\(a\\in\\mathbb{R},\\,a\\geq 0.\\\\) There exists a real number \\(\\\\(c\\geq 0\\\\) such that \\(\\\\(c^2=a.\\\\).",
+    "long_description": "Suppose \\(\\\\(a\\in\\mathbb{R},\\,a\\geq 0.\\\\) There exists a real number \\(\\\\(c\\geq 0\\\\) such that \\(\\\\(c^2=a.\\\\)",
     "to": [
       "thm_CommonDenominatorsExist"
     ],
@@ -1451,8 +1451,8 @@
     "id": "thm_CommonDenominatorsExist",
     "label": "Theorem 3.0.4 .",
     "category": "General Analysis",
-    "definition": "Suppose \\\\(a, b, c, d \\in \\mathbb{N}\\\\) be integers.",
-    "long_description": "Suppose \\\\(a, b, c, d \\in \\mathbb{N}\\\\) be integers. There is a number \\\\(\\alpha\\in\\mathbb{Q}\\\\) such that \\\\(M\\alpha=a/b\\\\) and \\\\(N\\alpha=c/d\\\\) where \\\\(M\\\\) and \\\\(N\\\\) are also integers.",
+    "definition": "Suppose \\(\\\\(a, b, c, d \\in \\mathbb{N}\\\\) be integers.",
+    "long_description": "Suppose \\(\\\\(a, b, c, d \\in \\mathbb{N}\\\\) be integers. There is a number \\(\\\\(\\alpha\\in\\mathbb{Q}\\\\) such that \\(\\\\(M\\alpha=a/b\\\\) and \\(\\\\(N\\alpha=c/d\\\\) where \\(\\\\(M\\\\) and \\(\\\\(N\\\\) are also integers.",
     "to": [
       "def_LeastUpperBound"
     ],
@@ -1471,7 +1471,7 @@
     "label": "Definition 10.4.2 . Least Upper Bound Property ( LUBP ).",
     "category": "Real Number System",
     "definition": "Least Upper Bound Property ( LUBP ).",
-    "long_description": "Least Upper Bound Property ( LUBP ). Let \\\\(S\\subseteq\\mathbb{R}\\\\) and let \\\\(b\\\\) be a real number. We say that \\\\(b\\\\) is the least upper bound of \\\\(S\\\\) provided \\\\(b\\geq x\\\\) for all \\\\(x\\in S.\\\\) \\( \\(b\\\\) is an upper bound of \\\\(S\\\\) ) If \\\\(c\\geq x\\\\) for all \\\\(x\\in S,\\\\) then \\\\(c\\geq b.\\\\) \\(Any upper bound of \\(S\\\\) is at least as big as \\\\(b.\\\\) ) In this case, we also say that \\\\(b\\\\) is the supremum of \\\\(S\\\\) and we write \\[  b=\\sup\\left\\(S\\right\\).  \\]",
+    "long_description": "Least Upper Bound Property ( LUBP ). Let \\(\\\\(S\\subseteq\\mathbb{R}\\\\) and let \\(\\\\(b\\\\) be a real number. We say that \\(\\\\(b\\\\) is the least upper bound of \\(\\\\(S\\\\) provided \\(\\\\(b\\geq x\\\\) for all \\(\\\\(x\\in S.\\\\) \\(\\( \\(b\\\\) is an upper bound of \\(\\\\(S\\\\) ) If \\(\\\\(c\\geq x\\\\) for all \\(\\\\(x\\in S,\\\\) then \\(\\\\(c\\geq b.\\\\) \\(\\(Any upper bound of \\(S\\\\) is at least as big as \\(\\\\(b.\\\\) ) In this case, we also say that \\(\\\\(b\\\\) is the supremum of \\(\\\\(S\\\\) and we write \\(\\[  b=\\sup\\left\\(S\\right\\).  \\]\\)",
     "to": [
       "IntermediateValueTheorem"
     ],
@@ -1489,8 +1489,8 @@
     "id": "IntermediateValueTheorem",
     "label": "Theorem 10.2.1 .",
     "category": "Limits & Continuity",
-    "definition": "Intermediate Value Theorem Suppose \\(f(x)\\) is continuous on \\\\([a,b]\\\\) and \\\\(v\\\\) is any real number between \\(f(a)\\) and \\(f(b).\\) Then there exists a real number \\\\(c\\in[\\,a,b]\\\\) such that \\(f(c)=v.\\).",
-    "long_description": "Intermediate Value Theorem Suppose \\(f(x)\\) is continuous on \\\\([a,b]\\\\) and \\\\(v\\\\) is any real number between \\(f(a)\\) and \\(f(b).\\) Then there exists a real number \\\\(c\\in[\\,a,b]\\\\) such that \\(f(c)=v.\\)",
+    "definition": "Intermediate Value Theorem Suppose \\(\\(f(x)\\)\\) is continuous on \\(\\\\([a,b]\\\\) and \\(\\\\(v\\\\) is any real number between \\(\\(f(a)\\)\\) and \\(\\(f(b).\\)\\) Then there exists a real number \\(\\\\(c\\in[\\,a,b]\\\\) such that \\(\\(f(c)=v.\\)\\).",
+    "long_description": "Intermediate Value Theorem Suppose \\(\\(f(x)\\)\\) is continuous on \\(\\\\([a,b]\\\\) and \\(\\\\(v\\\\) is any real number between \\(\\(f(a)\\)\\) and \\(\\(f(b).\\)\\) Then there exists a real number \\(\\\\(c\\in[\\,a,b]\\\\) such that \\(\\(f(c)=v.\\)\\)",
     "to": [
       "def_PointwiseConvergence"
     ],
@@ -1509,8 +1509,8 @@
     "id": "def_PointwiseConvergence",
     "label": "Definition 11.1.2 .",
     "category": "Real Number System",
-    "definition": "Let \\\\(S\\\\) be a subset of the real number system and let \\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\) be a sequence of functions defined on \\\\(S.\\\\) Let \\\\(f\\\\) be a function defined on \\\\(S\\\\) as well\\).",
-    "long_description": "Let \\\\(S\\\\) be a subset of the real number system and let \\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\) be a sequence of functions defined on \\\\(S.\\\\) Let \\\\(f\\\\) be a function defined on \\\\(S\\\\) as well\\). We say that \\\\(\\left(f_n\\right\\)\\) converges to \\\\(f\\\\) pointwise on \\\\(S\\\\) provided that for all \\\\(x\\in S,\\\\) the sequence of real numbers \\\\(\\left(f_n(x\\)\\(\\right)\\) converges to the number \\(f(x).\\) In this case we write \\\\(\\,f_n \\text{ pointwise }  f\\\\) on \\\\(S.\\\\)\\)",
+    "definition": "Let \\(\\\\(S\\\\) be a subset of the real number system and let \\(\\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\)\\) be a sequence of functions defined on \\(\\\\(S.\\\\) Let \\(\\\\(f\\\\) be a function defined on \\(\\\\(S\\\\) as \\(well\\)\\).",
+    "long_description": "Let \\(\\\\(S\\\\) be a subset of the real number system and let \\(\\\\(\\left(f_n\\right\\)=\\(\\left\\(f_1,f_2,f_3,\\,\\ldots\\right\\)\\)\\) be a sequence of functions defined on \\(\\\\(S.\\\\) Let \\(\\\\(f\\\\) be a function defined on \\(\\\\(S\\\\) as \\(well\\)\\). We say that \\(\\\\(\\left(f_n\\right\\)\\)\\) converges to \\(\\\\(f\\\\) pointwise on \\(\\\\(S\\\\) provided that for all \\(\\\\(x\\in S,\\\\) the sequence of real numbers \\(\\\\(\\left(f_n(x\\)\\(\\right)\\)\\) converges to the number \\(\\(f(x).\\)\\) In this case we write \\(\\\\(\\,f_n \\text{ pointwise }  f\\\\) on \\(\\\\(S.\\\\)\\)",
     "to": [
       "thm_Converge-_Cauchy"
     ],
@@ -1528,8 +1528,8 @@
     "id": "thm_Converge-_Cauchy",
     "label": "Theorem 11.2.11 .",
     "category": "Real Number System",
-    "definition": "Suppose \\\\(\\left(s_n\\right\\)\\) is a sequence of real numbers which converges to \\\\(s.\\\\) Then \\\\(\\left(s_n\\right\\)\\) is a Cauchy sequence.",
-    "long_description": "Suppose \\\\(\\left(s_n\\right\\)\\) is a sequence of real numbers which converges to \\\\(s.\\\\) Then \\\\(\\left(s_n\\right\\)\\) is a Cauchy sequence.",
+    "definition": "Suppose \\(\\\\(\\left(s_n\\right\\)\\)\\) is a sequence of real numbers which converges to \\(\\\\(s.\\\\) Then \\(\\\\(\\left(s_n\\right\\)\\)\\) is a Cauchy sequence.",
+    "long_description": "Suppose \\(\\\\(\\left(s_n\\right\\)\\)\\) is a sequence of real numbers which converges to \\(\\\\(s.\\\\) Then \\(\\\\(\\left(s_n\\right\\)\\)\\) is a Cauchy sequence.",
     "to": [
       "TaylorSeriesThm"
     ],
@@ -1547,8 +1547,8 @@
     "id": "TaylorSeriesThm",
     "label": "Theorem 5.1.1 .",
     "category": "Differentiation",
-    "definition": "If \\(f(x)=\\sum_{n=0}^\\infty a_n(x-a)^n,\\) then \\\\(a_n=\\frac{f^{(n\\)}(a)}{n!},\\) where \\\\(f^{(n\\)}(a)\\) represents the \\\\(n^{th}\\\\) derivative of \\\\(f\\\\) evaluated at \\\\(a.\\\\).",
-    "long_description": "If \\(f(x)=\\sum_{n=0}^\\infty a_n(x-a)^n,\\) then \\\\(a_n=\\frac{f^{(n\\)}(a)}{n!},\\) where \\\\(f^{(n\\)}(a)\\) represents the \\\\(n^{th}\\\\) derivative of \\\\(f\\\\) evaluated at \\\\(a.\\\\)",
+    "definition": "If \\(\\(f(x)=\\sum_{n=0}^\\infty a_n(x-a)^n,\\)\\) then \\(\\\\(a_n=\\frac{f^{(n\\)}(a)}{n!}\\),\\) where \\(\\\\(f^{(n\\)}(a)\\)\\) represents the \\(\\\\(n^{th}\\\\) derivative of \\(\\\\(f\\\\) evaluated at \\(\\\\(a.\\\\).",
+    "long_description": "If \\(\\(f(x)=\\sum_{n=0}^\\infty a_n(x-a)^n,\\)\\) then \\(\\\\(a_n=\\frac{f^{(n\\)}(a)}{n!}\\),\\) where \\(\\\\(f^{(n\\)}(a)\\)\\) represents the \\(\\\\(n^{th}\\\\) derivative of \\(\\\\(f\\\\) evaluated at \\(\\\\(a.\\\\)",
     "to": [
       "def_AddTimesViaCauchy"
     ],
@@ -1566,8 +1566,8 @@
     "id": "def_AddTimesViaCauchy",
     "label": "Definition 13.2.7 .",
     "category": "Sequences & Series",
-    "definition": "If \\[  x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] and \\[  y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] then we define the following: Addition:.",
-    "long_description": "If \\[  x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] and \\[  y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] then we define the following: Addition:. \\\\(\\displaystyle x+y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\(\\infty \\right| t_k = s_k+\\sigma_k\\), \\(\\forall \\(s_n\\) \\in x\\), \\(\\text{ and } \\(\\sigma_n\\)\\in y\\right\\}\\) Multiplication:\\). \\\\(\\displaystyle x\\cdot y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\(\\infty \\right| t_k = s_k\\sigma_k\\), \\(\\forall \\(s_n\\) \\in x\\), \\(\\text{ and } \\(\\sigma_n\\)\\in y\\right\\}\\)\\)",
+    "definition": "If \\(\\[  x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\]\\) and \\(\\[  y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\]\\) then we define the following: Addition:.",
+    "long_description": "If \\(\\[  x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\]\\) and \\(\\[  y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\]\\) then we define the following: Addition:. \\(\\\\(\\displaystyle x+y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\(\\infty \\right| t_k = s_k+\\sigma_k\\)\\), \\(\\(\\forall \\(s_n\\)\\) \\in \\(x\\)\\), \\(\\(\\text{ and } \\(\\sigma_n\\)\\in\\) \\(y\\right\\}\\)\\) \\(Multiplication:\\)\\). \\(\\\\(\\displaystyle x\\cdot y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\(\\infty \\right| t_k = s_k\\sigma_k\\)\\), \\(\\(\\forall \\(s_n\\)\\) \\in \\(x\\)\\), \\(\\(\\text{ and } \\(\\sigma_n\\)\\in\\) \\(y\\right\\}\\)\\)\\)",
     "to": [
       "thm_SumOfSequences"
     ],
@@ -1585,8 +1585,8 @@
     "id": "thm_SumOfSequences",
     "label": "Theorem 7.2.4 .",
     "category": "General Analysis",
-    "definition": "If \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n+b_n\\right\\)=a+b.\\).",
-    "long_description": "If \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n+b_n\\right\\)=a+b.\\)",
+    "definition": "If \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n+b_n\\right\\)=a+b\\).\\).",
+    "long_description": "If \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b,\\\\) then \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(a_n+b_n\\right\\)=a+b\\).\\)",
     "to": [
       "def_CauchySequence"
     ],
@@ -1604,8 +1604,8 @@
     "id": "def_CauchySequence",
     "label": "Definition 11.2.10 .",
     "category": "Real Number System",
-    "definition": "Let \\\\(\\left(s_n\\right\\)\\) be a sequence of real numbers.",
-    "long_description": "Let \\\\(\\left(s_n\\right\\)\\) be a sequence of real numbers. We say that \\\\(\\left(s_n\\right\\)\\) is a Cauchy sequence if for any \\\\(\\eps>0,\\\\) there exists a real number \\\\(N\\\\) such that if \\\\(m,n>N,\\\\) then \\\\(|s_m-s_n|\\lt \\eps.\\\\)",
+    "definition": "Let \\(\\\\(\\left(s_n\\right\\)\\)\\) be a sequence of real numbers.",
+    "long_description": "Let \\(\\\\(\\left(s_n\\right\\)\\)\\) be a sequence of real numbers. We say that \\(\\\\(\\left(s_n\\right\\)\\)\\) is a Cauchy sequence if for any \\(\\\\(\\eps>0,\\\\) there exists a real number \\(\\\\(N\\\\) such that if \\(\\\\(m,n>N,\\\\) then \\(\\\\(|s_m-s_n|\\lt \\eps.\\\\)",
     "to": [
       "def_ConvergenceOfASequence"
     ],
@@ -1623,8 +1623,8 @@
     "id": "def_ConvergenceOfASequence",
     "label": "Definition 7.1.11 .",
     "category": "Real Number System",
-    "definition": "Let \\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\) be a sequence of real numbers and let \\\\(s\\\\) be a real number\\).",
-    "long_description": "Let \\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\) be a sequence of real numbers and let \\\\(s\\\\) be a real number\\). We say that \\\\(\\left(\\boldsymbol{s}_{\\boldsymbol{n}}\\right\\)\\) {converges to} \\\\(\\boldsymbol{s}\\\\) and write \\\\(\\lim_{n\\rightarrow\\infty}s_n=s\\\\) provided for any \\\\(\\eps>0,\\\\) there is a real number \\\\(N\\\\) such that if \\\\(n>N,\\\\) then \\\\(|s_n-s|\\lt \\eps.\\\\)",
+    "definition": "Let \\(\\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\)\\) be a sequence of real numbers and let \\(\\\\(s\\\\) be a real \\(number\\)\\).",
+    "long_description": "Let \\(\\\\(\\left(s_n\\right\\)=\\(\\left\\(s_1,s_2,s_3,\\ldots\\right\\)\\)\\) be a sequence of real numbers and let \\(\\\\(s\\\\) be a real \\(number\\)\\). We say that \\(\\\\(\\left(\\boldsymbol{s}_{\\boldsymbol{n}}\\right\\)\\)\\) {converges to} \\(\\\\(\\boldsymbol{s}\\\\) and write \\(\\\\(\\lim_{n\\rightarrow\\infty}s_n=s\\\\) provided for any \\(\\\\(\\eps>0,\\\\) there is a real number \\(\\\\(N\\\\) such that if \\(\\\\(n>N,\\\\) then \\(\\\\(|s_n-s|\\lt \\eps.\\\\)",
     "to": [
       "def_derived-set"
     ],
@@ -1642,8 +1642,8 @@
     "id": "def_derived-set",
     "label": "Definition 12.0.7 .",
     "category": "Limits & Continuity",
-    "definition": "Let \\\\(S\\subseteq\\mathbb{R}.\\\\) The set of all limit points of \\\\(S\\\\) is called the derived set of \\\\(S.\\\\) The derived set is denoted \\\\(S^{\\'}.\\\\).",
-    "long_description": "Let \\\\(S\\subseteq\\mathbb{R}.\\\\) The set of all limit points of \\\\(S\\\\) is called the derived set of \\\\(S.\\\\) The derived set is denoted \\\\(S^{\\'}.\\\\)",
+    "definition": "Let \\(\\\\(S\\subseteq\\mathbb{R}.\\\\) The set of all limit points of \\(\\\\(S\\\\) is called the derived set of \\(\\\\(S.\\\\) The derived set is denoted \\(\\\\(S^{\\'}.\\\\).",
+    "long_description": "Let \\(\\\\(S\\subseteq\\mathbb{R}.\\\\) The set of all limit points of \\(\\\\(S\\\\) is called the derived set of \\(\\\\(S.\\\\) The derived set is denoted \\(\\\\(S^{\\'}.\\\\)",
     "to": [
       "thm_NoSeriesContainsAllReals"
     ],
@@ -1661,8 +1661,8 @@
     "id": "thm_NoSeriesContainsAllReals",
     "label": "Theorem 12.1.3 .",
     "category": "Real Number System",
-    "definition": "Cantor, (1874) Let \\\\(S=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\) be a sequence of real numbers\\).",
-    "long_description": "Cantor, (1874) Let \\\\(S=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\) be a sequence of real numbers\\). There is a real number \\\\(c,\\\\) which is not in \\\\(S.\\\\) To streamline things, we are abusing notation here as we are letting \\\\(S\\\\) denote both the sequence (which is ordered) and the underlying (unordered) set of entries in the sequence.",
+    "definition": "Cantor, (1874) Let \\(\\\\(S=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\)\\) be a sequence of real \\(numbers\\)\\).",
+    "long_description": "Cantor, (1874) Let \\(\\\\(S=\\left(s_n\\right\\)_{n=1}^\\(\\infty\\)\\) be a sequence of real \\(numbers\\)\\). There is a real number \\(\\\\(c,\\\\) which is not in \\(\\\\(S.\\\\) To streamline things, we are abusing notation here as we are letting \\(\\\\(S\\\\) denote both the sequence (which is ordered) and the underlying (unordered) set of entries in the sequence.",
     "to": [
       "thm_LimitOfQuotient"
     ],
@@ -1680,8 +1680,8 @@
     "id": "thm_LimitOfQuotient",
     "label": "Theorem 7.2.12 .",
     "category": "General Analysis",
-    "definition": "Suppose \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b.\\\\) Also suppose \\\\(b\\neq q 0\\\\) and \\\\(b_n\\neq q 0,\\forall\\,n.\\\\) Then \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(\\frac{a_n}{b_n}\\right\\)=\\(\\frac{a}{b}\\).\\).",
-    "long_description": "Suppose \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b.\\\\) Also suppose \\\\(b\\neq q 0\\\\) and \\\\(b_n\\neq q 0,\\forall\\,n.\\\\) Then \\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(\\frac{a_n}{b_n}\\right\\)=\\(\\frac{a}{b}\\).\\)",
+    "definition": "Suppose \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b.\\\\) Also suppose \\(\\\\(b\\neq q q 0\\\\) and \\(\\\\(b_n\\neq q q 0,\\forall\\,n.\\\\) Then \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(\\frac{a_n}{b_n}\\right\\)=\\(\\frac{a}{b}\\)\\).\\).",
+    "long_description": "Suppose \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}a_n=a\\\\) and \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}b_n=b.\\\\) Also suppose \\(\\\\(b\\neq q q 0\\\\) and \\(\\\\(b_n\\neq q q 0,\\forall\\,n.\\\\) Then \\(\\\\(\\displaystyle\\lim_{n\\rightarrow\\infty}\\left(\\frac{a_n}{b_n}\\right\\)=\\(\\frac{a}{b}\\)\\).\\)",
     "to": [
       "thm_TaylorSeries"
     ],
@@ -1699,8 +1699,8 @@
     "id": "thm_TaylorSeries",
     "label": "Theorem 8.1.1 .",
     "category": "Sequences & Series",
-    "definition": "Taylor's series If there exists a real number \\\\(B\\\\) such that \\\\(|f^{(n+1\\)}(t)|\\(\\leq B\\) for all nonnegative integers \\\\(n\\\\) and for all \\\\(t\\\\) on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\[  \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0  \\] and so \\[  f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{}  \\]\\).",
-    "long_description": "Taylor's series If there exists a real number \\\\(B\\\\) such that \\\\(|f^{(n+1\\)}(t)|\\(\\leq B\\) for all nonnegative integers \\\\(n\\\\) and for all \\\\(t\\\\) on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\[  \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0  \\] and so \\[  f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{}  \\]\\)",
+    "definition": "Taylor's series If there exists a real number \\(\\\\(B\\\\) such that \\(\\\\(|f^{(n+1\\)}(t)|\\(\\leq B\\)\\) for all nonnegative integers \\(\\\\(n\\\\) and for all \\(\\\\(t\\\\) on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x,\\\\) then \\(\\[  \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0  \\]\\) and so \\(\\[  f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{}  \\]\\)\\).",
+    "long_description": "Taylor's series If there exists a real number \\(\\\\(B\\\\) such that \\(\\\\(|f^{(n+1\\)}(t)|\\(\\leq B\\)\\) for all nonnegative integers \\(\\\\(n\\\\) and for all \\(\\\\(t\\\\) on an interval containing \\(\\\\(a\\\\) and \\(\\\\(x,\\\\) then \\(\\[  \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0  \\]\\) and so \\(\\[  f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{}  \\]\\)\\)",
     "to": [
       "def_EqualCardinality"
     ],
