@@ -3,8 +3,8 @@
     "id": "thm_ArchmedeanProperty",
     "label": "Theorem 10.4.14 .",
     "category": "Real Number System",
-    "definition": "Archimedean Property of   Given any positive real numbers   and   there exists a positive integer   such that  .",
-    "long_description": "Archimedean Property of   Given any positive real numbers   and   there exists a positive integer   such that  ",
+    "definition": "The Archimedean Property states that for any real number, there is always a larger natural number.",
+    "long_description": "For any real number \\(x \\in \\mathbb{R}\\), there exists a natural number \\(n \\in \\mathbb{N}\\) such that\n\n\\[ n > x \\]\n\nThis property ensures that the set of natural numbers is not bounded above in the real numbers.",
     "to": [
       "thm_LimDefOfContinuity"
     ],
@@ -58,8 +58,8 @@
     "id": "thm_ContSumProd",
     "label": "Theorem 9.2.7 .",
     "category": "Limits & Continuity",
-    "definition": "Suppose   and   are both continuous at   Then   and   are continuous at  .",
-    "long_description": "Suppose   and   are both continuous at   Then   and   are continuous at  ",
+    "definition": "The sum and product of continuous functions are also continuous.",
+    "long_description": "If \\(f\\) and \\(g\\) are functions continuous at a point \\(a\\), then:\n\n1. The sum \\(f + g\\) is continuous at \\(a\\).\n\n2. The product \\(fg\\) is continuous at \\(a\\).\n\nThis follows from the limit laws: \\(\\lim (f+g) = \\lim f + \\lim g\\) and \\(\\lim (fg) = (\\lim f)(\\lim g)\\).",
     "to": [
       "thm_Cantor_1870"
     ],
@@ -821,8 +821,8 @@
     "id": "thm_WeakNIP",
     "label": "Theorem 12.1.1 .",
     "category": "Sequences & Series",
-    "definition": "Let  \\(_{n=1}^\\) \\(\\)\\) be a sequence of nested intervals such that   Then there is at least one   such that   for all  \\(\\)\\).",
-    "long_description": "Let  \\(_{n=1}^\\) \\(\\)\\) be a sequence of nested intervals such that   Then there is at least one   such that   for all  \\(\\)\\)",
+    "definition": "The Weak Nested Interval Property states that the intersection of a nested sequence of closed intervals is non-empty.",
+    "long_description": "Let \\([a_n, b_n]\\) be a sequence of closed, bounded intervals such that \\([a_{n+1}, b_{n+1}]\\) is contained in \\([a_n, b_n]\\) for all \\(n \\in \\mathbb{N}\\). Then the intersection of all such intervals is non-empty:\n\n\\[ \\bigcap_{n=1}^{\\infty} [a_n, b_n] \\neq \\emptyset \\]",
     "to": [
       "thm_DiffImpCont"
     ],
@@ -1661,8 +1661,8 @@
     "id": "thm_NoSeriesContainsAllReals",
     "label": "Theorem 12.1.3 .",
     "category": "Real Number System",
-    "definition": "Cantor, (1874) Let  \\(_{n=1}^\\) \\(\\)\\) be a sequence of real  \\(\\)\\).",
-    "long_description": "Cantor, (1874) Let  \\(_{n=1}^\\) \\(\\)\\) be a sequence of real  \\(\\)\\). There is a real number   which is not in   To streamline things, we are abusing notation here as we are letting   denote both the sequence (which is ordered) and the underlying (unordered) set of entries in the sequence.",
+    "definition": "Cantor's Theorem on the uncountability of the reals states that no sequence of real numbers can contain every real number.",
+    "long_description": "There exists no sequence \\((x_n)_{n=1}^{\\infty}\\) of real numbers such that every real number \\(r \\in \\mathbb{R}\\) appears as a term in the sequence. This implies that the set of real numbers \\(\\mathbb{R}\\) is uncountable.",
     "to": [
       "thm_LimitOfQuotient"
     ],
@@ -1699,8 +1699,8 @@
     "id": "thm_TaylorSeries",
     "label": "Theorem 8.1.1 .",
     "category": "Sequences & Series",
-    "definition": "Taylor's series If there exists a real number   such that  }(t)| \\(\\)\\) for all nonnegative integers   and for all   on an interval containing   and   then  }(t)(x-t)\\(^n\\dx{ t}\\right)=0\\)  \\(\\]\\)\\) and so  \\(\\)\\).",
-    "long_description": "Taylor's series If there exists a real number   such that  }(t)| \\(\\)\\) for all nonnegative integers   and for all   on an interval containing   and   then  }(t)(x-t)\\(^n\\dx{ t}\\right)=0\\)  \\(\\]\\)\\) and so  \\(\\)\\)",
+    "definition": "Taylor's Theorem provides a way to approximate a differentiable function using a polynomial series.",
+    "long_description": "If a function \\(f\\) has derivatives of all orders in a neighborhood of \\(a\\), then for any \\(x\\) in that neighborhood, we can express the function as:\n\n\\[ f(x) = \\sum_{n=0}^{k} \\frac{f^{(n)}(a)}{n!}(x-a)^n + R_k(x) \\]\n\nwhere \\(R_k(x)\\) is the remainder term.",
     "to": [
       "def_EqualCardinality"
     ],
