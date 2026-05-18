@@ -21,7 +21,7 @@
     "label": "Theorem 9.2.1 .",
     "category": "Sequences & Series",
     "definition": "A function is continuous at a point if the limit of the function as it approaches that point equals the function's value at that point.",
-    "long_description": "A function \\(f\\) is continuous at a point \\(a\\) in its domain if:\n\n\\[ \\lim_{x \\to a} f(x) = f(a) \\]\n\nThis means that for any \\(\\epsilon > 0\\), there exists a \\(\\delta > 0\\) such that for all \\(x\\) in the domain, if \\(|x - a| < \\delta\\), then \\(|f(x) - f(a)| < \\epsilon\\).",
+    "long_description": "A function \\( f \\) is continuous at a point \\( a \\) in its domain if:\n\n\\[ \\lim_{x \\to a} f(x) = f(a) \\]\n\nThis means that for any \\( \\epsilon > 0 \\), there exists a \\( \\delta > 0 \\) such that for all \\( x \\) in the domain, the condition \\( |x - a| < \\delta \\) implies that \\( |f(x) - f(a)| < \\epsilon \\).",
     "to": [
       "thm_LagrangeRemainder"
     ],
@@ -422,7 +422,7 @@
     "label": "Definition 7.3.1 .",
     "category": "Real Number System",
     "definition": "A sequence diverges if it does not converge to any finite real number.",
-    "long_description": "A sequence \\((x_n)\\) is said to diverge if it is not convergent. This can happen in several ways: the sequence may diverge to infinity (\\(\\lim_{n \\to \\infty} x_n = \\infty\\(), diverge to negative infinity (\\(\\lim_{n \\to \\infty} x_n = -\\infty\\(), or oscillate without approaching any specific value (e.g., the sequence \\((-1)^n\\)).",
+    "long_description": "A sequence \\( (x_n) \\) is said to diverge if it is not convergent. This can happen in several ways: the sequence may diverge to infinity, denoted as \\( \\lim_{n \\to \\infty} x_n = \\infty \\), diverge to negative infinity, denoted as \\( \\lim_{n \\to \\infty} x_n = -\\infty \\), or oscillate without approaching any specific value, such as the sequence \\( (-1)^n \\).",
     "to": [
       "thm_Cantor-uniqueness-of-trig-series"
     ],
@@ -670,7 +670,7 @@
     "label": "Theorem 11.3.5 .",
     "category": "Real Number System",
     "definition": "The Weierstrass M-test provides a sufficient condition for the uniform convergence of a series of functions.",
-    "long_description": "Suppose we have a sequence of functions \\(f_n\\) defined on a set \\(E\\). If there exists a sequence of constants \\(M_n\\) such that \\(|f_n(x)| \\le M_n\\) for all \\(x \\in E\\) and all \\(n \\in \\mathbb{N}\\), and if the series \\(\\sum_{n=1}^{\\infty} M_n\\) converges, then the series \\(\\sum_{n=1}^{\\infty} f_n(x)\\) converges uniformly on \\(E\\).",
+    "long_description": "Suppose we have a sequence of functions \\( f_n \\) defined on a set \\( E \\). If there exists a sequence of constants \\( M_n \\) such that for all \\( x \\in E \\) and all \\( n \\in \\mathbb{N} \\), we have\n\n\\[ |f_n(x)| \\le M_n \\]\n\nand if the series \\( \\sum_{n=1}^{\\infty} M_n \\) converges, then the series \\( \\sum_{n=1}^{\\infty} f_n(x) \\) converges uniformly on \\( E \\).",
     "to": [
       "thm_LimitOfProduct"
     ],
@@ -1281,7 +1281,7 @@
     "label": "Definition 13.2.4 .",
     "category": "Sequences & Series",
     "definition": "Two Cauchy sequences are said to be equivalent if the limit of the difference between their terms is zero.",
-    "long_description": "Two Cauchy sequences \\((x_n)\\) and \\((y_n)\\) in a metric space are equivalent if for every \\(\\epsilon > 0\\), there exists an integer \\(N\\) such that for all \\(n > N\\), we have \\(d(x_n, y_n) < \\epsilon\\). In terms of limits, this is equivalent to saying \\(\\lim_{n \\to \\infty} (x_n - y_n) = 0\\) in the context of real numbers.",
+    "long_description": "Two Cauchy sequences \\( (x_n) \\) and \\( (y_n) \\) in a metric space are equivalent if for every \\( \\epsilon > 0 \\), there exists an integer \\( N \\) such that for all \\( n > N \\), we have\n\n\\[ d(x_n, y_n) < \\epsilon \\]\n\nIn the context of real numbers, this is equivalent to saying that the limit of their difference is zero: \\( \\lim_{n \\to \\infty} (x_n - y_n) = 0 \\).",
     "to": [
       "thm_Rolle_s_Theorem"
     ],
