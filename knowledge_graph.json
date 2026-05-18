@@ -154,8 +154,8 @@
     "id": "thm_CauchyRemainder",
     "label": "Theorem 8.3.1 .",
     "category": "Sequences & Series",
-    "definition": "Cauchy's Form of the Remainder Suppose   is a function such that  }(t)\\(\\)\\)\\) is continuous on an interval containing   and   Then  }(a)}{j!}(x-a)\\[ ^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a) \\]  \\(\\]\\)\\) where   is some number between   and  .",
-    "long_description": "Cauchy's Form of the Remainder Suppose   is a function such that  }(t)\\(\\)\\)\\) is continuous on an interval containing   and   Then  }(a)}{j!}(x-a)\\[ ^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a) \\]  \\(\\]\\)\\) where   is some number between   and  ",
+    "definition": "The Cauchy form of the remainder is an alternative to the Lagrange form, often used in proving the convergence of Taylor series.",
+    "long_description": "Let \\(f\\( be a function whose \\((n+1)\\(-th derivative exists on an open interval containing \\(a\\( and \\(x\\(. Then there exists a number \\(c\\( between \\(a\\( and \\(x\\( such that the remainder \\(R_n(x)\\( is given by:\n\n\\[ R_n(x) = \\frac{f^{(n+1)}(c)}{n!}(x-c)^n(x-a) \\]\n\nUnlike the Lagrange form, the Cauchy form is particularly useful when the \\((n+1)\\(-th derivative does not behave simply, allowing for tighter bounds in specific cases.",
     "to": [
       "thm_EVT"
     ],
