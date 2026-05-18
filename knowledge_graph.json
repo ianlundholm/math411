@@ -20,8 +20,8 @@
     "id": "thm_LimDefOfContinuity",
     "label": "Theorem 9.2.1 .",
     "category": "Sequences & Series",
-    "definition": "The function \\\\(f\\\\) is continuous at \\\\(a\\\\) if and only if \\\\(f\\\\) satisfies the following property: \\begin{equation*} \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{} \\end{equation*}.",
-    "long_description": "The function \\\\(f\\\\) is continuous at \\\\(a\\\\) if and only if \\\\(f\\\\) satisfies the following property: \\begin{equation*} \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{} \\end{equation*}",
+    "definition": "The function \\\\(f\\\\) is continuous at \\\\(a\\\\) if and only if \\\\(f\\\\) satisfies the following property: \\[  \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{}  \\].",
+    "long_description": "The function \\\\(f\\\\) is continuous at \\\\(a\\\\) if and only if \\\\(f\\\\) satisfies the following property: \\[  \\forall\\text{ sequences } \\left\\(x_n\\right\\)\\text{, if } \\,\\,\\lim_{n\\rightarrow\\infty}x_n=a \\text{ then} \\lim_{n\\rightarrow\\infty}f\\(x_n\\)=f(a).{}  \\]",
     "to": [
       "thm_LagrangeRemainder"
     ],
@@ -39,8 +39,8 @@
     "id": "thm_LagrangeRemainder",
     "label": "Theorem 8.2.1 .",
     "category": "Limits & Continuity",
-    "definition": "Lagrange's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\begin{equation*} f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1} \\end{equation*} where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\).",
-    "long_description": "Lagrange's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\begin{equation*} f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1} \\end{equation*} where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\)",
+    "definition": "Lagrange's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1}  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\).",
+    "long_description": "Lagrange's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{(n+1)!}(x-a)^{n+1}  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\)",
     "to": [
       "thm_ContSumProd"
     ],
@@ -77,8 +77,8 @@
     "id": "thm_Cantor_1870",
     "label": "Theorem 12.0.2 .",
     "category": "Sequences & Series",
-    "definition": "Cantor, (1870) If the trigonometric series \\begin{equation*} \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0, \\end{equation*} for all \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
-    "long_description": "Cantor, (1870) If the trigonometric series \\begin{equation*} \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0, \\end{equation*} for all \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "definition": "Cantor, (1870) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "long_description": "Cantor, (1870) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
     "to": [
       "def_DivToInf"
     ],
@@ -154,8 +154,8 @@
     "id": "thm_CauchyRemainder",
     "label": "Theorem 8.3.1 .",
     "category": "Sequences & Series",
-    "definition": "Cauchy's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\begin{equation*} f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a) \\end{equation*} where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\).",
-    "long_description": "Cauchy's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\begin{equation*} f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a) \\end{equation*} where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\)",
+    "definition": "Cauchy's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a)  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\).",
+    "long_description": "Cauchy's Form of the Remainder Suppose \\\\(f\\\\) is a function such that \\\\(f^{(n+1\\)}(t)\\) is continuous on an interval containing \\\\(a\\\\) and \\\\(x.\\\\) Then \\[  f(x)-\\left\\(\\sum_{j=0}^n\\frac{f^{(j\\)}(a)}{j!}(x-a)^j\\right)=\\frac{f^{\\, (n+1)}(c)}{n!}(x-c)^n(x-a)  \\] where \\\\(c\\\\) is some number between \\\\(a\\\\) and \\\\(x.\\\\)",
     "to": [
       "thm_EVT"
     ],
@@ -326,8 +326,8 @@
     "id": "thm_BinomialSeriesConverges",
     "label": "Theorem 8.2.4 .",
     "category": "Sequences & Series",
-    "definition": "The binomial series \\begin{equation*} 1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots \\end{equation*} converges to \\\\(\\sqrt{1+x}\\\\) for \\\\(x\\in[0,1].\\\\).",
-    "long_description": "The binomial series \\begin{equation*} 1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots \\end{equation*} converges to \\\\(\\sqrt{1+x}\\\\) for \\\\(x\\in[0,1].\\\\)",
+    "definition": "The binomial series \\[  1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots  \\] converges to \\\\(\\sqrt{1+x}\\\\) for \\\\(x\\in[0,1].\\\\).",
+    "long_description": "The binomial series \\[  1+\\frac{1}{2}x+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)}{2!}x^2+\\frac{\\frac{1}{2}\\left\\(\\frac{1}{2}-1\\right\\)\\left\\(\\frac{1}{2}-2\\right\\)}{3!}x^3+\\cdots  \\] converges to \\\\(\\sqrt{1+x}\\\\) for \\\\(x\\in[0,1].\\\\)",
     "to": [
       "thm_UnifConv-_Continuity"
     ],
@@ -440,8 +440,8 @@
     "id": "thm_Cantor-uniqueness-of-trig-series",
     "label": "Theorem 12.0.1 .",
     "category": "Sequences & Series",
-    "definition": "Cantor If the trigonometric series \\begin{equation*} \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0, \\end{equation*} \u201cwith the exception of certain values of \\\\(x,\\\\) \u201d then all of its coefficients vanish.",
-    "long_description": "Cantor If the trigonometric series \\begin{equation*} \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0, \\end{equation*} \u201cwith the exception of certain values of \\\\(x,\\\\) \u201d then all of its coefficients vanish.",
+    "definition": "Cantor If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] \u201cwith the exception of certain values of \\\\(x,\\\\) \u201d then all of its coefficients vanish.",
+    "long_description": "Cantor If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] \u201cwith the exception of certain values of \\\\(x,\\\\) \u201d then all of its coefficients vanish.",
     "to": [
       "thm_FermatsLittleTheorem"
     ],
@@ -478,8 +478,8 @@
     "id": "thm_MVT",
     "label": "Theorem 9.4.7 .",
     "category": "Limits & Continuity",
-    "definition": "The Mean Value Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\)\\) and \\\\(f\\\\) is continuous on \\\\([a,b].\\\\) Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\begin{equation*} f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{} \\end{equation*}.",
-    "long_description": "The Mean Value Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\)\\) and \\\\(f\\\\) is continuous on \\\\([a,b].\\\\) Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\begin{equation*} f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{} \\end{equation*}",
+    "definition": "The Mean Value Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\)\\) and \\\\(f\\\\) is continuous on \\\\([a,b].\\\\) Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{}  \\].",
+    "long_description": "The Mean Value Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\)\\) and \\\\(f\\\\) is continuous on \\\\([a,b].\\\\) Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=\\frac{f(b)-f(a)}{b-a}.{}  \\]",
     "to": [
       "def_accumulation-point"
     ],
@@ -575,7 +575,7 @@
     "label": "Definition 13.2.20 .",
     "category": "General Analysis",
     "definition": "Let \\\\(A\\in\\mathbb{R}\\\\) as above.",
-    "long_description": "Let \\\\(A\\in\\mathbb{R}\\\\) as above. Then \\begin{equation*} \\abs{A}= \\begin{cases}\\chi \\amp \\text{ if \\\\(A=\\chi{}\\\\)} \\\\ 0 \\amp \\text{ if \\\\(A=0\\\\) } \\\\ \\chi \\amp \\text{ if \\\\(A=-\\chi{}.\\\\)} {} \\end{cases} \\end{equation*}",
+    "long_description": "Let \\\\(A\\in\\mathbb{R}\\\\) as above. Then \\[  \\abs{A}= \\begin{cases}\\chi \\amp \\text{ if \\\\(A=\\chi{}\\\\)} \\\\ 0 \\amp \\text{ if \\\\(A=0\\\\) } \\\\ \\chi \\amp \\text{ if \\\\(A=-\\chi{}.\\\\)} {} \\end{cases}  \\]",
     "to": [
       "th_UniformIntegralConvergence"
     ],
@@ -594,7 +594,7 @@
     "label": "Theorem 11.2.1 .",
     "category": "General Analysis",
     "definition": "Suppose \\\\(f_n\\\\) and \\\\(f\\\\) are integrable and \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\([a,b].\\\\) Then \\begin{equation*} \\lim_{n\\rightarrow\\infty}\\int_{x=a}^b f_n(x)\\dx{ x}=\\int_{x=a}^bf(x)\\dx{ x}.",
-    "long_description": "Suppose \\\\(f_n\\\\) and \\\\(f\\\\) are integrable and \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\([a,b].\\\\) Then \\begin{equation*} \\lim_{n\\rightarrow\\infty}\\int_{x=a}^b f_n(x)\\dx{ x}=\\int_{x=a}^bf(x)\\dx{ x}. {} \\end{equation*}",
+    "long_description": "Suppose \\\\(f_n\\\\) and \\\\(f\\\\) are integrable and \\\\(f_n \\text{ uniformly }  f\\\\) on \\\\([a,b].\\\\) Then \\[  \\lim_{n\\rightarrow\\infty}\\int_{x=a}^b f_n(x)\\dx{ x}=\\int_{x=a}^bf(x)\\dx{ x}. {}  \\]",
     "to": [
       "thm_IrrationalBetweenIrrationals"
     ],
@@ -650,8 +650,8 @@
     "id": "def_CutSubtraction",
     "label": "Definition 13.2.23 .",
     "category": "Limits & Continuity",
-    "definition": "If \\\\(\\alpha,\\\\) \\\\(\\beta\\\\) and \\\\(\\delta\\\\) are cuts then the expression \\begin{equation*} \\alpha-\\beta=\\delta \\end{equation*} is defined to mean \\begin{equation*} \\alpha=\\delta+\\beta. \\end{equation*}.",
-    "long_description": "If \\\\(\\alpha,\\\\) \\\\(\\beta\\\\) and \\\\(\\delta\\\\) are cuts then the expression \\begin{equation*} \\alpha-\\beta=\\delta \\end{equation*} is defined to mean \\begin{equation*} \\alpha=\\delta+\\beta. \\end{equation*}",
+    "definition": "If \\\\(\\alpha,\\\\) \\\\(\\beta\\\\) and \\\\(\\delta\\\\) are cuts then the expression \\[  \\alpha-\\beta=\\delta  \\] is defined to mean \\[  \\alpha=\\delta+\\beta.  \\].",
+    "long_description": "If \\\\(\\alpha,\\\\) \\\\(\\beta\\\\) and \\\\(\\delta\\\\) are cuts then the expression \\[  \\alpha-\\beta=\\delta  \\] is defined to mean \\[  \\alpha=\\delta+\\beta.  \\]",
     "to": [
       "thm_WeierstrassM"
     ],
@@ -669,8 +669,8 @@
     "id": "thm_WeierstrassM",
     "label": "Theorem 11.3.5 .",
     "category": "Real Number System",
-    "definition": "The Weierstrass- \\\\(M\\\\) Test Let \\\\(\\left(f_n\\right\\)_{n=1}^\\infty\\) be a sequence of functions defined on \\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\) is a sequence of nonnegative real numbers such that \\begin{equation*} \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots. \\end{equation*} If \\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\\\(\\sum_{n=1}^\\infty f_n(x\\)\\) converges uniformly on \\\\(S\\\\) to some function \\(which we will denote by \\(f(x\\)\\) ).",
-    "long_description": "The Weierstrass- \\\\(M\\\\) Test Let \\\\(\\left(f_n\\right\\)_{n=1}^\\infty\\) be a sequence of functions defined on \\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\) is a sequence of nonnegative real numbers such that \\begin{equation*} \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots. \\end{equation*} If \\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\\\(\\sum_{n=1}^\\infty f_n(x\\)\\) converges uniformly on \\\\(S\\\\) to some function \\(which we will denote by \\(f(x\\)\\) ).",
+    "definition": "The Weierstrass- \\\\(M\\\\) Test Let \\\\(\\left(f_n\\right\\)_{n=1}^\\infty\\) be a sequence of functions defined on \\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\) is a sequence of nonnegative real numbers such that \\[  \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots.  \\] If \\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\\\(\\sum_{n=1}^\\infty f_n(x\\)\\) converges uniformly on \\\\(S\\\\) to some function \\(which we will denote by \\(f(x\\)\\) ).",
+    "long_description": "The Weierstrass- \\\\(M\\\\) Test Let \\\\(\\left(f_n\\right\\)_{n=1}^\\infty\\) be a sequence of functions defined on \\\\(S\\subseteq\\mathbb{R}\\\\) and suppose that \\\\(\\left(M_n\\right\\)_{n=1}^\\infty\\) is a sequence of nonnegative real numbers such that \\[  \\abs{f_n(x)}\\leq M_n,\\,\\, \\forall x\\in S,\\,\\, n=1, 2, 3, \\ldots.  \\] If \\\\(\\sum_{n=1}^\\infty M_n\\\\) converges then \\\\(\\sum_{n=1}^\\infty f_n(x\\)\\) converges uniformly on \\\\(S\\\\) to some function \\(which we will denote by \\(f(x\\)\\) ).",
     "to": [
       "thm_LimitOfProduct"
     ],
@@ -764,8 +764,8 @@
     "id": "thm_QisCountable",
     "label": "Theorem 12.1.8 .",
     "category": "General Analysis",
-    "definition": "Show that \\\\(\\QQ\\\\) is countable.",
-    "long_description": "Theorem 12.1.8 .: Show that \\\\(\\QQ\\\\) is countable.",
+    "definition": "Show that \\\\(\\mathbb{Q}\\\\) is countable.",
+    "long_description": "Theorem 12.1.8 .: Show that \\\\(\\mathbb{Q}\\\\) is countable.",
     "to": [
       "thm_SqueezeTheoremFunctions"
     ],
@@ -918,8 +918,8 @@
     "id": "def_SubtractionOfCutsAsSets",
     "label": "Definition 13.2.24 .",
     "category": "General Analysis",
-    "definition": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts with \\\\(\\beta\\lt \\alpha.\\\\) Define \\\\(\\alpha-\\beta\\\\) as follows: \\begin{equation*} \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\QQ^+. \\end{equation*}.",
-    "long_description": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts with \\\\(\\beta\\lt \\alpha.\\\\) Define \\\\(\\alpha-\\beta\\\\) as follows: \\begin{equation*} \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\QQ^+. \\end{equation*}",
+    "definition": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts with \\\\(\\beta\\lt \\alpha.\\\\) Define \\\\(\\alpha-\\beta\\\\) as follows: \\[  \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\mathbb{Q}^+.  \\].",
+    "long_description": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts with \\\\(\\beta\\lt \\alpha.\\\\) Define \\\\(\\alpha-\\beta\\\\) as follows: \\[  \\alpha-\\beta =\\left\\{x-y|x\\in\\alpha \\text{ and } y\\not\\in\\beta\\right\\}\\cap\\mathbb{Q}^+.  \\]",
     "to": [
       "thm_ZeroInCauchySequences"
     ],
@@ -937,8 +937,8 @@
     "id": "thm_ZeroInCauchySequences",
     "label": "Theorem 13.2.9 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(0^*\\\\) be the set of Cauchy sequences in \\\\(\\QQ\\\\) which are all equivalent to the sequence \\\\((0, 0, 0, \\ldots\\).\\) Then \\begin{equation*} 0^*+x=x. \\end{equation*}.",
-    "long_description": "Let \\\\(0^*\\\\) be the set of Cauchy sequences in \\\\(\\QQ\\\\) which are all equivalent to the sequence \\\\((0, 0, 0, \\ldots\\).\\) Then \\begin{equation*} 0^*+x=x. \\end{equation*}",
+    "definition": "Let \\\\(0^*\\\\) be the set of Cauchy sequences in \\\\(\\mathbb{Q}\\\\) which are all equivalent to the sequence \\\\((0, 0, 0, \\ldots\\).\\) Then \\[  0^*+x=x.  \\].",
+    "long_description": "Let \\\\(0^*\\\\) be the set of Cauchy sequences in \\\\(\\mathbb{Q}\\\\) which are all equivalent to the sequence \\\\((0, 0, 0, \\ldots\\).\\) Then \\[  0^*+x=x.  \\]",
     "to": [
       "def_subsequences"
     ],
@@ -976,7 +976,7 @@
     "label": "Definition 9.4.1 . The Derivative.",
     "category": "Limits & Continuity",
     "definition": "The Derivative.",
-    "long_description": "The Derivative. Given a function \\(f(x)\\) defined on an interval \\((a,b)\\) we define \\begin{equation*} f^\\'(x) = \\limit{h}{0}{\\frac{f(x+h)-f(x)}{h}}.{} \\end{equation*}",
+    "long_description": "The Derivative. Given a function \\(f(x)\\) defined on an interval \\((a,b)\\) we define \\[  f^\\'(x) = \\limit{h}{0}{\\frac{f(x+h)-f(x)}{h}}.{}  \\]",
     "to": [
       "thm_ContComp",
       "thm_MVT"
@@ -1071,8 +1071,8 @@
     "id": "thm_Cantor-1871-b",
     "label": "Theorem 12.0.3 .",
     "category": "Sequences & Series",
-    "definition": "Cantor, (1871) If the trigonometric series \\begin{equation*} \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0, \\end{equation*} for all but finitely many \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
-    "long_description": "Cantor, (1871) If the trigonometric series \\begin{equation*} \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0, \\end{equation*} for all but finitely many \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "definition": "Cantor, (1871) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all but finitely many \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
+    "long_description": "Cantor, (1871) If the trigonometric series \\[  \\sum_{n=0}^\\infty\\left\\(c_n\\cos n\\pi x\\,+d_n\\sin n\\pi x\\right\\) = 0,  \\] for all but finitely many \\\\(x\\in\\mathbb{R}\\\\) then all of its coefficients vanish.",
     "to": [
       "thm_CauchyCriterion"
     ],
@@ -1128,8 +1128,8 @@
     "id": "def_dedekind-addition",
     "label": "Definition 13.2.22 .",
     "category": "General Analysis",
-    "definition": "Addition Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\begin{equation*} \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} . \\end{equation*}.",
-    "long_description": "Addition Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\begin{equation*} \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} . \\end{equation*}",
+    "definition": "Addition Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} .  \\].",
+    "long_description": "Addition Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha+\\beta= \\begin{cases}-\\(\\abs{\\alpha}+\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta\\lt 0 \\\\) } \\\\ \\ \\ \\ \\abs{\\alpha}-\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}>\\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\ \\ \\,0 \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}=\\abs{\\beta} \\\\)} \\\\ -\\(\\abs{\\alpha}-\\abs{\\beta}\\) \\amp \\text{ if \\\\(\\alpha>0, \\beta\\lt 0, \\abs{\\alpha}\\lt \\abs{\\beta} \\\\)} \\\\ \\ \\ \\ \\ \\ \\beta+\\alpha \\amp \\text{ if \\\\(\\alpha\\lt 0, \\beta>0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\beta{} \\amp \\text{ if \\\\(\\alpha=0 \\\\) } \\\\ \\ \\ \\ \\ \\ \\ \\ \\,\\alpha \\amp \\text{ if \\\\(\\beta=0 \\\\) } \\end{cases} .  \\]",
     "to": [
       "thm_SqueezeTheorem"
     ],
@@ -1243,7 +1243,7 @@
     "label": "Definition 13.2.13 .",
     "category": "General Analysis",
     "definition": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts.",
-    "long_description": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts. Then we say that \\\\(\\alpha\\\\) is less than \\\\(\\beta,\\\\) and write \\begin{equation*} \\alpha\\lt \\beta \\end{equation*} if there is a rational number in \\\\(\\beta\\\\) which is not in \\\\(\\alpha.\\\\)",
+    "long_description": "Let \\\\(\\alpha\\\\) and \\\\(\\beta\\\\) be cuts. Then we say that \\\\(\\alpha\\\\) is less than \\\\(\\beta,\\\\) and write \\[  \\alpha\\lt \\beta  \\] if there is a rational number in \\\\(\\beta\\\\) which is not in \\\\(\\alpha.\\\\)",
     "to": [
       "def_dedekind-cuts"
     ],
@@ -1280,8 +1280,8 @@
     "id": "def_EquivCauchySeq",
     "label": "Definition 13.2.4 .",
     "category": "Sequences & Series",
-    "definition": "Let \\\\(x=\\left(s_n\\right\\)_{n=1}^\\infty\\) and \\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\) be Cauchy sequences in \\\\(\\QQ.\\\\) \\\\(x\\\\) and \\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\\\(\\eps>0,\\\\) \\\\(\\eps\\in\\QQ,\\\\) there is a rational number \\\\(N\\\\) such that for all \\\\(n>N,\\\\) \\\\(n\\in \\mathbb{N},\\\\) \\begin{equation*} \\abs{s_n-\\sigma_n}\\lt \\eps. \\end{equation*} We will denote equivalence by writing, \\\\(x\\equiv y.\\\\).",
-    "long_description": "Let \\\\(x=\\left(s_n\\right\\)_{n=1}^\\infty\\) and \\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\) be Cauchy sequences in \\\\(\\QQ.\\\\) \\\\(x\\\\) and \\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\\\(\\eps>0,\\\\) \\\\(\\eps\\in\\QQ,\\\\) there is a rational number \\\\(N\\\\) such that for all \\\\(n>N,\\\\) \\\\(n\\in \\mathbb{N},\\\\) \\begin{equation*} \\abs{s_n-\\sigma_n}\\lt \\eps. \\end{equation*} We will denote equivalence by writing, \\\\(x\\equiv y.\\\\)",
+    "definition": "Let \\\\(x=\\left(s_n\\right\\)_{n=1}^\\infty\\) and \\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\) be Cauchy sequences in \\\\(\\mathbb{Q}.\\\\) \\\\(x\\\\) and \\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\\\(\\eps>0,\\\\) \\\\(\\eps\\in\\mathbb{Q},\\\\) there is a rational number \\\\(N\\\\) such that for all \\\\(n>N,\\\\) \\\\(n\\in \\mathbb{N},\\\\) \\[  \\abs{s_n-\\sigma_n}\\lt \\eps.  \\] We will denote equivalence by writing, \\\\(x\\equiv y.\\\\).",
+    "long_description": "Let \\\\(x=\\left(s_n\\right\\)_{n=1}^\\infty\\) and \\\\(y=\\left(\\sigma_n\\right\\)_{n=1}^\\infty\\) be Cauchy sequences in \\\\(\\mathbb{Q}.\\\\) \\\\(x\\\\) and \\\\(y\\\\) are said to be equivalent if they satisfy the following property: For every \\\\(\\eps>0,\\\\) \\\\(\\eps\\in\\mathbb{Q},\\\\) there is a rational number \\\\(N\\\\) such that for all \\\\(n>N,\\\\) \\\\(n\\in \\mathbb{N},\\\\) \\[  \\abs{s_n-\\sigma_n}\\lt \\eps.  \\] We will denote equivalence by writing, \\\\(x\\equiv y.\\\\)",
     "to": [
       "thm_Rolle_s_Theorem"
     ],
@@ -1299,8 +1299,8 @@
     "id": "thm_Rolle_s_Theorem",
     "label": "Theorem 9.4.8 .",
     "category": "Limits & Continuity",
-    "definition": "Rolle's Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\),\\) \\\\(f\\\\) is continuous on \\\\([a,b],\\\\) and \\begin{equation*} f(a)=f(b) . \\end{equation*} Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\begin{equation*} f^\\'(c)=0 . \\end{equation*}.",
-    "long_description": "Rolle's Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\),\\) \\\\(f\\\\) is continuous on \\\\([a,b],\\\\) and \\begin{equation*} f(a)=f(b) . \\end{equation*} Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\begin{equation*} f^\\'(c)=0 . \\end{equation*}",
+    "definition": "Rolle's Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\),\\) \\\\(f\\\\) is continuous on \\\\([a,b],\\\\) and \\[  f(a)=f(b) .  \\] Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=0 .  \\].",
+    "long_description": "Rolle's Theorem Suppose \\\\(f^\\'\\\\) exists for every \\\\(x\\in(a,b\\),\\) \\\\(f\\\\) is continuous on \\\\([a,b],\\\\) and \\[  f(a)=f(b) .  \\] Then there is a real number \\\\(c\\in(a,b\\)\\) such that \\[  f^\\'(c)=0 .  \\]",
     "to": [
       "def_PowerSeries"
     ],
@@ -1318,8 +1318,8 @@
     "id": "def_PowerSeries",
     "label": "Definition 4.2.1 .",
     "category": "Sequences & Series",
-    "definition": "A power series centered at \\\\(\\boldsymbol{a}\\\\) is a series of the form \\begin{equation*} \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots. \\end{equation*} Often we will focus on the behavior of power series \\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\\\(0,\\\\) as the series centered around other values of \\\\(a\\\\) are obtained by shifting a series centered at \\\\(0.\\\\).",
-    "long_description": "A power series centered at \\\\(\\boldsymbol{a}\\\\) is a series of the form \\begin{equation*} \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots. \\end{equation*} Often we will focus on the behavior of power series \\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\\\(0,\\\\) as the series centered around other values of \\\\(a\\\\) are obtained by shifting a series centered at \\\\(0.\\\\)",
+    "definition": "A power series centered at \\\\(\\boldsymbol{a}\\\\) is a series of the form \\[  \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots.  \\] Often we will focus on the behavior of power series \\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\\\(0,\\\\) as the series centered around other values of \\\\(a\\\\) are obtained by shifting a series centered at \\\\(0.\\\\).",
+    "long_description": "A power series centered at \\\\(\\boldsymbol{a}\\\\) is a series of the form \\[  \\sum_{n=0}^\\infty a_n(x-a)^n=a_0+a_1(x-a)+a_2(x-a)^2+\\cdots.  \\] Often we will focus on the behavior of power series \\\\(\\sum_{n=0}^\\infty a_nx^n,\\\\) centered around \\\\(0,\\\\) as the series centered around other values of \\\\(a\\\\) are obtained by shifting a series centered at \\\\(0.\\\\)",
     "to": [
       "thm_rearrangements"
     ],
@@ -1375,8 +1375,8 @@
     "id": "def_CountableSets",
     "label": "Definition 12.1.4 .",
     "category": "General Analysis",
-    "definition": "Any set which can be put into one-to-one correspondence with \\\\(\\NN=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set.",
-    "long_description": "Any set which can be put into one-to-one correspondence with \\\\(\\NN=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set. Any set which is either finite or countably infinite is said to be countable .",
+    "definition": "Any set which can be put into one-to-one correspondence with \\\\(\\mathbb{N}=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set.",
+    "long_description": "Any set which can be put into one-to-one correspondence with \\\\(\\mathbb{N}=\\left\\{1,2,3,\\ldots\\right\\}\\\\) is called a countably infinite set. Any set which is either finite or countably infinite is said to be countable .",
     "to": [
       "def_dedekind-multiplication"
     ],
@@ -1394,8 +1394,8 @@
     "id": "def_dedekind-multiplication",
     "label": "Definition 13.2.21 .",
     "category": "General Analysis",
-    "definition": "Multiplication Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\begin{equation*} \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases} \\end{equation*}.",
-    "long_description": "Multiplication Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\begin{equation*} \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases} \\end{equation*}",
+    "definition": "Multiplication Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases}  \\].",
+    "long_description": "Multiplication Let \\\\(\\alpha, \\beta\\in\\mathbb{R}.\\\\) Then \\[  \\alpha\\cdot\\beta = \\begin{cases}-\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha>0,\\beta\\lt 0\\\\) or \\\\(\\alpha\\lt 0, \\beta>0,\\\\) } \\\\ \\ \\ \\,\\abs{\\alpha}\\abs{\\beta}\\amp \\text{ if \\\\(\\alpha\\lt 0,\\beta\\lt 0,\\\\) } \\\\ \\ \\ \\ \\ \\ \\, 0\\amp \\text{ if \\\\(\\alpha=0\\\\) or \\\\(\\beta=0.\\\\) } {} \\end{cases}  \\]",
     "to": [
       "def_ConvergeToZero"
     ],
@@ -1452,7 +1452,7 @@
     "label": "Theorem 3.0.4 .",
     "category": "General Analysis",
     "definition": "Suppose \\\\(a, b, c, d \\in \\mathbb{N}\\\\) be integers.",
-    "long_description": "Suppose \\\\(a, b, c, d \\in \\mathbb{N}\\\\) be integers. There is a number \\\\(\\alpha\\in\\QQ\\\\) such that \\\\(M\\alpha=a/b\\\\) and \\\\(N\\alpha=c/d\\\\) where \\\\(M\\\\) and \\\\(N\\\\) are also integers.",
+    "long_description": "Suppose \\\\(a, b, c, d \\in \\mathbb{N}\\\\) be integers. There is a number \\\\(\\alpha\\in\\mathbb{Q}\\\\) such that \\\\(M\\alpha=a/b\\\\) and \\\\(N\\alpha=c/d\\\\) where \\\\(M\\\\) and \\\\(N\\\\) are also integers.",
     "to": [
       "def_LeastUpperBound"
     ],
@@ -1471,7 +1471,7 @@
     "label": "Definition 10.4.2 . Least Upper Bound Property ( LUBP ).",
     "category": "Real Number System",
     "definition": "Least Upper Bound Property ( LUBP ).",
-    "long_description": "Least Upper Bound Property ( LUBP ). Let \\\\(S\\subseteq\\mathbb{R}\\\\) and let \\\\(b\\\\) be a real number. We say that \\\\(b\\\\) is the least upper bound of \\\\(S\\\\) provided \\\\(b\\geq x\\\\) for all \\\\(x\\in S.\\\\) \\( \\(b\\\\) is an upper bound of \\\\(S\\\\) ) If \\\\(c\\geq x\\\\) for all \\\\(x\\in S,\\\\) then \\\\(c\\geq b.\\\\) \\(Any upper bound of \\(S\\\\) is at least as big as \\\\(b.\\\\) ) In this case, we also say that \\\\(b\\\\) is the supremum of \\\\(S\\\\) and we write \\begin{equation*} b=\\sup\\left\\(S\\right\\). \\end{equation*}",
+    "long_description": "Least Upper Bound Property ( LUBP ). Let \\\\(S\\subseteq\\mathbb{R}\\\\) and let \\\\(b\\\\) be a real number. We say that \\\\(b\\\\) is the least upper bound of \\\\(S\\\\) provided \\\\(b\\geq x\\\\) for all \\\\(x\\in S.\\\\) \\( \\(b\\\\) is an upper bound of \\\\(S\\\\) ) If \\\\(c\\geq x\\\\) for all \\\\(x\\in S,\\\\) then \\\\(c\\geq b.\\\\) \\(Any upper bound of \\(S\\\\) is at least as big as \\\\(b.\\\\) ) In this case, we also say that \\\\(b\\\\) is the supremum of \\\\(S\\\\) and we write \\[  b=\\sup\\left\\(S\\right\\).  \\]",
     "to": [
       "IntermediateValueTheorem"
     ],
@@ -1566,8 +1566,8 @@
     "id": "def_AddTimesViaCauchy",
     "label": "Definition 13.2.7 .",
     "category": "Sequences & Series",
-    "definition": "If \\begin{equation*} x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\QQ\\\\) } \\right\\} \\end{equation*} and \\begin{equation*} y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\QQ\\\\) } \\right\\} \\end{equation*} then we define the following: Addition:.",
-    "long_description": "If \\begin{equation*} x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\QQ\\\\) } \\right\\} \\end{equation*} and \\begin{equation*} y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\QQ\\\\) } \\right\\} \\end{equation*} then we define the following: Addition:. \\\\(\\displaystyle x+y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\infty \\right| t_k = s_k+\\sigma_k, \\forall \\(s_n\\) \\in x, \\text{ and } \\(\\sigma_n\\)\\in y\\right\\}\\) Multiplication:. \\\\(\\displaystyle x\\cdot y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\infty \\right| t_k = s_k\\sigma_k, \\forall \\(s_n\\) \\in x, \\text{ and } \\(\\sigma_n\\)\\in y\\right\\}\\)",
+    "definition": "If \\[  x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] and \\[  y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] then we define the following: Addition:.",
+    "long_description": "If \\[  x= \\left\\{\\left.\\left\\(s_n\\right\\)_{k=1}^\\infty \\right| \\left\\(s_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] and \\[  y= \\left\\{\\left.\\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\right| \\left\\(\\sigma_n\\right\\)_{k=1}^\\infty \\text{ is Cauchy in \\\\(\\mathbb{Q}\\\\) } \\right\\}  \\] then we define the following: Addition:. \\\\(\\displaystyle x+y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\infty \\right| t_k = s_k+\\sigma_k, \\forall \\(s_n\\) \\in x, \\text{ and } \\(\\sigma_n\\)\\in y\\right\\}\\) Multiplication:. \\\\(\\displaystyle x\\cdot y = \\left\\{\\left.\\left(t_n\\right\\)_{k=1}^\\infty \\right| t_k = s_k\\sigma_k, \\forall \\(s_n\\) \\in x, \\text{ and } \\(\\sigma_n\\)\\in y\\right\\}\\)",
     "to": [
       "thm_SumOfSequences"
     ],
@@ -1699,8 +1699,8 @@
     "id": "thm_TaylorSeries",
     "label": "Theorem 8.1.1 .",
     "category": "Sequences & Series",
-    "definition": "Taylor's series If there exists a real number \\\\(B\\\\) such that \\\\(|f^{(n+1\\)}(t)|\\leq B\\) for all nonnegative integers \\\\(n\\\\) and for all \\\\(t\\\\) on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\begin{equation*} \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0 \\end{equation*} and so \\begin{equation*} f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{} \\end{equation*}.",
-    "long_description": "Taylor's series If there exists a real number \\\\(B\\\\) such that \\\\(|f^{(n+1\\)}(t)|\\leq B\\) for all nonnegative integers \\\\(n\\\\) and for all \\\\(t\\\\) on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\begin{equation*} \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0 \\end{equation*} and so \\begin{equation*} f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{} \\end{equation*}",
+    "definition": "Taylor's series If there exists a real number \\\\(B\\\\) such that \\\\(|f^{(n+1\\)}(t)|\\leq B\\) for all nonnegative integers \\\\(n\\\\) and for all \\\\(t\\\\) on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\[  \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0  \\] and so \\[  f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{}  \\].",
+    "long_description": "Taylor's series If there exists a real number \\\\(B\\\\) such that \\\\(|f^{(n+1\\)}(t)|\\leq B\\) for all nonnegative integers \\\\(n\\\\) and for all \\\\(t\\\\) on an interval containing \\\\(a\\\\) and \\\\(x,\\\\) then \\[  \\lim_{n\\rightarrow\\infty}\\left\\(\\frac{1}{n!}\\int_{t=a}^xf^{(n+1\\)}(t)(x-t)^n\\dx{ t}\\right)=0  \\] and so \\[  f(x)=\\sum_{n=0}^\\infty\\frac{f^{(n)}(a)}{n!}(x-a)^n.{}  \\]",
     "to": [
       "def_EqualCardinality"
     ],
