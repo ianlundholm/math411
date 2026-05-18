@@ -1566,8 +1566,8 @@
     "id": "def_AddTimesViaCauchy",
     "label": "Definition 13.2.7 .",
     "category": "Sequences & Series",
-    "definition": "If  \\(_{k=1}^\\infty\\) \\(\\right|\\) \\(\\left\\) \\(_{k=1}^\\infty\\) \\(\\text{ is Cauchy in \\  }\\) \\(\\right\\}\\)  \\(\\]\\)\\) and  \\(_{k=1}^\\infty\\) \\(\\right|\\) \\(\\left\\) \\(_{k=1}^\\infty\\) \\(\\text{ is Cauchy in \\  }\\) \\(\\right\\}\\)  \\(\\]\\)\\) then we define the following: Addition:.",
-    "long_description": "If  \\(_{k=1}^\\infty\\) \\(\\right|\\) \\(\\left\\) \\(_{k=1}^\\infty\\) \\(\\text{ is Cauchy in \\  }\\) \\(\\right\\}\\)  \\(\\]\\)\\) and  \\(_{k=1}^\\infty\\) \\(\\right|\\) \\(\\left\\) \\(_{k=1}^\\infty\\) \\(\\text{ is Cauchy in \\  }\\) \\(\\right\\}\\)  \\(\\]\\)\\) then we define the following: Addition:.  \\(_{k=1}^\\) \\(\\)\\),  \\(\\)\\) \\(\\in\\)  \\(\\)\\),  \\(\\in\\)\\)  \\(\\)\\)  \\(\\)\\).  \\(_{k=1}^\\) \\(\\)\\),  \\(\\)\\) \\(\\in\\)  \\(\\)\\),  \\(\\in\\)\\)  \\(\\)\\)\\)",
+    "definition": "The Cauchy product of two series \\(\\sum a_n\\( and \\(\\sum b_n\\( is a new series whose \\(n\\(-th term is the sum of all products \\(a_k b_{n-k}\\(.",
+    "long_description": "Given two series \\(\\sum_{k=0}^{\\infty} a_k\\( and \\(\\sum_{k=0}^{\\infty} b_k\\(, their Cauchy product is the series \\(\\sum_{n=0}^{\\infty} c_n\\( where\n\n\\[ c_n = \\sum_{k=0}^{n} a_k b_{n-k} \\]\n\nThis product is the series representation of the product of the two sums, provided at least one of the series converges absolutely.",
     "to": [
       "thm_SumOfSequences"
     ],
