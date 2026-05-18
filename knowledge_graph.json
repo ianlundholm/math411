@@ -39,8 +39,8 @@
     "id": "thm_LagrangeRemainder",
     "label": "Theorem 8.2.1 .",
     "category": "Limits & Continuity",
-    "definition": "The Lagrange form of the remainder for a Taylor polynomial provides a specific value \\(c\\( between \\(a\\( and \\(x\\( that makes the remainder formula exact.",
-    "long_description": "Let \\(f\\( be a function such that its \\((n+1)\\(-th derivative exists on an open interval containing \\(a\\( and \\(x\\(. Then there exists a number \\(c\\( between \\(a\\( and \\(x\\( such that the remainder \\(R_n(x)\\( is given by:\n\n\\[ R_n(x) = \\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1} \\]\n\nThis is known as the Lagrange form of the remainder, and it is useful for estimating the error in Taylor polynomial approximations.",
+    "definition": "The Lagrange form of the remainder for a Taylor polynomial provides a specific value \\(c\\) between \\(a\\) and \\(x\\) that makes the remainder formula exact.",
+    "long_description": "Let \\(f\\) be a function such that its \\((n+1)\\)-th derivative exists on an open interval containing \\(a\\) and \\(x\\). Then there exists a number \\(c\\) between \\(a\\) and \\(x\\) such that the remainder \\(R_n(x)\\) is given by:\n\n\\[ R_n(x) = \\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1} \\]\n\nThis is known as the Lagrange form of the remainder, and it is useful for estimating the error in Taylor polynomial approximations.",
     "to": [
       "thm_ContSumProd"
     ],
@@ -96,8 +96,8 @@
     "id": "def_DivToInf",
     "label": "Definition 7.3.3 .",
     "category": "Sequences & Series",
-    "definition": "A sequence \\((x_n)\\( diverges to infinity if for every real number \\(M\\(, there exists an integer \\(N\\( such that \\(x_n > M\\( for all \\(n > N\\(.",
-    "long_description": "We say a sequence \\((x_n)\\( diverges to infinity, denoted as \\(\\lim_{n \\to \\infty} x_n = \\infty\\(, if for every \\(M \\in \\mathbb{R}\\(, there exists a natural number \\(N\\( such that for all \\(n > N\\(, we have \\(x_n > M\\(. \n\nIntuitively, this means the terms of the sequence eventually grow larger than any fixed value, no matter how large that value is. A similar definition applies to diverging to negative infinity (\\(\\lim_{n \\to \\infty} x_n = -\\infty\\().",
+    "definition": "A sequence \\((x_n)\\) diverges to infinity if for every real number \\(M\\), there exists an integer \\(N\\) such that \\(x_n > M\\) for all \\(n > N\\).",
+    "long_description": "We say a sequence \\((x_n)\\) diverges to infinity, denoted as \\(\\lim_{n \\to \\infty} x_n = \\infty\\), if for every \\(M \\in \\mathbb{R}\\), there exists a natural number \\(N\\) such that for all \\(n > N\\), we have \\(x_n > M\\). \n\nIntuitively, this means the terms of the sequence eventually grow larger than any fixed value, no matter how large that value is. A similar definition applies to diverging to negative infinity (\\(\\lim_{n \\to \\infty} x_n = -\\infty\\)).",
     "to": [
       "AbsoluteConvergence"
     ],
@@ -155,7 +155,7 @@
     "label": "Theorem 8.3.1 .",
     "category": "Sequences & Series",
     "definition": "The Cauchy form of the remainder is an alternative to the Lagrange form, often used in proving the convergence of Taylor series.",
-    "long_description": "Let \\(f\\( be a function whose \\((n+1)\\(-th derivative exists on an open interval containing \\(a\\( and \\(x\\(. Then there exists a number \\(c\\( between \\(a\\( and \\(x\\( such that the remainder \\(R_n(x)\\( is given by:\n\n\\[ R_n(x) = \\frac{f^{(n+1)}(c)}{n!}(x-c)^n(x-a) \\]\n\nUnlike the Lagrange form, the Cauchy form is particularly useful when the \\((n+1)\\(-th derivative does not behave simply, allowing for tighter bounds in specific cases.",
+    "long_description": "Let \\(f\\) be a function whose \\((n+1)\\)-th derivative exists on an open interval containing \\(a\\) and \\(x\\). Then there exists a number \\(c\\) between \\(a\\) and \\(x\\) such that the remainder \\(R_n(x)\\) is given by:\n\n\\[ R_n(x) = \\frac{f^{(n+1)}(c)}{n!}(x-c)^n(x-a) \\]\n\nUnlike the Lagrange form, the Cauchy form is particularly useful when the \\((n+1)\\)-th derivative does not behave simply, allowing for tighter bounds in specific cases.",
     "to": [
       "thm_EVT"
     ],
@@ -1566,8 +1566,8 @@
     "id": "def_AddTimesViaCauchy",
     "label": "Definition 13.2.7 .",
     "category": "Sequences & Series",
-    "definition": "The Cauchy product of two series \\(\\sum a_n\\( and \\(\\sum b_n\\( is a new series whose \\(n\\(-th term is the sum of all products \\(a_k b_{n-k}\\(.",
-    "long_description": "Given two series \\(\\sum_{k=0}^{\\infty} a_k\\( and \\(\\sum_{k=0}^{\\infty} b_k\\(, their Cauchy product is the series \\(\\sum_{n=0}^{\\infty} c_n\\( where\n\n\\[ c_n = \\sum_{k=0}^{n} a_k b_{n-k} \\]\n\nThis product is the series representation of the product of the two sums, provided at least one of the series converges absolutely.",
+    "definition": "The Cauchy product of two series \\(\\sum a_n\\) and \\(\\sum b_n\\) is a new series whose \\(n\\)-th term is the sum of all products \\(a_k b_{n-k}\\).",
+    "long_description": "Given two series \\(\\sum_{k=0}^{\\infty} a_k\\) and \\(\\sum_{k=0}^{\\infty} b_k\\), their Cauchy product is the series \\(\\sum_{n=0}^{\\infty} c_n\\) where\n\n\\[ c_n = \\sum_{k=0}^{n} a_k b_{n-k} \\]\n\nThis product is the series representation of the product of the two sums, provided at least one of the series converges absolutely.",
     "to": [
       "thm_SumOfSequences"
     ],
