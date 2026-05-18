@@ -21,7 +21,7 @@
     "label": "Theorem 9.2.1 .",
     "category": "Sequences & Series",
     "definition": "A function is continuous at a point if the limit of the function as it approaches that point equals the function's value at that point.",
-    "long_description": "A function \\( f \\) is continuous at a point \\( a \\) in its domain if:\n\n\\[ \\lim_{x \\to a} f(x) = f(a) \\]\n\nThis means that for any \\( \\epsilon > 0 \\), there exists a \\( \\delta > 0 \\) such that for all \\( x \\) in the domain, the condition \\( |x - a| < \\delta \\) implies that \\( |f(x) - f(a)| < \\epsilon \\).",
+    "long_description": "A function \\( f \\) is continuous at a point \\( a \\) in its domain if:\n\n\\[ \\lim_{x \\to a} f(x) = f(a) \\]\n\nThis means that for any \\( \\epsilon > 0 \\), there exists a \\( \\delta > 0 \\) such that for all \\( x \\) in the domain, the condition \\( \\lvert x - a \\rvert < \\delta \\) implies that \\( \\lvert f(x) - f(a) \\rvert < \\epsilon \\).",
     "to": [
       "thm_LagrangeRemainder"
     ],
@@ -1281,7 +1281,7 @@
     "label": "Definition 13.2.4 .",
     "category": "Sequences & Series",
     "definition": "Two Cauchy sequences are said to be equivalent if the limit of the difference between their terms is zero.",
-    "long_description": "Two Cauchy sequences \\( (x_n) \\) and \\( (y_n) \\) in a metric space are equivalent if for every \\( \\epsilon > 0 \\), there exists an integer \\( N \\) such that for all \\( n > N \\), we have\n\n\\[ d(x_n, y_n) < \\epsilon \\]\n\nIn the context of real numbers, this is equivalent to saying that the limit of their difference is zero: \\( \\lim_{n \\to \\infty} (x_n - y_n) = 0 \\).",
+    "long_description": "Two Cauchy sequences \\( (x_n) \\) and \\( (y_n) \\) in a metric space are equivalent if for every \\( \\epsilon > 0 \\), there exists an integer \\( N \\) such that for all \\( n > N \\), we have\n\n\\[ d(x_n, y_n) < \\epsilon \\]\n\nIn the context of real numbers, this is equivalent to saying that \\( \\lim_{n \\to \\infty} (x_n - y_n) = 0 \\).",
     "to": [
       "thm_Rolle_s_Theorem"
     ],
