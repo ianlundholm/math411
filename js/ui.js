@@ -455,11 +455,11 @@ export function showSelectionGroupPanel({
   );
 
   safeSetText("info-depth",
-    `${selectedCount} selected node${selectedCount !== 1 ? "s" : ""}`;
+    `${selectedCount} selected node${selectedCount !== 1 ? "s" : ""}`);
   safeSetText("info-upstream",
-    `${prerequisiteCount} prerequisite${prerequisiteCount !== 1 ? "s" : ""} connect to this selection`;
+    `${prerequisiteCount} prerequisite${prerequisiteCount !== 1 ? "s" : ""} connect to this selection`);
   safeSetText("info-downstream",
-    `${dependentCount} concept${dependentCount !== 1 ? "s" : ""} depend${dependentCount === 1 ? "s" : ""} on this selection`;
+    `${dependentCount} concept${dependentCount !== 1 ? "s" : ""} depend${dependentCount === 1 ? "s" : ""} on this selection`);
 
   setInfoMetrics({
     pagerank: null,
