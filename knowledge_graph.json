@@ -96,8 +96,8 @@
     "id": "def_DivToInf",
     "label": "Definition 7.3.3 .",
     "category": "Sequences & Series",
-    "definition": "A sequence,  \\(_{n=1}^\\) \\(\\)\\),\\(\\)\\) diverges to positive infinity if for every real number   there is a real number   such that   A sequence,  \\(_{n=1}^\\) \\(\\)\\),\\(\\)\\) diverges to negative infinity if for every real number   there is a real number   such that   A sequence is said to diverge to infinity if it diverges to either positive or negative infinity.",
-    "long_description": "A sequence,  \\(_{n=1}^\\) \\(\\)\\),\\(\\)\\) diverges to positive infinity if for every real number   there is a real number   such that   A sequence,  \\(_{n=1}^\\) \\(\\)\\),\\(\\)\\) diverges to negative infinity if for every real number   there is a real number   such that   A sequence is said to diverge to infinity if it diverges to either positive or negative infinity.",
+    "definition": "A sequence \\((x_n)\\( diverges to infinity if for every real number \\(M\\(, there exists an integer \\(N\\( such that \\(x_n > M\\( for all \\(n > N\\(.",
+    "long_description": "We say a sequence \\((x_n)\\( diverges to infinity, denoted as \\(\\lim_{n \\to \\infty} x_n = \\infty\\(, if for every \\(M \\in \\mathbb{R}\\(, there exists a natural number \\(N\\( such that for all \\(n > N\\(, we have \\(x_n > M\\(. \n\nIntuitively, this means the terms of the sequence eventually grow larger than any fixed value, no matter how large that value is. A similar definition applies to diverging to negative infinity (\\(\\lim_{n \\to \\infty} x_n = -\\infty\\().",
     "to": [
       "AbsoluteConvergence"
     ],
