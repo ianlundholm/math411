@@ -1,3 +1,19 @@
+
+function safeSetText(id, text) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = text;
+}
+
+function safeSetProperty(id, prop, value) {
+  const el = document.getElementById(id);
+  if (el && el.style) el.style.setProperty(prop, value);
+}
+
+function safeSetInnerHTML(id, html) {
+  const el = document.getElementById(id);
+  if (el) el.innerHTML = html;
+}
+
 // UI overlay: search, layout selector, info panel, legend, controls hint
 
 let searchTimeout = null;
@@ -335,12 +351,12 @@ export function showInfoPanel(
   setBookCtaVisible(true);
 
   const labelEl = document.getElementById("info-label");
-  labelEl.textContent = node.label;
-  labelEl.style.color = primaryColorHex;
+  safeSetText("info-label", node.label);
+  safeSetProperty("info-label", "color", primaryColorHex);
 
   // Category pill
   const catEl = document.getElementById("info-category");
-  catEl.innerHTML = "";
+  safeSetInnerHTML("info-category", "");
   if (node.category) {
     const pill = document.createElement("span");
     pill.className = "category-pill";
@@ -377,10 +393,10 @@ export function showInfoPanel(
     }
   }
 
-  document.getElementById("info-depth").textContent = `Depth ${node.depth}`;
-  document.getElementById("info-upstream").textContent =
+  safeSetText("info-depth", `Depth ${node.depth}`);
+  safeSetText("info-upstream",
     `${upstreamCount} prerequisite${upstreamCount !== 1 ? "s" : ""} in full chain`;
-  document.getElementById("info-downstream").textContent =
+  safeSetText("info-downstream",
     `${downstreamCount} concept${downstreamCount !== 1 ? "s" : ""} depend${downstreamCount === 1 ? "s" : ""} on this`;
   setInfoMetrics({
     pagerank: node._pagerank,
@@ -414,14 +430,14 @@ export function showSelectionGroupPanel({
   const sidePanels = document.getElementById("side-panels");
   const selectedCount = selectedNodes.length;
   const labelEl = document.getElementById("info-label");
-  labelEl.textContent = `${selectedCount} selected node${selectedCount !== 1 ? "s" : ""}`;
-  labelEl.style.color = "#d6e1ff";
+  safeSetText("info-label", `${selectedCount} selected node${selectedCount !== 1 ? "s" : ""}`);
+  safeSetProperty("info-label", "color", "#d6e1ff");
 
   setDependencySectionTitles(GROUP_PREREQS_TITLE, GROUP_DEPS_TITLE);
   setBookCtaVisible(false);
 
   const catEl = document.getElementById("info-category");
-  catEl.innerHTML = "";
+  safeSetInnerHTML("info-category", "");
   const groupPill = document.createElement("span");
   groupPill.className = "category-pill";
   groupPill.textContent = "Selection Group";
@@ -438,11 +454,11 @@ export function showSelectionGroupPanel({
     formatSelectionNodePreview(selectedNodes),
   );
 
-  document.getElementById("info-depth").textContent =
+  safeSetText("info-depth",
     `${selectedCount} selected node${selectedCount !== 1 ? "s" : ""}`;
-  document.getElementById("info-upstream").textContent =
+  safeSetText("info-upstream",
     `${prerequisiteCount} prerequisite${prerequisiteCount !== 1 ? "s" : ""} connect to this selection`;
-  document.getElementById("info-downstream").textContent =
+  safeSetText("info-downstream",
     `${dependentCount} concept${dependentCount !== 1 ? "s" : ""} depend${dependentCount === 1 ? "s" : ""} on this selection`;
 
   setInfoMetrics({
