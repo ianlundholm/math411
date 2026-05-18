@@ -360,18 +360,22 @@ export function showInfoPanel(
   );
 
   const bookCta = document.getElementById("book-cta");
-  const bookCtaCopy = document.getElementById("book-cta-copy");
-  const bookCtaLink = document.getElementById("book-cta-link");
-  bookCta.style.setProperty("--book-cta-accent", primaryColorHex);
-  bookCtaCopy.textContent = node.label
-    ? `If ${node.label} sparked your curiosity, Mathematics of Machine Learning gives you a structured path through the linear algebra, calculus, probability, and machine learning foundations behind it.`
-    : "Mathematics of Machine Learning gives you a structured path through the linear algebra, calculus, probability, and machine learning foundations behind this graph.";
-  bookCtaLink.setAttribute(
-    "aria-label",
-    node.label
-      ? `View Mathematics of Machine Learning on Amazon after exploring ${node.label}`
-      : "View Mathematics of Machine Learning on Amazon",
-  );
+  if (bookCta) {
+    const bookCtaCopy = document.getElementById("book-cta-copy");
+    const bookCtaLink = document.getElementById("book-cta-link");
+    if (bookCtaCopy && bookCtaLink) {
+      bookCta.style.setProperty("--book-cta-accent", primaryColorHex);
+      bookCtaCopy.textContent = node.label
+        ? `If ${node.label} sparked your curiosity, Mathematics of Machine Learning gives you a structured path through the linear algebra, calculus, probability, and machine learning foundations behind it.`
+        : "Mathematics of Machine Learning gives you a structured path through the linear algebra, calculus, probability, and machine learning foundations behind this graph.";
+      bookCtaLink.setAttribute(
+        "aria-label",
+        node.label
+          ? `View Mathematics of Machine Learning on Amazon after exploring ${node.label}`
+          : "View Mathematics of Machine Learning on Amazon",
+      );
+    }
+  }
 
   document.getElementById("info-depth").textContent = `Depth ${node.depth}`;
   document.getElementById("info-upstream").textContent =
