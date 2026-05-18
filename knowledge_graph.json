@@ -20,8 +20,8 @@
     "id": "thm_LimDefOfContinuity",
     "label": "Theorem 9.2.1 .",
     "category": "Sequences & Series",
-    "definition": "The function   is continuous at   if and only if   satisfies the following property:  \\(\\text{, if }\\) \\(\\\\),\\(\\\\),\\(\\lim_{n\\rightarrow\\infty}x_n=a\\) \\(\\text{ then}\\) \\(\\lim_{n\\rightarrow\\infty}f\\) =f(a).{}  \\(\\]\\)\\).",
-    "long_description": "The function   is continuous at   if and only if   satisfies the following property:  \\(\\text{, if }\\) \\(\\\\),\\(\\\\),\\(\\lim_{n\\rightarrow\\infty}x_n=a\\) \\(\\text{ then}\\) \\(\\lim_{n\\rightarrow\\infty}f\\) =f(a).{}  \\(\\]\\)\\)",
+    "definition": "The function   is continuous at   if and only if   satisfies the following property:  \\(\\text{, if }\\) \\(\\),\\(\\),\\(\\lim_{n\\rightarrow\\infty}x_n=a\\) \\(\\text{ then}\\) \\(\\lim_{n\\rightarrow\\infty}f\\) =f(a).{}  \\(\\]\\)\\).",
+    "long_description": "The function   is continuous at   if and only if   satisfies the following property:  \\(\\text{, if }\\) \\(\\),\\(\\),\\(\\lim_{n\\rightarrow\\infty}x_n=a\\) \\(\\text{ then}\\) \\(\\lim_{n\\rightarrow\\infty}f\\) =f(a).{}  \\(\\]\\)\\)",
     "to": [
       "thm_LagrangeRemainder"
     ],
@@ -575,7 +575,7 @@
     "label": "Definition 13.2.20 .",
     "category": "General Analysis",
     "definition": "Let   as above.",
-    "long_description": "Let   as above. Then  } \\(\\\\\\) 0 \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\chi\\) \\(\\amp\\) \\(\\text{ if \\ }\\) {} \\(\\end{cases}\\)  \\(\\]\\)\\)",
+    "long_description": "Let   as above. Then  } \\(\\) 0 \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\chi\\) \\(\\amp\\) \\(\\text{ if \\ }\\) {} \\(\\end{cases}\\)  \\(\\]\\)\\)",
     "to": [
       "th_UniformIntegralConvergence"
     ],
@@ -1128,8 +1128,8 @@
     "id": "def_dedekind-addition",
     "label": "Definition 13.2.22 .",
     "category": "General Analysis",
-    "definition": "Addition Let   Then   \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\abs{\\alpha}-\\abs{\\beta}\\amp\\) \\(\\text{ if \\ }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\),0 \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\\\\\) -  \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\beta+\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\),\\(\\beta{}\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\),\\(\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\end{cases}\\) .  \\(\\]\\)\\).",
-    "long_description": "Addition Let   Then   \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\abs{\\alpha}-\\abs{\\beta}\\amp\\) \\(\\text{ if \\ }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\),0 \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\\\\\) -  \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\beta+\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\),\\(\\beta{}\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\),\\(\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\end{cases}\\) .  \\(\\]\\)\\)",
+    "definition": "Addition Let   Then   \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\abs{\\alpha}-\\abs{\\beta}\\amp\\) \\(\\text{ if \\ }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\),0 \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\) -  \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\beta+\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\),\\(\\beta{}\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\),\\(\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\end{cases}\\) .  \\(\\]\\)\\).",
+    "long_description": "Addition Let   Then   \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\abs{\\alpha}-\\abs{\\beta}\\amp\\) \\(\\text{ if \\ }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\),0 \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\) -  \\(\\amp\\) \\(\\text{ if \\ }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\beta+\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\),\\(\\beta{}\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\),\\(\\alpha\\) \\(\\amp\\) \\(\\text{ if \\  }\\) \\(\\end{cases}\\) .  \\(\\]\\)\\)",
     "to": [
       "thm_SqueezeTheorem"
     ],
@@ -1394,8 +1394,8 @@
     "id": "def_dedekind-multiplication",
     "label": "Definition 13.2.21 .",
     "category": "General Analysis",
-    "definition": "Multiplication Let   Then   or \\(\\\\)  } \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\),\\(\\abs{\\alpha}\\abs{\\beta}\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\), 0\\(\\amp\\) \\(\\text{ if \\  or \\  }\\) {} \\(\\end{cases}\\)  \\(\\]\\)\\).",
-    "long_description": "Multiplication Let   Then   or \\(\\\\)  } \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\),\\(\\abs{\\alpha}\\abs{\\beta}\\amp\\) \\(\\text{ if \\  }\\) \\(\\\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\) \\(\\\\), 0\\(\\amp\\) \\(\\text{ if \\  or \\  }\\) {} \\(\\end{cases}\\)  \\(\\]\\)\\)",
+    "definition": "Multiplication Let   Then   or \\(\\)  } \\(\\) \\(\\) \\(\\) \\(\\),\\(\\abs{\\alpha}\\abs{\\beta}\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\), 0\\(\\amp\\) \\(\\text{ if \\  or \\  }\\) {} \\(\\end{cases}\\)  \\(\\]\\)\\).",
+    "long_description": "Multiplication Let   Then   or \\(\\)  } \\(\\) \\(\\) \\(\\) \\(\\),\\(\\abs{\\alpha}\\abs{\\beta}\\amp\\) \\(\\text{ if \\  }\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\) \\(\\), 0\\(\\amp\\) \\(\\text{ if \\  or \\  }\\) {} \\(\\end{cases}\\)  \\(\\]\\)\\)",
     "to": [
       "def_ConvergeToZero"
     ],
