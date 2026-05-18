@@ -8,7 +8,13 @@
     "to": [
       "thm_LimDefOfContinuity"
     ],
-    "from": []
+    "from": [],
+    "_pagerank": 0.005968467412040816,
+    "_degree_centrality": 0.011111111111111112,
+    "_betweenness_centrality": 0.0026217228464419477,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.0,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_LimDefOfContinuity",
@@ -21,7 +27,13 @@
     ],
     "from": [
       "thm_ArchmedeanProperty"
-    ]
+    ],
+    "_pagerank": 0.006835671262144842,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.012983770287141073,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.011111111111111112,
+    "_reachability_ratio": 1.011111111111111
   },
   {
     "id": "thm_LagrangeRemainder",
@@ -34,7 +46,13 @@
     ],
     "from": [
       "thm_LimDefOfContinuity"
-    ]
+    ],
+    "_pagerank": 0.007572794534664376,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.0233458177278402,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.022222222222222223,
+    "_reachability_ratio": 1.0222222222222221
   },
   {
     "id": "thm_ContSumProd",
@@ -47,7 +65,13 @@
     ],
     "from": [
       "thm_LagrangeRemainder"
-    ]
+    ],
+    "_pagerank": 0.008199349316267153,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.033707865168539325,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.03333333333333333,
+    "_reachability_ratio": 1.0333333333333334
   },
   {
     "id": "thm_Cantor_1870",
@@ -60,7 +84,13 @@
     ],
     "from": [
       "thm_ContSumProd"
-    ]
+    ],
+    "_pagerank": 0.0087319208805894,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.044069912609238454,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.044444444444444446,
+    "_reachability_ratio": 1.0444444444444445
   },
   {
     "id": "def_DivToInf",
@@ -73,7 +103,13 @@
     ],
     "from": [
       "thm_Cantor_1870"
-    ]
+    ],
+    "_pagerank": 0.009184606710107323,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.054431960049937576,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.05555555555555555,
+    "_reachability_ratio": 1.0555555555555556
   },
   {
     "id": "AbsoluteConvergence",
@@ -86,7 +122,13 @@
     ],
     "from": [
       "def_DivToInf"
-    ]
+    ],
+    "_pagerank": 0.009569389665417982,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.0647940074906367,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.06666666666666667,
+    "_reachability_ratio": 1.0666666666666667
   },
   {
     "id": "thm_LUB",
@@ -100,7 +142,13 @@
     ],
     "from": [
       "AbsoluteConvergence"
-    ]
+    ],
+    "_pagerank": 0.009896455177290542,
+    "_degree_centrality": 0.03333333333333333,
+    "_betweenness_centrality": 0.07515605493133583,
+    "_descendant_ratio": 1.0,
+    "_prerequisite_ratio": 0.07777777777777778,
+    "_reachability_ratio": 1.0777777777777777
   },
   {
     "id": "thm_CauchyRemainder",
@@ -113,7 +161,13 @@
     ],
     "from": [
       "thm_LUB"
-    ]
+    ],
+    "_pagerank": 0.005968467412040816,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.0818976279650437,
+    "_descendant_ratio": 0.9111111111111111,
+    "_prerequisite_ratio": 0.08888888888888889,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_EVT",
@@ -127,7 +181,13 @@
     "from": [
       "thm_CauchyRemainder",
       "thm_DiffImpCont"
-    ]
+    ],
+    "_pagerank": 0.01021414673299414,
+    "_degree_centrality": 0.03333333333333333,
+    "_betweenness_centrality": 0.1546816479400749,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_limit",
@@ -140,7 +200,13 @@
     ],
     "from": [
       "thm_EVT"
-    ]
+    ],
+    "_pagerank": 0.010444498685185644,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.15842696629213482,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_CalcLimits",
@@ -153,7 +219,13 @@
     ],
     "from": [
       "def_limit"
-    ]
+    ],
+    "_pagerank": 0.010640297842574087,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.16217228464419475,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_NumberField",
@@ -166,7 +238,13 @@
     ],
     "from": [
       "thm_CalcLimits"
-    ]
+    ],
+    "_pagerank": 0.01080672713173118,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.1659176029962547,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_Cantor-1871",
@@ -179,7 +257,13 @@
     ],
     "from": [
       "def_NumberField"
-    ]
+    ],
+    "_pagerank": 0.010948192023054769,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.1696629213483146,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_RadiusOfConvergence",
@@ -192,7 +276,13 @@
     ],
     "from": [
       "thm_Cantor-1871"
-    ]
+    ],
+    "_pagerank": 0.011068437179454074,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.17340823970037453,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_UniformConvergence",
@@ -205,7 +295,13 @@
     ],
     "from": [
       "thm_RadiusOfConvergence"
-    ]
+    ],
+    "_pagerank": 0.01117064556185713,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.17715355805243446,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_RealsViaCauchy",
@@ -218,7 +314,13 @@
     ],
     "from": [
       "def_UniformConvergence"
-    ]
+    ],
+    "_pagerank": 0.011257522687812802,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.18089887640449437,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_BinomialSeriesConverges",
@@ -231,7 +333,13 @@
     ],
     "from": [
       "def_RealsViaCauchy"
-    ]
+    ],
+    "_pagerank": 0.011331368229329952,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.1846441947565543,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_UnifConv-_Continuity",
@@ -244,7 +352,13 @@
     ],
     "from": [
       "thm_BinomialSeriesConverges"
-    ]
+    ],
+    "_pagerank": 0.011394136958501774,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.18838951310861424,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_dedekind-cuts-closure",
@@ -257,7 +371,13 @@
     ],
     "from": [
       "thm_UnifConv-_Continuity"
-    ]
+    ],
+    "_pagerank": 0.01144749038192732,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.19213483146067414,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_continuity",
@@ -270,7 +390,13 @@
     ],
     "from": [
       "thm_dedekind-cuts-closure"
-    ]
+    ],
+    "_pagerank": 0.011492840795771064,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.19588014981273408,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "AbelsTheorem",
@@ -283,7 +409,13 @@
     ],
     "from": [
       "def_continuity"
-    ]
+    ],
+    "_pagerank": 0.011531388638719223,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.199625468164794,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_divergence_of_a_sequence",
@@ -296,7 +428,13 @@
     ],
     "from": [
       "AbelsTheorem"
-    ]
+    ],
+    "_pagerank": 0.011564154302758412,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.20337078651685395,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_Cantor-uniqueness-of-trig-series",
@@ -309,7 +447,13 @@
     ],
     "from": [
       "thm_divergence_of_a_sequence"
-    ]
+    ],
+    "_pagerank": 0.01159200511623422,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.20711610486891385,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_FermatsLittleTheorem",
@@ -322,7 +466,13 @@
     ],
     "from": [
       "thm_Cantor-uniqueness-of-trig-series"
-    ]
+    ],
+    "_pagerank": 0.011615678310152467,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.2108614232209738,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_MVT",
@@ -336,7 +486,13 @@
     "from": [
       "thm_FermatsLittleTheorem",
       "def_derivative"
-    ]
+    ],
+    "_pagerank": 0.01557014947696627,
+    "_degree_centrality": 0.03333333333333333,
+    "_betweenness_centrality": 0.28377028714107366,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_accumulation-point",
@@ -349,7 +505,13 @@
     ],
     "from": [
       "thm_MVT"
-    ]
+    ],
+    "_pagerank": 0.014997100991585584,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.2875156054931336,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_SeriesConv-_DerivConv",
@@ -362,7 +524,13 @@
     ],
     "from": [
       "def_accumulation-point"
-    ]
+    ],
+    "_pagerank": 0.014510009803561229,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.29126092384519353,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_R-is-R",
@@ -375,7 +543,13 @@
     ],
     "from": [
       "thm_SeriesConv-_DerivConv"
-    ]
+    ],
+    "_pagerank": 0.01409598232083593,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.2950062421972534,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_dedekind-cuts-multiplication",
@@ -388,7 +562,13 @@
     ],
     "from": [
       "thm_R-is-R"
-    ]
+    ],
+    "_pagerank": 0.013744058942541031,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.29875156054931334,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_absolute-value",
@@ -401,7 +581,13 @@
     ],
     "from": [
       "def_dedekind-cuts-multiplication"
-    ]
+    ],
+    "_pagerank": 0.013444924061029474,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3024968789013733,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "th_UniformIntegralConvergence",
@@ -414,7 +600,13 @@
     ],
     "from": [
       "def_absolute-value"
-    ]
+    ],
+    "_pagerank": 0.013190659409884745,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3062421972534332,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_IrrationalBetweenIrrationals",
@@ -427,7 +619,13 @@
     ],
     "from": [
       "th_UniformIntegralConvergence"
-    ]
+    ],
+    "_pagerank": 0.0129745344606111,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.30998751560549315,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_ComparisonTest",
@@ -440,7 +638,13 @@
     ],
     "from": [
       "thm_IrrationalBetweenIrrationals"
-    ]
+    ],
+    "_pagerank": 0.012790828250964347,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3137328339575531,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_CutSubtraction",
@@ -453,7 +657,13 @@
     ],
     "from": [
       "thm_ComparisonTest"
-    ]
+    ],
+    "_pagerank": 0.012634677971277021,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.31747815230961296,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_WeierstrassM",
@@ -466,7 +676,13 @@
     ],
     "from": [
       "def_CutSubtraction"
-    ]
+    ],
+    "_pagerank": 0.01250195022270836,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3212234706616729,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_LimitOfProduct",
@@ -479,7 +695,13 @@
     ],
     "from": [
       "thm_WeierstrassM"
-    ]
+    ],
+    "_pagerank": 0.01238913169321195,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.32496878901373283,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_PowerSeriesConvergeUniformly",
@@ -492,7 +714,13 @@
     ],
     "from": [
       "thm_LimitOfProduct"
-    ]
+    ],
+    "_pagerank": 0.012293235890735117,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.32871410736579276,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_e",
@@ -505,7 +733,13 @@
     ],
     "from": [
       "thm_PowerSeriesConvergeUniformly"
-    ]
+    ],
+    "_pagerank": 0.01221172446787359,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3324594257178527,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_CantorsTheorem",
@@ -518,7 +752,13 @@
     ],
     "from": [
       "def_e"
-    ]
+    ],
+    "_pagerank": 0.012142439754499898,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.33620474406991263,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_QisCountable",
@@ -531,7 +771,13 @@
     ],
     "from": [
       "thm_CantorsTheorem"
-    ]
+    ],
+    "_pagerank": 0.01208354775701433,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3399500624219725,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_SqueezeTheoremFunctions",
@@ -544,7 +790,13 @@
     ],
     "from": [
       "thm_QisCountable"
-    ]
+    ],
+    "_pagerank": 0.01203348955290785,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.34369538077403244,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "BolzanoWeierstrass",
@@ -557,7 +809,13 @@
     ],
     "from": [
       "thm_SqueezeTheoremFunctions"
-    ]
+    ],
+    "_pagerank": 0.011990940077269027,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3474406991260924,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_WeakNIP",
@@ -570,7 +828,13 @@
     ],
     "from": [
       "BolzanoWeierstrass"
-    ]
+    ],
+    "_pagerank": 0.011954773022633394,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.3511860174781523,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_DiffImpCont",
@@ -585,7 +849,13 @@
     ],
     "from": [
       "thm_WeakNIP"
-    ]
+    ],
+    "_pagerank": 0.011924031025869426,
+    "_degree_centrality": 0.044444444444444446,
+    "_betweenness_centrality": 0.35493133583021225,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_UniformDerivativeConvergence",
@@ -598,7 +868,13 @@
     ],
     "from": [
       "thm_DiffImpCont"
-    ]
+    ],
+    "_pagerank": 0.005140949432589126,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.20536828963795256,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_FTA",
@@ -611,7 +887,13 @@
     ],
     "from": [
       "thm_UniformDerivativeConvergence"
-    ]
+    ],
+    "_pagerank": 0.0061322809798573935,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.2091136079900125,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_FermatsTheorem",
@@ -624,7 +906,13 @@
     ],
     "from": [
       "thm_FTA"
-    ]
+    ],
+    "_pagerank": 0.00697491279305712,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.2128589263420724,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_SubtractionOfCutsAsSets",
@@ -637,7 +925,13 @@
     ],
     "from": [
       "thm_FermatsTheorem"
-    ]
+    ],
+    "_pagerank": 0.007691149839635132,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.21660424469413234,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_ZeroInCauchySequences",
@@ -650,7 +944,13 @@
     ],
     "from": [
       "def_SubtractionOfCutsAsSets"
-    ]
+    ],
+    "_pagerank": 0.008299951324705573,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.22034956304619227,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_subsequences",
@@ -663,7 +963,13 @@
     ],
     "from": [
       "thm_ZeroInCauchySequences"
-    ]
+    ],
+    "_pagerank": 0.008817432585513428,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.22409488139825218,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "def_derivative",
@@ -677,7 +983,13 @@
     ],
     "from": [
       "def_subsequences"
-    ]
+    ],
+    "_pagerank": 0.0092572916570197,
+    "_degree_centrality": 0.03333333333333333,
+    "_betweenness_centrality": 0.2278401997503121,
+    "_descendant_ratio": 0.9,
+    "_prerequisite_ratio": 0.5666666666666667,
+    "_reachability_ratio": 1.4666666666666666
   },
   {
     "id": "thm_ContComp",
@@ -690,7 +1002,13 @@
     ],
     "from": [
       "def_derivative"
-    ]
+    ],
+    "_pagerank": 0.005696822915184921,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.16229712858926343,
+    "_descendant_ratio": 0.4222222222222222,
+    "_prerequisite_ratio": 0.5777777777777777,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_UpperBound",
@@ -703,7 +1021,13 @@
     ],
     "from": [
       "thm_ContComp"
-    ]
+    ],
+    "_pagerank": 0.0066047734309601204,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.16042446941323346,
+    "_descendant_ratio": 0.4111111111111111,
+    "_prerequisite_ratio": 0.5888888888888889,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_dedekind-cuts-addition",
@@ -716,7 +1040,13 @@
     ],
     "from": [
       "def_UpperBound"
-    ]
+    ],
+    "_pagerank": 0.007376531378991642,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.15830212234706617,
+    "_descendant_ratio": 0.4,
+    "_prerequisite_ratio": 0.6,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_RearrageAbsConv",
@@ -729,7 +1059,13 @@
     ],
     "from": [
       "def_dedekind-cuts-addition"
-    ]
+    ],
+    "_pagerank": 0.008032525636604771,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.15593008739076156,
+    "_descendant_ratio": 0.3888888888888889,
+    "_prerequisite_ratio": 0.6111111111111112,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_Cantor-1871-b",
@@ -742,7 +1078,13 @@
     ],
     "from": [
       "thm_RearrageAbsConv"
-    ]
+    ],
+    "_pagerank": 0.00859012075733897,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.1533083645443196,
+    "_descendant_ratio": 0.37777777777777777,
+    "_prerequisite_ratio": 0.6222222222222222,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_CauchyCriterion",
@@ -755,7 +1097,13 @@
     ],
     "from": [
       "thm_Cantor-1871-b"
-    ]
+    ],
+    "_pagerank": 0.009064076605621479,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.15043695380774033,
+    "_descendant_ratio": 0.36666666666666664,
+    "_prerequisite_ratio": 0.6333333333333333,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_Cauchy-_Converge",
@@ -768,7 +1116,13 @@
     ],
     "from": [
       "thm_CauchyCriterion"
-    ]
+    ],
+    "_pagerank": 0.009466939075368578,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.14731585518102372,
+    "_descendant_ratio": 0.35555555555555557,
+    "_prerequisite_ratio": 0.6444444444444445,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_dedekind-addition",
@@ -781,7 +1135,13 @@
     ],
     "from": [
       "thm_Cauchy-_Converge"
-    ]
+    ],
+    "_pagerank": 0.009809372174405268,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.14394506866416978,
+    "_descendant_ratio": 0.34444444444444444,
+    "_prerequisite_ratio": 0.6555555555555556,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_SqueezeTheorem",
@@ -794,7 +1154,13 @@
     ],
     "from": [
       "def_dedekind-addition"
-    ]
+    ],
+    "_pagerank": 0.010100440309684402,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.14032459425717853,
+    "_descendant_ratio": 0.3333333333333333,
+    "_prerequisite_ratio": 0.6666666666666666,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_OrderingCuts",
@@ -807,7 +1173,13 @@
     ],
     "from": [
       "thm_SqueezeTheorem"
-    ]
+    ],
+    "_pagerank": 0.010347848223913339,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.13645443196004994,
+    "_descendant_ratio": 0.32222222222222224,
+    "_prerequisite_ratio": 0.6777777777777778,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "TaylorsTheorem",
@@ -820,7 +1192,13 @@
     ],
     "from": [
       "thm_OrderingCuts"
-    ]
+    ],
+    "_pagerank": 0.01055814494396709,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.132334581772784,
+    "_descendant_ratio": 0.3111111111111111,
+    "_prerequisite_ratio": 0.6888888888888889,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_ConvCauchyEquivNIP",
@@ -833,7 +1211,13 @@
     ],
     "from": [
       "TaylorsTheorem"
-    ]
+    ],
+    "_pagerank": 0.010736897163194346,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.12796504369538078,
+    "_descendant_ratio": 0.3,
+    "_prerequisite_ratio": 0.7,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_CompactBounded",
@@ -846,7 +1230,13 @@
     ],
     "from": [
       "thm_ConvCauchyEquivNIP"
-    ]
+    ],
+    "_pagerank": 0.010888836561936639,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.1233458177278402,
+    "_descendant_ratio": 0.28888888888888886,
+    "_prerequisite_ratio": 0.7111111111111111,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_dedekind-cuts-ordering",
@@ -859,7 +1249,13 @@
     ],
     "from": [
       "thm_CompactBounded"
-    ]
+    ],
+    "_pagerank": 0.011017985041011463,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.1184769038701623,
+    "_descendant_ratio": 0.2777777777777778,
+    "_prerequisite_ratio": 0.7222222222222222,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_dedekind-cuts",
@@ -872,7 +1268,13 @@
     ],
     "from": [
       "def_dedekind-cuts-ordering"
-    ]
+    ],
+    "_pagerank": 0.01112776124556088,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.11335830212234707,
+    "_descendant_ratio": 0.26666666666666666,
+    "_prerequisite_ratio": 0.7333333333333333,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_EquivCauchySeq",
@@ -885,7 +1287,13 @@
     ],
     "from": [
       "def_dedekind-cuts"
-    ]
+    ],
+    "_pagerank": 0.011221071019151145,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.10799001248439451,
+    "_descendant_ratio": 0.25555555555555554,
+    "_prerequisite_ratio": 0.7444444444444445,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_Rolle_s_Theorem",
@@ -898,7 +1306,13 @@
     ],
     "from": [
       "def_EquivCauchySeq"
-    ]
+    ],
+    "_pagerank": 0.01130038432896158,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.10237203495630462,
+    "_descendant_ratio": 0.24444444444444444,
+    "_prerequisite_ratio": 0.7555555555555555,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_PowerSeries",
@@ -911,7 +1325,13 @@
     ],
     "from": [
       "thm_Rolle_s_Theorem"
-    ]
+    ],
+    "_pagerank": 0.011367800640765962,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.09650436953807741,
+    "_descendant_ratio": 0.23333333333333334,
+    "_prerequisite_ratio": 0.7666666666666667,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_rearrangements",
@@ -924,7 +1344,13 @@
     ],
     "from": [
       "def_PowerSeries"
-    ]
+    ],
+    "_pagerank": 0.0114251045052884,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.09038701622971286,
+    "_descendant_ratio": 0.2222222222222222,
+    "_prerequisite_ratio": 0.7777777777777778,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_ConvergeToC",
@@ -937,7 +1363,13 @@
     ],
     "from": [
       "thm_rearrangements"
-    ]
+    ],
+    "_pagerank": 0.011473812788231882,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.08401997503121099,
+    "_descendant_ratio": 0.2111111111111111,
+    "_prerequisite_ratio": 0.7888888888888889,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_CountableSets",
@@ -950,7 +1382,13 @@
     ],
     "from": [
       "thm_ConvergeToC"
-    ]
+    ],
+    "_pagerank": 0.011515214853339218,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.07740324594257178,
+    "_descendant_ratio": 0.2,
+    "_prerequisite_ratio": 0.8,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_dedekind-multiplication",
@@ -963,7 +1401,13 @@
     ],
     "from": [
       "def_CountableSets"
-    ]
+    ],
+    "_pagerank": 0.011550406576560937,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.07053682896379526,
+    "_descendant_ratio": 0.18888888888888888,
+    "_prerequisite_ratio": 0.8111111111111111,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_ConvergeToZero",
@@ -976,7 +1420,13 @@
     ],
     "from": [
       "def_dedekind-multiplication"
-    ]
+    ],
+    "_pagerank": 0.011580319550696917,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.06342072409488139,
+    "_descendant_ratio": 0.17777777777777778,
+    "_prerequisite_ratio": 0.8222222222222222,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_SqrtsExist",
@@ -989,7 +1439,13 @@
     ],
     "from": [
       "def_ConvergeToZero"
-    ]
+    ],
+    "_pagerank": 0.011605745578529881,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.05605493133583021,
+    "_descendant_ratio": 0.16666666666666666,
+    "_prerequisite_ratio": 0.8333333333333334,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_CommonDenominatorsExist",
@@ -1002,7 +1458,13 @@
     ],
     "from": [
       "thm_SqrtsExist"
-    ]
+    ],
+    "_pagerank": 0.01162735770650107,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.0484394506866417,
+    "_descendant_ratio": 0.15555555555555556,
+    "_prerequisite_ratio": 0.8444444444444444,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_LeastUpperBound",
@@ -1015,7 +1477,13 @@
     ],
     "from": [
       "thm_CommonDenominatorsExist"
-    ]
+    ],
+    "_pagerank": 0.011645728010957923,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.04057428214731586,
+    "_descendant_ratio": 0.14444444444444443,
+    "_prerequisite_ratio": 0.8555555555555555,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "IntermediateValueTheorem",
@@ -1029,7 +1497,13 @@
     "from": [
       "def_LeastUpperBound",
       "thm_DiffImpCont"
-    ]
+    ],
+    "_pagerank": 0.015039818240704493,
+    "_degree_centrality": 0.03333333333333333,
+    "_betweenness_centrality": 0.11685393258426967,
+    "_descendant_ratio": 0.13333333333333333,
+    "_prerequisite_ratio": 0.8666666666666667,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_PointwiseConvergence",
@@ -1042,7 +1516,13 @@
     ],
     "from": [
       "IntermediateValueTheorem"
-    ]
+    ],
+    "_pagerank": 0.014546319465430738,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.10848938826466917,
+    "_descendant_ratio": 0.12222222222222222,
+    "_prerequisite_ratio": 0.8777777777777778,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_Converge-_Cauchy",
@@ -1055,7 +1535,13 @@
     ],
     "from": [
       "def_PointwiseConvergence"
-    ]
+    ],
+    "_pagerank": 0.014126845504433192,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.09987515605493133,
+    "_descendant_ratio": 0.1111111111111111,
+    "_prerequisite_ratio": 0.8888888888888888,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "TaylorSeriesThm",
@@ -1068,7 +1554,13 @@
     ],
     "from": [
       "thm_Converge-_Cauchy"
-    ]
+    ],
+    "_pagerank": 0.013770292654145123,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.09101123595505618,
+    "_descendant_ratio": 0.1,
+    "_prerequisite_ratio": 0.9,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_AddTimesViaCauchy",
@@ -1081,7 +1573,13 @@
     ],
     "from": [
       "TaylorSeriesThm"
-    ]
+    ],
+    "_pagerank": 0.013467222723147407,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.0818976279650437,
+    "_descendant_ratio": 0.08888888888888889,
+    "_prerequisite_ratio": 0.9111111111111111,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_SumOfSequences",
@@ -1094,7 +1592,13 @@
     ],
     "from": [
       "def_AddTimesViaCauchy"
-    ]
+    ],
+    "_pagerank": 0.013209613272462187,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.07253433208489388,
+    "_descendant_ratio": 0.07777777777777778,
+    "_prerequisite_ratio": 0.9222222222222223,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_CauchySequence",
@@ -1107,7 +1611,13 @@
     ],
     "from": [
       "thm_SumOfSequences"
-    ]
+    ],
+    "_pagerank": 0.012990645247327556,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.06292134831460675,
+    "_descendant_ratio": 0.06666666666666667,
+    "_prerequisite_ratio": 0.9333333333333333,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_ConvergenceOfASequence",
@@ -1120,7 +1630,13 @@
     ],
     "from": [
       "def_CauchySequence"
-    ]
+    ],
+    "_pagerank": 0.012804522418207818,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.05305867665418227,
+    "_descendant_ratio": 0.05555555555555555,
+    "_prerequisite_ratio": 0.9444444444444444,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_derived-set",
@@ -1133,7 +1649,13 @@
     ],
     "from": [
       "def_ConvergenceOfASequence"
-    ]
+    ],
+    "_pagerank": 0.012646317996964865,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.04294631710362047,
+    "_descendant_ratio": 0.044444444444444446,
+    "_prerequisite_ratio": 0.9555555555555556,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_NoSeriesContainsAllReals",
@@ -1146,7 +1668,13 @@
     ],
     "from": [
       "def_derived-set"
-    ]
+    ],
+    "_pagerank": 0.012511844257940798,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.03258426966292135,
+    "_descendant_ratio": 0.03333333333333333,
+    "_prerequisite_ratio": 0.9666666666666667,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_LimitOfQuotient",
@@ -1159,7 +1687,13 @@
     ],
     "from": [
       "thm_NoSeriesContainsAllReals"
-    ]
+    ],
+    "_pagerank": 0.012397541583349062,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.021972534332084893,
+    "_descendant_ratio": 0.022222222222222223,
+    "_prerequisite_ratio": 0.9777777777777777,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "thm_TaylorSeries",
@@ -1172,7 +1706,13 @@
     ],
     "from": [
       "thm_LimitOfQuotient"
-    ]
+    ],
+    "_pagerank": 0.012300384291216125,
+    "_degree_centrality": 0.022222222222222223,
+    "_betweenness_centrality": 0.011111111111111112,
+    "_descendant_ratio": 0.011111111111111112,
+    "_prerequisite_ratio": 0.9888888888888889,
+    "_reachability_ratio": 1.0
   },
   {
     "id": "def_EqualCardinality",
@@ -1183,6 +1723,12 @@
     "to": [],
     "from": [
       "thm_TaylorSeries"
-    ]
+    ],
+    "_pagerank": 0.012217800606963043,
+    "_degree_centrality": 0.011111111111111112,
+    "_betweenness_centrality": 0.0,
+    "_descendant_ratio": 0.0,
+    "_prerequisite_ratio": 1.0,
+    "_reachability_ratio": 1.0
   }
 ]
